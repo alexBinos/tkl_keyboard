@@ -1,0 +1,4088 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 5 11
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 750  1000 0    197  ~ 0
+Switch Matrix
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 61805308
+P 2775 2500
+AR Path="/61805308" Ref="SW?"  Part="1" 
+AR Path="/60D44364/61805308" Ref="SW?"  Part="1" 
+AR Path="/61150193/61805308" Ref="SW?"  Part="1" 
+AR Path="/6123418A/61805308" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/61805308" Ref="SW2"  Part="1" 
+AR Path="/63013830/61805308" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/61805308" Ref="SW?"  Part="1" 
+F 0 "SW2" H 2775 2785 50  0000 C CNN
+F 1 "K0" H 2775 2694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 2775 2525 50  0001 C CNN
+F 3 "" H 2775 2525 50  0001 C CNN
+	1    2775 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 2575 2500 2500
+Wire Wire Line
+	2500 2500 2575 2500
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 61805310
+P 3525 2500
+AR Path="/61805310" Ref="SW?"  Part="1" 
+AR Path="/60D44364/61805310" Ref="SW?"  Part="1" 
+AR Path="/61150193/61805310" Ref="SW?"  Part="1" 
+AR Path="/6123418A/61805310" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/61805310" Ref="SW8"  Part="1" 
+AR Path="/63013830/61805310" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/61805310" Ref="SW?"  Part="1" 
+F 0 "SW8" H 3525 2785 50  0000 C CNN
+F 1 "K1" H 3525 2694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 3525 2525 50  0001 C CNN
+F 3 "" H 3525 2525 50  0001 C CNN
+	1    3525 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 2575 3250 2500
+Wire Wire Line
+	3250 2500 3325 2500
+Wire Wire Line
+	3250 2875 3250 2925
+Wire Wire Line
+	3250 2925 2500 2925
+Wire Wire Line
+	2500 2925 2500 2875
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 6180531B
+P 4275 2500
+AR Path="/6180531B" Ref="SW?"  Part="1" 
+AR Path="/60D44364/6180531B" Ref="SW?"  Part="1" 
+AR Path="/61150193/6180531B" Ref="SW?"  Part="1" 
+AR Path="/6123418A/6180531B" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/6180531B" Ref="SW13"  Part="1" 
+AR Path="/63013830/6180531B" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/6180531B" Ref="SW?"  Part="1" 
+F 0 "SW13" H 4275 2785 50  0000 C CNN
+F 1 "K2" H 4275 2694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 4275 2525 50  0001 C CNN
+F 3 "" H 4275 2525 50  0001 C CNN
+	1    4275 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 2575 4000 2500
+Wire Wire Line
+	4000 2500 4075 2500
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 61805323
+P 5025 2500
+AR Path="/61805323" Ref="SW?"  Part="1" 
+AR Path="/60D44364/61805323" Ref="SW?"  Part="1" 
+AR Path="/61150193/61805323" Ref="SW?"  Part="1" 
+AR Path="/6123418A/61805323" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/61805323" Ref="SW19"  Part="1" 
+AR Path="/63013830/61805323" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/61805323" Ref="SW?"  Part="1" 
+F 0 "SW19" H 5025 2785 50  0000 C CNN
+F 1 "K3" H 5025 2694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 5025 2525 50  0001 C CNN
+F 3 "" H 5025 2525 50  0001 C CNN
+	1    5025 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 2575 4750 2500
+Wire Wire Line
+	4750 2500 4825 2500
+Wire Wire Line
+	4750 2875 4750 2925
+Wire Wire Line
+	4750 2925 4000 2925
+Wire Wire Line
+	4000 2925 4000 2875
+Wire Wire Line
+	4000 2925 3250 2925
+Connection ~ 3250 2925
+Connection ~ 4000 2925
+Wire Wire Line
+	2975 2500 3050 2500
+Wire Wire Line
+	4475 2500 4550 2500
+Wire Wire Line
+	5225 2500 5300 2500
+$Comp
+L Device:D D32
+U 1 1 61805335
+P 2500 2725
+AR Path="/62F5643B/61805335" Ref="D32"  Part="1" 
+AR Path="/63013830/61805335" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/61805335" Ref="D?"  Part="1" 
+F 0 "D32" V 2546 2645 50  0000 R CNN
+F 1 "D" V 2455 2645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 2500 2725 50  0001 C CNN
+F 3 "~" H 2500 2725 50  0001 C CNN
+	1    2500 2725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D38
+U 1 1 6180533B
+P 3250 2725
+AR Path="/62F5643B/6180533B" Ref="D38"  Part="1" 
+AR Path="/63013830/6180533B" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/6180533B" Ref="D?"  Part="1" 
+F 0 "D38" V 3296 2645 50  0000 R CNN
+F 1 "D" V 3205 2645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 3250 2725 50  0001 C CNN
+F 3 "~" H 3250 2725 50  0001 C CNN
+	1    3250 2725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D43
+U 1 1 61805341
+P 4000 2725
+AR Path="/62F5643B/61805341" Ref="D43"  Part="1" 
+AR Path="/63013830/61805341" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/61805341" Ref="D?"  Part="1" 
+F 0 "D43" V 4046 2645 50  0000 R CNN
+F 1 "D" V 3955 2645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 4000 2725 50  0001 C CNN
+F 3 "~" H 4000 2725 50  0001 C CNN
+	1    4000 2725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D49
+U 1 1 61805347
+P 4750 2725
+AR Path="/62F5643B/61805347" Ref="D49"  Part="1" 
+AR Path="/63013830/61805347" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/61805347" Ref="D?"  Part="1" 
+F 0 "D49" V 4796 2645 50  0000 R CNN
+F 1 "D" V 4705 2645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 4750 2725 50  0001 C CNN
+F 3 "~" H 4750 2725 50  0001 C CNN
+	1    4750 2725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 61805351
+P 5775 2500
+AR Path="/61805351" Ref="SW?"  Part="1" 
+AR Path="/60D44364/61805351" Ref="SW?"  Part="1" 
+AR Path="/61150193/61805351" Ref="SW?"  Part="1" 
+AR Path="/6123418A/61805351" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/61805351" Ref="SW24"  Part="1" 
+AR Path="/63013830/61805351" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/61805351" Ref="SW?"  Part="1" 
+F 0 "SW24" H 5775 2785 50  0000 C CNN
+F 1 "K4" H 5775 2694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 5775 2525 50  0001 C CNN
+F 3 "" H 5775 2525 50  0001 C CNN
+	1    5775 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 2575 5500 2500
+Wire Wire Line
+	5500 2500 5575 2500
+Wire Wire Line
+	6250 2575 6250 2500
+Wire Wire Line
+	6250 2500 6325 2500
+Wire Wire Line
+	6250 2875 6250 2925
+Wire Wire Line
+	6250 2925 5500 2925
+Wire Wire Line
+	5500 2925 5500 2875
+Wire Wire Line
+	5500 2925 4750 2925
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 6180535F
+P 7275 2500
+AR Path="/6180535F" Ref="SW?"  Part="1" 
+AR Path="/60D44364/6180535F" Ref="SW?"  Part="1" 
+AR Path="/61150193/6180535F" Ref="SW?"  Part="1" 
+AR Path="/6123418A/6180535F" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/6180535F" Ref="SW35"  Part="1" 
+AR Path="/63013830/6180535F" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/6180535F" Ref="SW?"  Part="1" 
+F 0 "SW35" H 7275 2785 50  0000 C CNN
+F 1 "K6" H 7275 2694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 7275 2525 50  0001 C CNN
+F 3 "" H 7275 2525 50  0001 C CNN
+	1    7275 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 2575 7000 2500
+Wire Wire Line
+	7000 2500 7075 2500
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 61805367
+P 8025 2500
+AR Path="/61805367" Ref="SW?"  Part="1" 
+AR Path="/60D44364/61805367" Ref="SW?"  Part="1" 
+AR Path="/61150193/61805367" Ref="SW?"  Part="1" 
+AR Path="/6123418A/61805367" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/61805367" Ref="SW41"  Part="1" 
+AR Path="/63013830/61805367" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/61805367" Ref="SW?"  Part="1" 
+F 0 "SW41" H 8025 2785 50  0000 C CNN
+F 1 "K7" H 8025 2694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 8025 2525 50  0001 C CNN
+F 3 "" H 8025 2525 50  0001 C CNN
+	1    8025 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 2575 7750 2500
+Wire Wire Line
+	7750 2500 7825 2500
+Wire Wire Line
+	7750 2875 7750 2925
+Wire Wire Line
+	7750 2925 7000 2925
+Wire Wire Line
+	7000 2925 7000 2875
+Wire Wire Line
+	7000 2925 6250 2925
+Connection ~ 5500 2925
+Connection ~ 6250 2925
+Connection ~ 7000 2925
+Wire Wire Line
+	5975 2500 6050 2500
+Wire Wire Line
+	6725 2500 6800 2500
+Wire Wire Line
+	7475 2500 7550 2500
+Wire Wire Line
+	8225 2500 8300 2500
+$Comp
+L Device:D D54
+U 1 1 6180537A
+P 5500 2725
+AR Path="/62F5643B/6180537A" Ref="D54"  Part="1" 
+AR Path="/63013830/6180537A" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/6180537A" Ref="D?"  Part="1" 
+F 0 "D54" V 5546 2645 50  0000 R CNN
+F 1 "D" V 5455 2645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 5500 2725 50  0001 C CNN
+F 3 "~" H 5500 2725 50  0001 C CNN
+	1    5500 2725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D60
+U 1 1 61805380
+P 6250 2725
+AR Path="/62F5643B/61805380" Ref="D60"  Part="1" 
+AR Path="/63013830/61805380" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/61805380" Ref="D?"  Part="1" 
+F 0 "D60" V 6296 2645 50  0000 R CNN
+F 1 "D" V 6205 2645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 6250 2725 50  0001 C CNN
+F 3 "~" H 6250 2725 50  0001 C CNN
+	1    6250 2725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D65
+U 1 1 61805386
+P 7000 2725
+AR Path="/62F5643B/61805386" Ref="D65"  Part="1" 
+AR Path="/63013830/61805386" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/61805386" Ref="D?"  Part="1" 
+F 0 "D65" V 7046 2645 50  0000 R CNN
+F 1 "D" V 6955 2645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 7000 2725 50  0001 C CNN
+F 3 "~" H 7000 2725 50  0001 C CNN
+	1    7000 2725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D71
+U 1 1 6180538C
+P 7750 2725
+AR Path="/62F5643B/6180538C" Ref="D71"  Part="1" 
+AR Path="/63013830/6180538C" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/6180538C" Ref="D?"  Part="1" 
+F 0 "D71" V 7796 2645 50  0000 R CNN
+F 1 "D" V 7705 2645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 7750 2725 50  0001 C CNN
+F 3 "~" H 7750 2725 50  0001 C CNN
+	1    7750 2725
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4750 2925
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 61805393
+P 8775 2500
+AR Path="/61805393" Ref="SW?"  Part="1" 
+AR Path="/60D44364/61805393" Ref="SW?"  Part="1" 
+AR Path="/61150193/61805393" Ref="SW?"  Part="1" 
+AR Path="/6123418A/61805393" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/61805393" Ref="SW46"  Part="1" 
+AR Path="/63013830/61805393" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/61805393" Ref="SW?"  Part="1" 
+F 0 "SW46" H 8775 2785 50  0000 C CNN
+F 1 "K8" H 8775 2694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 8775 2525 50  0001 C CNN
+F 3 "" H 8775 2525 50  0001 C CNN
+	1    8775 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 2575 8500 2500
+Wire Wire Line
+	8500 2500 8575 2500
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 6180539B
+P 9525 2500
+AR Path="/6180539B" Ref="SW?"  Part="1" 
+AR Path="/60D44364/6180539B" Ref="SW?"  Part="1" 
+AR Path="/61150193/6180539B" Ref="SW?"  Part="1" 
+AR Path="/6123418A/6180539B" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/6180539B" Ref="SW52"  Part="1" 
+AR Path="/63013830/6180539B" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/6180539B" Ref="SW?"  Part="1" 
+F 0 "SW52" H 9525 2785 50  0000 C CNN
+F 1 "K9" H 9525 2694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 9525 2525 50  0001 C CNN
+F 3 "" H 9525 2525 50  0001 C CNN
+	1    9525 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 2575 9250 2500
+Wire Wire Line
+	9250 2500 9325 2500
+Wire Wire Line
+	9250 2875 9250 2925
+Wire Wire Line
+	9250 2925 8500 2925
+Wire Wire Line
+	8500 2925 8500 2875
+Wire Wire Line
+	10000 2575 10000 2500
+Wire Wire Line
+	10000 2500 10075 2500
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 618053AE
+P 11025 2500
+AR Path="/618053AE" Ref="SW?"  Part="1" 
+AR Path="/60D44364/618053AE" Ref="SW?"  Part="1" 
+AR Path="/61150193/618053AE" Ref="SW?"  Part="1" 
+AR Path="/6123418A/618053AE" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/618053AE" Ref="SW64"  Part="1" 
+AR Path="/63013830/618053AE" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/618053AE" Ref="SW?"  Part="1" 
+F 0 "SW64" H 11025 2785 50  0000 C CNN
+F 1 "K11" H 11025 2694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 11025 2525 50  0001 C CNN
+F 3 "" H 11025 2525 50  0001 C CNN
+	1    11025 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10750 2575 10750 2500
+Wire Wire Line
+	10750 2500 10825 2500
+Wire Wire Line
+	10750 2875 10750 2925
+Wire Wire Line
+	10750 2925 10000 2925
+Wire Wire Line
+	10000 2925 10000 2875
+Wire Wire Line
+	10000 2925 9250 2925
+Connection ~ 9250 2925
+Connection ~ 10000 2925
+Wire Wire Line
+	8975 2500 9050 2500
+Wire Wire Line
+	9725 2500 9800 2500
+Wire Wire Line
+	10475 2500 10550 2500
+Wire Wire Line
+	11225 2500 11300 2500
+$Comp
+L Device:D D76
+U 1 1 618053C0
+P 8500 2725
+AR Path="/62F5643B/618053C0" Ref="D76"  Part="1" 
+AR Path="/63013830/618053C0" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/618053C0" Ref="D?"  Part="1" 
+F 0 "D76" V 8546 2645 50  0000 R CNN
+F 1 "D" V 8455 2645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 8500 2725 50  0001 C CNN
+F 3 "~" H 8500 2725 50  0001 C CNN
+	1    8500 2725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D82
+U 1 1 618053C6
+P 9250 2725
+AR Path="/62F5643B/618053C6" Ref="D82"  Part="1" 
+AR Path="/63013830/618053C6" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/618053C6" Ref="D?"  Part="1" 
+F 0 "D82" V 9296 2645 50  0000 R CNN
+F 1 "D" V 9205 2645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 9250 2725 50  0001 C CNN
+F 3 "~" H 9250 2725 50  0001 C CNN
+	1    9250 2725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D88
+U 1 1 618053CC
+P 10000 2725
+AR Path="/62F5643B/618053CC" Ref="D88"  Part="1" 
+AR Path="/63013830/618053CC" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/618053CC" Ref="D?"  Part="1" 
+F 0 "D88" V 10046 2645 50  0000 R CNN
+F 1 "D" V 9955 2645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 10000 2725 50  0001 C CNN
+F 3 "~" H 10000 2725 50  0001 C CNN
+	1    10000 2725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D94
+U 1 1 618053D2
+P 10750 2725
+AR Path="/62F5643B/618053D2" Ref="D94"  Part="1" 
+AR Path="/63013830/618053D2" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/618053D2" Ref="D?"  Part="1" 
+F 0 "D94" V 10796 2645 50  0000 R CNN
+F 1 "D" V 10705 2645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 10750 2725 50  0001 C CNN
+F 3 "~" H 10750 2725 50  0001 C CNN
+	1    10750 2725
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8500 2925 7750 2925
+Connection ~ 8500 2925
+Connection ~ 7750 2925
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 618053DB
+P 6525 2500
+AR Path="/618053DB" Ref="SW?"  Part="1" 
+AR Path="/60D44364/618053DB" Ref="SW?"  Part="1" 
+AR Path="/61150193/618053DB" Ref="SW?"  Part="1" 
+AR Path="/6123418A/618053DB" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/618053DB" Ref="SW30"  Part="1" 
+AR Path="/63013830/618053DB" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/618053DB" Ref="SW?"  Part="1" 
+F 0 "SW30" H 6525 2785 50  0000 C CNN
+F 1 "K5" H 6525 2694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 6525 2525 50  0001 C CNN
+F 3 "" H 6525 2525 50  0001 C CNN
+	1    6525 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 618053E1
+P 11775 2500
+AR Path="/618053E1" Ref="SW?"  Part="1" 
+AR Path="/60D44364/618053E1" Ref="SW?"  Part="1" 
+AR Path="/61150193/618053E1" Ref="SW?"  Part="1" 
+AR Path="/6123418A/618053E1" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/618053E1" Ref="SW70"  Part="1" 
+AR Path="/63013830/618053E1" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/618053E1" Ref="SW?"  Part="1" 
+F 0 "SW70" H 11775 2785 50  0000 C CNN
+F 1 "K12" H 11775 2694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 11775 2525 50  0001 C CNN
+F 3 "" H 11775 2525 50  0001 C CNN
+	1    11775 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11500 2575 11500 2500
+Wire Wire Line
+	11500 2500 11575 2500
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 618053E9
+P 12525 2500
+AR Path="/618053E9" Ref="SW?"  Part="1" 
+AR Path="/60D44364/618053E9" Ref="SW?"  Part="1" 
+AR Path="/61150193/618053E9" Ref="SW?"  Part="1" 
+AR Path="/6123418A/618053E9" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/618053E9" Ref="SW76"  Part="1" 
+AR Path="/63013830/618053E9" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/618053E9" Ref="SW?"  Part="1" 
+F 0 "SW76" H 12525 2785 50  0000 C CNN
+F 1 "K13" H 12525 2694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 12525 2525 50  0001 C CNN
+F 3 "" H 12525 2525 50  0001 C CNN
+	1    12525 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12250 2575 12250 2500
+Wire Wire Line
+	12250 2500 12325 2500
+Wire Wire Line
+	12250 2875 12250 2925
+Wire Wire Line
+	12250 2925 11500 2925
+Wire Wire Line
+	11500 2925 11500 2875
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 618053F4
+P 13275 2500
+AR Path="/618053F4" Ref="SW?"  Part="1" 
+AR Path="/60D44364/618053F4" Ref="SW?"  Part="1" 
+AR Path="/61150193/618053F4" Ref="SW?"  Part="1" 
+AR Path="/6123418A/618053F4" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/618053F4" Ref="SW81"  Part="1" 
+AR Path="/63013830/618053F4" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/618053F4" Ref="SW?"  Part="1" 
+F 0 "SW81" H 13275 2785 50  0000 C CNN
+F 1 "K14" H 13275 2694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 13275 2525 50  0001 C CNN
+F 3 "" H 13275 2525 50  0001 C CNN
+	1    13275 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13000 2575 13000 2500
+Wire Wire Line
+	13000 2500 13075 2500
+Wire Wire Line
+	13750 2575 13750 2500
+Wire Wire Line
+	13750 2500 13825 2500
+Wire Wire Line
+	13750 2875 13750 2925
+Wire Wire Line
+	13750 2925 13000 2925
+Wire Wire Line
+	13000 2925 13000 2875
+Wire Wire Line
+	13000 2925 12250 2925
+Connection ~ 12250 2925
+Connection ~ 13000 2925
+Wire Wire Line
+	11975 2500 12050 2500
+Wire Wire Line
+	12725 2500 12800 2500
+Wire Wire Line
+	13475 2500 13550 2500
+Wire Wire Line
+	14225 2500 14300 2500
+$Comp
+L Device:D D100
+U 1 1 6180540E
+P 11500 2725
+AR Path="/62F5643B/6180540E" Ref="D100"  Part="1" 
+AR Path="/63013830/6180540E" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/6180540E" Ref="D?"  Part="1" 
+F 0 "D100" V 11546 2645 50  0000 R CNN
+F 1 "D" V 11455 2645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 11500 2725 50  0001 C CNN
+F 3 "~" H 11500 2725 50  0001 C CNN
+	1    11500 2725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D106
+U 1 1 61805414
+P 12250 2725
+AR Path="/62F5643B/61805414" Ref="D106"  Part="1" 
+AR Path="/63013830/61805414" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/61805414" Ref="D?"  Part="1" 
+F 0 "D106" V 12296 2645 50  0000 R CNN
+F 1 "D" V 12205 2645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 12250 2725 50  0001 C CNN
+F 3 "~" H 12250 2725 50  0001 C CNN
+	1    12250 2725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D111
+U 1 1 6180541A
+P 13000 2725
+AR Path="/62F5643B/6180541A" Ref="D111"  Part="1" 
+AR Path="/63013830/6180541A" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/6180541A" Ref="D?"  Part="1" 
+F 0 "D111" V 13046 2645 50  0000 R CNN
+F 1 "D" V 12955 2645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 13000 2725 50  0001 C CNN
+F 3 "~" H 13000 2725 50  0001 C CNN
+	1    13000 2725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D116
+U 1 1 61805420
+P 13750 2725
+AR Path="/62F5643B/61805420" Ref="D116"  Part="1" 
+AR Path="/63013830/61805420" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/61805420" Ref="D?"  Part="1" 
+F 0 "D116" V 13796 2645 50  0000 R CNN
+F 1 "D" V 13705 2645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 13750 2725 50  0001 C CNN
+F 3 "~" H 13750 2725 50  0001 C CNN
+	1    13750 2725
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11500 2925 10750 2925
+Connection ~ 11500 2925
+Connection ~ 10750 2925
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 618053A6
+P 10275 2500
+AR Path="/618053A6" Ref="SW?"  Part="1" 
+AR Path="/60D44364/618053A6" Ref="SW?"  Part="1" 
+AR Path="/61150193/618053A6" Ref="SW?"  Part="1" 
+AR Path="/6123418A/618053A6" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/618053A6" Ref="SW58"  Part="1" 
+AR Path="/63013830/618053A6" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/618053A6" Ref="SW?"  Part="1" 
+F 0 "SW58" H 10275 2785 50  0000 C CNN
+F 1 "K10" H 10275 2694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 10275 2525 50  0001 C CNN
+F 3 "" H 10275 2525 50  0001 C CNN
+	1    10275 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 618053FC
+P 14025 2500
+AR Path="/618053FC" Ref="SW?"  Part="1" 
+AR Path="/60D44364/618053FC" Ref="SW?"  Part="1" 
+AR Path="/61150193/618053FC" Ref="SW?"  Part="1" 
+AR Path="/6123418A/618053FC" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/618053FC" Ref="SW86"  Part="1" 
+AR Path="/63013830/618053FC" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/618053FC" Ref="SW?"  Part="1" 
+F 0 "SW86" H 14025 2785 50  0000 C CNN
+F 1 "K15" H 14025 2694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 14025 2525 50  0001 C CNN
+F 3 "" H 14025 2525 50  0001 C CNN
+	1    14025 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 618F7071
+P 2775 3500
+AR Path="/618F7071" Ref="SW?"  Part="1" 
+AR Path="/60D44364/618F7071" Ref="SW?"  Part="1" 
+AR Path="/61150193/618F7071" Ref="SW?"  Part="1" 
+AR Path="/6123418A/618F7071" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/618F7071" Ref="SW3"  Part="1" 
+AR Path="/63013830/618F7071" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/618F7071" Ref="SW?"  Part="1" 
+F 0 "SW3" H 2775 3785 50  0000 C CNN
+F 1 "K16" H 2775 3694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 2775 3525 50  0001 C CNN
+F 3 "" H 2775 3525 50  0001 C CNN
+	1    2775 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 3575 2500 3500
+Wire Wire Line
+	2500 3500 2575 3500
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 618F7079
+P 3525 3500
+AR Path="/618F7079" Ref="SW?"  Part="1" 
+AR Path="/60D44364/618F7079" Ref="SW?"  Part="1" 
+AR Path="/61150193/618F7079" Ref="SW?"  Part="1" 
+AR Path="/6123418A/618F7079" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/618F7079" Ref="SW9"  Part="1" 
+AR Path="/63013830/618F7079" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/618F7079" Ref="SW?"  Part="1" 
+F 0 "SW9" H 3525 3785 50  0000 C CNN
+F 1 "K17" H 3525 3694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 3525 3525 50  0001 C CNN
+F 3 "" H 3525 3525 50  0001 C CNN
+	1    3525 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 3575 3250 3500
+Wire Wire Line
+	3250 3500 3325 3500
+Wire Wire Line
+	3250 3875 3250 3925
+Wire Wire Line
+	3250 3925 2500 3925
+Wire Wire Line
+	2500 3925 2500 3875
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 618F7084
+P 4275 3500
+AR Path="/618F7084" Ref="SW?"  Part="1" 
+AR Path="/60D44364/618F7084" Ref="SW?"  Part="1" 
+AR Path="/61150193/618F7084" Ref="SW?"  Part="1" 
+AR Path="/6123418A/618F7084" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/618F7084" Ref="SW14"  Part="1" 
+AR Path="/63013830/618F7084" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/618F7084" Ref="SW?"  Part="1" 
+F 0 "SW14" H 4275 3785 50  0000 C CNN
+F 1 "K18" H 4275 3694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 4275 3525 50  0001 C CNN
+F 3 "" H 4275 3525 50  0001 C CNN
+	1    4275 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 3575 4000 3500
+Wire Wire Line
+	4000 3500 4075 3500
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 618F708C
+P 5025 3500
+AR Path="/618F708C" Ref="SW?"  Part="1" 
+AR Path="/60D44364/618F708C" Ref="SW?"  Part="1" 
+AR Path="/61150193/618F708C" Ref="SW?"  Part="1" 
+AR Path="/6123418A/618F708C" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/618F708C" Ref="SW20"  Part="1" 
+AR Path="/63013830/618F708C" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/618F708C" Ref="SW?"  Part="1" 
+F 0 "SW20" H 5025 3785 50  0000 C CNN
+F 1 "K19" H 5025 3694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 5025 3525 50  0001 C CNN
+F 3 "" H 5025 3525 50  0001 C CNN
+	1    5025 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 3575 4750 3500
+Wire Wire Line
+	4750 3500 4825 3500
+Wire Wire Line
+	4750 3875 4750 3925
+Wire Wire Line
+	4750 3925 4000 3925
+Wire Wire Line
+	4000 3925 4000 3875
+Wire Wire Line
+	4000 3925 3250 3925
+Connection ~ 3250 3925
+Connection ~ 4000 3925
+Wire Wire Line
+	2975 3500 3050 3500
+Wire Wire Line
+	3725 3500 3800 3500
+Wire Wire Line
+	4475 3500 4550 3500
+Wire Wire Line
+	5225 3500 5300 3500
+$Comp
+L Device:D D33
+U 1 1 618F709E
+P 2500 3725
+AR Path="/62F5643B/618F709E" Ref="D33"  Part="1" 
+AR Path="/63013830/618F709E" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/618F709E" Ref="D?"  Part="1" 
+F 0 "D33" V 2546 3645 50  0000 R CNN
+F 1 "D" V 2455 3645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 2500 3725 50  0001 C CNN
+F 3 "~" H 2500 3725 50  0001 C CNN
+	1    2500 3725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D39
+U 1 1 618F70A4
+P 3250 3725
+AR Path="/62F5643B/618F70A4" Ref="D39"  Part="1" 
+AR Path="/63013830/618F70A4" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/618F70A4" Ref="D?"  Part="1" 
+F 0 "D39" V 3296 3645 50  0000 R CNN
+F 1 "D" V 3205 3645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 3250 3725 50  0001 C CNN
+F 3 "~" H 3250 3725 50  0001 C CNN
+	1    3250 3725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D44
+U 1 1 618F70AA
+P 4000 3725
+AR Path="/62F5643B/618F70AA" Ref="D44"  Part="1" 
+AR Path="/63013830/618F70AA" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/618F70AA" Ref="D?"  Part="1" 
+F 0 "D44" V 4046 3645 50  0000 R CNN
+F 1 "D" V 3955 3645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 4000 3725 50  0001 C CNN
+F 3 "~" H 4000 3725 50  0001 C CNN
+	1    4000 3725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D50
+U 1 1 618F70B0
+P 4750 3725
+AR Path="/62F5643B/618F70B0" Ref="D50"  Part="1" 
+AR Path="/63013830/618F70B0" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/618F70B0" Ref="D?"  Part="1" 
+F 0 "D50" V 4796 3645 50  0000 R CNN
+F 1 "D" V 4705 3645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 4750 3725 50  0001 C CNN
+F 3 "~" H 4750 3725 50  0001 C CNN
+	1    4750 3725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 618F70BA
+P 5775 3500
+AR Path="/618F70BA" Ref="SW?"  Part="1" 
+AR Path="/60D44364/618F70BA" Ref="SW?"  Part="1" 
+AR Path="/61150193/618F70BA" Ref="SW?"  Part="1" 
+AR Path="/6123418A/618F70BA" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/618F70BA" Ref="SW25"  Part="1" 
+AR Path="/63013830/618F70BA" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/618F70BA" Ref="SW?"  Part="1" 
+F 0 "SW25" H 5775 3785 50  0000 C CNN
+F 1 "K20" H 5775 3694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 5775 3525 50  0001 C CNN
+F 3 "" H 5775 3525 50  0001 C CNN
+	1    5775 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 3575 5500 3500
+Wire Wire Line
+	5500 3500 5575 3500
+Wire Wire Line
+	6250 3575 6250 3500
+Wire Wire Line
+	6250 3500 6325 3500
+Wire Wire Line
+	6250 3875 6250 3925
+Wire Wire Line
+	6250 3925 5500 3925
+Wire Wire Line
+	5500 3925 5500 3875
+Wire Wire Line
+	5500 3925 4750 3925
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 618F70C8
+P 7275 3500
+AR Path="/618F70C8" Ref="SW?"  Part="1" 
+AR Path="/60D44364/618F70C8" Ref="SW?"  Part="1" 
+AR Path="/61150193/618F70C8" Ref="SW?"  Part="1" 
+AR Path="/6123418A/618F70C8" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/618F70C8" Ref="SW36"  Part="1" 
+AR Path="/63013830/618F70C8" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/618F70C8" Ref="SW?"  Part="1" 
+F 0 "SW36" H 7275 3785 50  0000 C CNN
+F 1 "K22" H 7275 3694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 7275 3525 50  0001 C CNN
+F 3 "" H 7275 3525 50  0001 C CNN
+	1    7275 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 3575 7000 3500
+Wire Wire Line
+	7000 3500 7075 3500
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 618F70D0
+P 8025 3500
+AR Path="/618F70D0" Ref="SW?"  Part="1" 
+AR Path="/60D44364/618F70D0" Ref="SW?"  Part="1" 
+AR Path="/61150193/618F70D0" Ref="SW?"  Part="1" 
+AR Path="/6123418A/618F70D0" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/618F70D0" Ref="SW42"  Part="1" 
+AR Path="/63013830/618F70D0" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/618F70D0" Ref="SW?"  Part="1" 
+F 0 "SW42" H 8025 3785 50  0000 C CNN
+F 1 "K23" H 8025 3694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 8025 3525 50  0001 C CNN
+F 3 "" H 8025 3525 50  0001 C CNN
+	1    8025 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 3575 7750 3500
+Wire Wire Line
+	7750 3500 7825 3500
+Wire Wire Line
+	7750 3875 7750 3925
+Wire Wire Line
+	7750 3925 7000 3925
+Wire Wire Line
+	7000 3925 7000 3875
+Wire Wire Line
+	7000 3925 6250 3925
+Connection ~ 5500 3925
+Connection ~ 6250 3925
+Connection ~ 7000 3925
+Wire Wire Line
+	5975 3500 6050 3500
+Wire Wire Line
+	6725 3500 6800 3500
+Wire Wire Line
+	7475 3500 7550 3500
+Wire Wire Line
+	8225 3500 8300 3500
+$Comp
+L Device:D D55
+U 1 1 618F70E3
+P 5500 3725
+AR Path="/62F5643B/618F70E3" Ref="D55"  Part="1" 
+AR Path="/63013830/618F70E3" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/618F70E3" Ref="D?"  Part="1" 
+F 0 "D55" V 5546 3645 50  0000 R CNN
+F 1 "D" V 5455 3645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 5500 3725 50  0001 C CNN
+F 3 "~" H 5500 3725 50  0001 C CNN
+	1    5500 3725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D61
+U 1 1 618F70E9
+P 6250 3725
+AR Path="/62F5643B/618F70E9" Ref="D61"  Part="1" 
+AR Path="/63013830/618F70E9" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/618F70E9" Ref="D?"  Part="1" 
+F 0 "D61" V 6296 3645 50  0000 R CNN
+F 1 "D" V 6205 3645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 6250 3725 50  0001 C CNN
+F 3 "~" H 6250 3725 50  0001 C CNN
+	1    6250 3725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D66
+U 1 1 618F70EF
+P 7000 3725
+AR Path="/62F5643B/618F70EF" Ref="D66"  Part="1" 
+AR Path="/63013830/618F70EF" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/618F70EF" Ref="D?"  Part="1" 
+F 0 "D66" V 7046 3645 50  0000 R CNN
+F 1 "D" V 6955 3645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 7000 3725 50  0001 C CNN
+F 3 "~" H 7000 3725 50  0001 C CNN
+	1    7000 3725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D72
+U 1 1 618F70F5
+P 7750 3725
+AR Path="/62F5643B/618F70F5" Ref="D72"  Part="1" 
+AR Path="/63013830/618F70F5" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/618F70F5" Ref="D?"  Part="1" 
+F 0 "D72" V 7796 3645 50  0000 R CNN
+F 1 "D" V 7705 3645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 7750 3725 50  0001 C CNN
+F 3 "~" H 7750 3725 50  0001 C CNN
+	1    7750 3725
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4750 3925
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 618F70FC
+P 8775 3500
+AR Path="/618F70FC" Ref="SW?"  Part="1" 
+AR Path="/60D44364/618F70FC" Ref="SW?"  Part="1" 
+AR Path="/61150193/618F70FC" Ref="SW?"  Part="1" 
+AR Path="/6123418A/618F70FC" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/618F70FC" Ref="SW47"  Part="1" 
+AR Path="/63013830/618F70FC" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/618F70FC" Ref="SW?"  Part="1" 
+F 0 "SW47" H 8775 3785 50  0000 C CNN
+F 1 "K24" H 8775 3694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 8775 3525 50  0001 C CNN
+F 3 "" H 8775 3525 50  0001 C CNN
+	1    8775 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 3575 8500 3500
+Wire Wire Line
+	8500 3500 8575 3500
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 618F7104
+P 9525 3500
+AR Path="/618F7104" Ref="SW?"  Part="1" 
+AR Path="/60D44364/618F7104" Ref="SW?"  Part="1" 
+AR Path="/61150193/618F7104" Ref="SW?"  Part="1" 
+AR Path="/6123418A/618F7104" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/618F7104" Ref="SW53"  Part="1" 
+AR Path="/63013830/618F7104" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/618F7104" Ref="SW?"  Part="1" 
+F 0 "SW53" H 9525 3785 50  0000 C CNN
+F 1 "K25" H 9525 3694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 9525 3525 50  0001 C CNN
+F 3 "" H 9525 3525 50  0001 C CNN
+	1    9525 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 3575 9250 3500
+Wire Wire Line
+	9250 3500 9325 3500
+Wire Wire Line
+	9250 3875 9250 3925
+Wire Wire Line
+	9250 3925 8500 3925
+Wire Wire Line
+	8500 3925 8500 3875
+Wire Wire Line
+	10000 3575 10000 3500
+Wire Wire Line
+	10000 3500 10075 3500
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 618F7111
+P 11025 3500
+AR Path="/618F7111" Ref="SW?"  Part="1" 
+AR Path="/60D44364/618F7111" Ref="SW?"  Part="1" 
+AR Path="/61150193/618F7111" Ref="SW?"  Part="1" 
+AR Path="/6123418A/618F7111" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/618F7111" Ref="SW65"  Part="1" 
+AR Path="/63013830/618F7111" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/618F7111" Ref="SW?"  Part="1" 
+F 0 "SW65" H 11025 3785 50  0000 C CNN
+F 1 "K27" H 11025 3694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 11025 3525 50  0001 C CNN
+F 3 "" H 11025 3525 50  0001 C CNN
+	1    11025 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10750 3575 10750 3500
+Wire Wire Line
+	10750 3500 10825 3500
+Wire Wire Line
+	10750 3875 10750 3925
+Wire Wire Line
+	10750 3925 10000 3925
+Wire Wire Line
+	10000 3925 10000 3875
+Wire Wire Line
+	10000 3925 9250 3925
+Connection ~ 9250 3925
+Connection ~ 10000 3925
+Wire Wire Line
+	8975 3500 9050 3500
+Wire Wire Line
+	9725 3500 9800 3500
+Wire Wire Line
+	10475 3500 10550 3500
+Wire Wire Line
+	11225 3500 11300 3500
+$Comp
+L Device:D D77
+U 1 1 618F7123
+P 8500 3725
+AR Path="/62F5643B/618F7123" Ref="D77"  Part="1" 
+AR Path="/63013830/618F7123" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/618F7123" Ref="D?"  Part="1" 
+F 0 "D77" V 8546 3645 50  0000 R CNN
+F 1 "D" V 8455 3645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 8500 3725 50  0001 C CNN
+F 3 "~" H 8500 3725 50  0001 C CNN
+	1    8500 3725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D83
+U 1 1 618F7129
+P 9250 3725
+AR Path="/62F5643B/618F7129" Ref="D83"  Part="1" 
+AR Path="/63013830/618F7129" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/618F7129" Ref="D?"  Part="1" 
+F 0 "D83" V 9296 3645 50  0000 R CNN
+F 1 "D" V 9205 3645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 9250 3725 50  0001 C CNN
+F 3 "~" H 9250 3725 50  0001 C CNN
+	1    9250 3725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D89
+U 1 1 618F712F
+P 10000 3725
+AR Path="/62F5643B/618F712F" Ref="D89"  Part="1" 
+AR Path="/63013830/618F712F" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/618F712F" Ref="D?"  Part="1" 
+F 0 "D89" V 10046 3645 50  0000 R CNN
+F 1 "D" V 9955 3645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 10000 3725 50  0001 C CNN
+F 3 "~" H 10000 3725 50  0001 C CNN
+	1    10000 3725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D95
+U 1 1 618F7135
+P 10750 3725
+AR Path="/62F5643B/618F7135" Ref="D95"  Part="1" 
+AR Path="/63013830/618F7135" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/618F7135" Ref="D?"  Part="1" 
+F 0 "D95" V 10796 3645 50  0000 R CNN
+F 1 "D" V 10705 3645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 10750 3725 50  0001 C CNN
+F 3 "~" H 10750 3725 50  0001 C CNN
+	1    10750 3725
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8500 3925 7750 3925
+Connection ~ 8500 3925
+Connection ~ 7750 3925
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 618F713E
+P 6525 3500
+AR Path="/618F713E" Ref="SW?"  Part="1" 
+AR Path="/60D44364/618F713E" Ref="SW?"  Part="1" 
+AR Path="/61150193/618F713E" Ref="SW?"  Part="1" 
+AR Path="/6123418A/618F713E" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/618F713E" Ref="SW31"  Part="1" 
+AR Path="/63013830/618F713E" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/618F713E" Ref="SW?"  Part="1" 
+F 0 "SW31" H 6525 3785 50  0000 C CNN
+F 1 "K21" H 6525 3694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 6525 3525 50  0001 C CNN
+F 3 "" H 6525 3525 50  0001 C CNN
+	1    6525 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 618F7144
+P 11775 3500
+AR Path="/618F7144" Ref="SW?"  Part="1" 
+AR Path="/60D44364/618F7144" Ref="SW?"  Part="1" 
+AR Path="/61150193/618F7144" Ref="SW?"  Part="1" 
+AR Path="/6123418A/618F7144" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/618F7144" Ref="SW71"  Part="1" 
+AR Path="/63013830/618F7144" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/618F7144" Ref="SW?"  Part="1" 
+F 0 "SW71" H 11775 3785 50  0000 C CNN
+F 1 "K28" H 11775 3694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 11775 3525 50  0001 C CNN
+F 3 "" H 11775 3525 50  0001 C CNN
+	1    11775 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11500 3575 11500 3500
+Wire Wire Line
+	11500 3500 11575 3500
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 618F714C
+P 12525 3500
+AR Path="/618F714C" Ref="SW?"  Part="1" 
+AR Path="/60D44364/618F714C" Ref="SW?"  Part="1" 
+AR Path="/61150193/618F714C" Ref="SW?"  Part="1" 
+AR Path="/6123418A/618F714C" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/618F714C" Ref="SW77"  Part="1" 
+AR Path="/63013830/618F714C" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/618F714C" Ref="SW?"  Part="1" 
+F 0 "SW77" H 12525 3785 50  0000 C CNN
+F 1 "K29" H 12525 3694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 12525 3525 50  0001 C CNN
+F 3 "" H 12525 3525 50  0001 C CNN
+	1    12525 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12250 3575 12250 3500
+Wire Wire Line
+	12250 3500 12325 3500
+Wire Wire Line
+	12250 3875 12250 3925
+Wire Wire Line
+	12250 3925 11500 3925
+Wire Wire Line
+	11500 3925 11500 3875
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 618F7157
+P 13275 3500
+AR Path="/618F7157" Ref="SW?"  Part="1" 
+AR Path="/60D44364/618F7157" Ref="SW?"  Part="1" 
+AR Path="/61150193/618F7157" Ref="SW?"  Part="1" 
+AR Path="/6123418A/618F7157" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/618F7157" Ref="SW82"  Part="1" 
+AR Path="/63013830/618F7157" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/618F7157" Ref="SW?"  Part="1" 
+F 0 "SW82" H 13275 3785 50  0000 C CNN
+F 1 "K30" H 13275 3694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 13275 3525 50  0001 C CNN
+F 3 "" H 13275 3525 50  0001 C CNN
+	1    13275 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13000 3575 13000 3500
+Wire Wire Line
+	13000 3500 13075 3500
+Wire Wire Line
+	13750 3575 13750 3500
+Wire Wire Line
+	13750 3500 13825 3500
+Wire Wire Line
+	13750 3875 13750 3925
+Wire Wire Line
+	13750 3925 13000 3925
+Wire Wire Line
+	13000 3925 13000 3875
+Wire Wire Line
+	13000 3925 12250 3925
+Connection ~ 12250 3925
+Connection ~ 13000 3925
+Wire Wire Line
+	11975 3500 12050 3500
+Wire Wire Line
+	12725 3500 12800 3500
+Wire Wire Line
+	13475 3500 13550 3500
+Wire Wire Line
+	14225 3500 14300 3500
+$Comp
+L Device:D D101
+U 1 1 618F716B
+P 11500 3725
+AR Path="/62F5643B/618F716B" Ref="D101"  Part="1" 
+AR Path="/63013830/618F716B" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/618F716B" Ref="D?"  Part="1" 
+F 0 "D101" V 11546 3645 50  0000 R CNN
+F 1 "D" V 11455 3645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 11500 3725 50  0001 C CNN
+F 3 "~" H 11500 3725 50  0001 C CNN
+	1    11500 3725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D107
+U 1 1 618F7171
+P 12250 3725
+AR Path="/62F5643B/618F7171" Ref="D107"  Part="1" 
+AR Path="/63013830/618F7171" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/618F7171" Ref="D?"  Part="1" 
+F 0 "D107" V 12296 3645 50  0000 R CNN
+F 1 "D" V 12205 3645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 12250 3725 50  0001 C CNN
+F 3 "~" H 12250 3725 50  0001 C CNN
+	1    12250 3725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D112
+U 1 1 618F7177
+P 13000 3725
+AR Path="/62F5643B/618F7177" Ref="D112"  Part="1" 
+AR Path="/63013830/618F7177" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/618F7177" Ref="D?"  Part="1" 
+F 0 "D112" V 13046 3645 50  0000 R CNN
+F 1 "D" V 12955 3645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 13000 3725 50  0001 C CNN
+F 3 "~" H 13000 3725 50  0001 C CNN
+	1    13000 3725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D117
+U 1 1 618F717D
+P 13750 3725
+AR Path="/62F5643B/618F717D" Ref="D117"  Part="1" 
+AR Path="/63013830/618F717D" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/618F717D" Ref="D?"  Part="1" 
+F 0 "D117" V 13796 3645 50  0000 R CNN
+F 1 "D" V 13705 3645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 13750 3725 50  0001 C CNN
+F 3 "~" H 13750 3725 50  0001 C CNN
+	1    13750 3725
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11500 3925 10750 3925
+Connection ~ 11500 3925
+Connection ~ 10750 3925
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 618F7186
+P 10275 3500
+AR Path="/618F7186" Ref="SW?"  Part="1" 
+AR Path="/60D44364/618F7186" Ref="SW?"  Part="1" 
+AR Path="/61150193/618F7186" Ref="SW?"  Part="1" 
+AR Path="/6123418A/618F7186" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/618F7186" Ref="SW59"  Part="1" 
+AR Path="/63013830/618F7186" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/618F7186" Ref="SW?"  Part="1" 
+F 0 "SW59" H 10275 3785 50  0000 C CNN
+F 1 "K26" H 10275 3694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 10275 3525 50  0001 C CNN
+F 3 "" H 10275 3525 50  0001 C CNN
+	1    10275 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 618F718C
+P 14025 3500
+AR Path="/618F718C" Ref="SW?"  Part="1" 
+AR Path="/60D44364/618F718C" Ref="SW?"  Part="1" 
+AR Path="/61150193/618F718C" Ref="SW?"  Part="1" 
+AR Path="/6123418A/618F718C" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/618F718C" Ref="SW87"  Part="1" 
+AR Path="/63013830/618F718C" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/618F718C" Ref="SW?"  Part="1" 
+F 0 "SW87" H 14025 3785 50  0000 C CNN
+F 1 "K31" H 14025 3694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 14025 3525 50  0001 C CNN
+F 3 "" H 14025 3525 50  0001 C CNN
+	1    14025 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 2500 3050 3500
+Wire Wire Line
+	3800 2500 3800 3500
+Wire Wire Line
+	3725 2500 3800 2500
+Wire Wire Line
+	4550 2500 4550 3500
+Wire Wire Line
+	5300 2500 5300 3500
+Wire Wire Line
+	6050 2500 6050 3500
+Wire Wire Line
+	6800 2500 6800 3500
+Wire Wire Line
+	7550 2500 7550 3500
+Wire Wire Line
+	8300 2500 8300 3500
+Wire Wire Line
+	9050 2500 9050 3500
+Wire Wire Line
+	9800 2500 9800 3500
+Wire Wire Line
+	10550 2500 10550 3500
+Wire Wire Line
+	11300 2500 11300 3500
+Wire Wire Line
+	12050 2500 12050 3500
+Wire Wire Line
+	12800 2500 12800 3500
+Wire Wire Line
+	13550 2500 13550 3500
+Wire Wire Line
+	14300 2500 14300 3500
+Wire Wire Line
+	3050 3500 3050 4500
+Wire Wire Line
+	3800 3500 3800 4500
+Wire Wire Line
+	4550 3500 4550 4500
+Wire Wire Line
+	5300 3500 5300 4500
+Wire Wire Line
+	6050 3500 6050 4500
+Wire Wire Line
+	6800 3500 6800 4500
+Wire Wire Line
+	7550 3500 7550 4500
+Wire Wire Line
+	8300 3500 8300 4500
+Wire Wire Line
+	9050 3500 9050 4500
+Wire Wire Line
+	9800 3500 9800 4500
+Wire Wire Line
+	10550 3500 10550 4500
+Wire Wire Line
+	11300 3500 11300 4500
+Wire Wire Line
+	12050 3500 12050 4500
+Wire Wire Line
+	12800 3500 12800 4500
+Wire Wire Line
+	13550 3500 13550 4500
+Wire Wire Line
+	14300 3500 14300 4500
+Connection ~ 3050 3500
+Connection ~ 3800 3500
+Connection ~ 4550 3500
+Connection ~ 5300 3500
+Connection ~ 6050 3500
+Connection ~ 6800 3500
+Connection ~ 7550 3500
+Connection ~ 8300 3500
+Connection ~ 9050 3500
+Connection ~ 9800 3500
+Connection ~ 10550 3500
+Connection ~ 11300 3500
+Connection ~ 12050 3500
+Connection ~ 12800 3500
+Connection ~ 13550 3500
+Connection ~ 14300 3500
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 621F770C
+P 2775 4500
+AR Path="/621F770C" Ref="SW?"  Part="1" 
+AR Path="/60D44364/621F770C" Ref="SW?"  Part="1" 
+AR Path="/61150193/621F770C" Ref="SW?"  Part="1" 
+AR Path="/6123418A/621F770C" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/621F770C" Ref="SW4"  Part="1" 
+AR Path="/63013830/621F770C" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/621F770C" Ref="SW?"  Part="1" 
+F 0 "SW4" H 2775 4785 50  0000 C CNN
+F 1 "K32" H 2775 4694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 2775 4525 50  0001 C CNN
+F 3 "" H 2775 4525 50  0001 C CNN
+	1    2775 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 4575 2500 4500
+Wire Wire Line
+	2500 4500 2575 4500
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 621F7714
+P 3525 4500
+AR Path="/621F7714" Ref="SW?"  Part="1" 
+AR Path="/60D44364/621F7714" Ref="SW?"  Part="1" 
+AR Path="/61150193/621F7714" Ref="SW?"  Part="1" 
+AR Path="/6123418A/621F7714" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/621F7714" Ref="SW10"  Part="1" 
+AR Path="/63013830/621F7714" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/621F7714" Ref="SW?"  Part="1" 
+F 0 "SW10" H 3525 4785 50  0000 C CNN
+F 1 "K33" H 3525 4694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 3525 4525 50  0001 C CNN
+F 3 "" H 3525 4525 50  0001 C CNN
+	1    3525 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 4575 3250 4500
+Wire Wire Line
+	3250 4500 3325 4500
+Wire Wire Line
+	3250 4875 3250 4925
+Wire Wire Line
+	3250 4925 2500 4925
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 621F771F
+P 4275 4500
+AR Path="/621F771F" Ref="SW?"  Part="1" 
+AR Path="/60D44364/621F771F" Ref="SW?"  Part="1" 
+AR Path="/61150193/621F771F" Ref="SW?"  Part="1" 
+AR Path="/6123418A/621F771F" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/621F771F" Ref="SW15"  Part="1" 
+AR Path="/63013830/621F771F" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/621F771F" Ref="SW?"  Part="1" 
+F 0 "SW15" H 4275 4785 50  0000 C CNN
+F 1 "K34" H 4275 4694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 4275 4525 50  0001 C CNN
+F 3 "" H 4275 4525 50  0001 C CNN
+	1    4275 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 4575 4000 4500
+Wire Wire Line
+	4000 4500 4075 4500
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 621F7727
+P 5025 4500
+AR Path="/621F7727" Ref="SW?"  Part="1" 
+AR Path="/60D44364/621F7727" Ref="SW?"  Part="1" 
+AR Path="/61150193/621F7727" Ref="SW?"  Part="1" 
+AR Path="/6123418A/621F7727" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/621F7727" Ref="SW21"  Part="1" 
+AR Path="/63013830/621F7727" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/621F7727" Ref="SW?"  Part="1" 
+F 0 "SW21" H 5025 4785 50  0000 C CNN
+F 1 "K35" H 5025 4694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 5025 4525 50  0001 C CNN
+F 3 "" H 5025 4525 50  0001 C CNN
+	1    5025 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 4575 4750 4500
+Wire Wire Line
+	4750 4500 4825 4500
+Wire Wire Line
+	4750 4875 4750 4925
+Wire Wire Line
+	4750 4925 4000 4925
+Wire Wire Line
+	4000 4925 4000 4875
+Wire Wire Line
+	4000 4925 3250 4925
+Connection ~ 3250 4925
+Connection ~ 4000 4925
+Wire Wire Line
+	2975 4500 3050 4500
+Wire Wire Line
+	4475 4500 4550 4500
+Wire Wire Line
+	5225 4500 5300 4500
+$Comp
+L Device:D D34
+U 1 1 621F7738
+P 2500 4725
+AR Path="/62F5643B/621F7738" Ref="D34"  Part="1" 
+AR Path="/63013830/621F7738" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/621F7738" Ref="D?"  Part="1" 
+F 0 "D34" V 2546 4645 50  0000 R CNN
+F 1 "D" V 2455 4645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 2500 4725 50  0001 C CNN
+F 3 "~" H 2500 4725 50  0001 C CNN
+	1    2500 4725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D40
+U 1 1 621F773E
+P 3250 4725
+AR Path="/62F5643B/621F773E" Ref="D40"  Part="1" 
+AR Path="/63013830/621F773E" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/621F773E" Ref="D?"  Part="1" 
+F 0 "D40" V 3296 4645 50  0000 R CNN
+F 1 "D" V 3205 4645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 3250 4725 50  0001 C CNN
+F 3 "~" H 3250 4725 50  0001 C CNN
+	1    3250 4725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D45
+U 1 1 621F7744
+P 4000 4725
+AR Path="/62F5643B/621F7744" Ref="D45"  Part="1" 
+AR Path="/63013830/621F7744" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/621F7744" Ref="D?"  Part="1" 
+F 0 "D45" V 4046 4645 50  0000 R CNN
+F 1 "D" V 3955 4645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 4000 4725 50  0001 C CNN
+F 3 "~" H 4000 4725 50  0001 C CNN
+	1    4000 4725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D51
+U 1 1 621F774A
+P 4750 4725
+AR Path="/62F5643B/621F774A" Ref="D51"  Part="1" 
+AR Path="/63013830/621F774A" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/621F774A" Ref="D?"  Part="1" 
+F 0 "D51" V 4796 4645 50  0000 R CNN
+F 1 "D" V 4705 4645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 4750 4725 50  0001 C CNN
+F 3 "~" H 4750 4725 50  0001 C CNN
+	1    4750 4725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 621F7750
+P 5775 4500
+AR Path="/621F7750" Ref="SW?"  Part="1" 
+AR Path="/60D44364/621F7750" Ref="SW?"  Part="1" 
+AR Path="/61150193/621F7750" Ref="SW?"  Part="1" 
+AR Path="/6123418A/621F7750" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/621F7750" Ref="SW26"  Part="1" 
+AR Path="/63013830/621F7750" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/621F7750" Ref="SW?"  Part="1" 
+F 0 "SW26" H 5775 4785 50  0000 C CNN
+F 1 "K36" H 5775 4694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 5775 4525 50  0001 C CNN
+F 3 "" H 5775 4525 50  0001 C CNN
+	1    5775 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 4575 5500 4500
+Wire Wire Line
+	5500 4500 5575 4500
+Wire Wire Line
+	6250 4575 6250 4500
+Wire Wire Line
+	6250 4500 6325 4500
+Wire Wire Line
+	6250 4875 6250 4925
+Wire Wire Line
+	6250 4925 5500 4925
+Wire Wire Line
+	5500 4925 5500 4875
+Wire Wire Line
+	5500 4925 4750 4925
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 621F775E
+P 7275 4500
+AR Path="/621F775E" Ref="SW?"  Part="1" 
+AR Path="/60D44364/621F775E" Ref="SW?"  Part="1" 
+AR Path="/61150193/621F775E" Ref="SW?"  Part="1" 
+AR Path="/6123418A/621F775E" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/621F775E" Ref="SW37"  Part="1" 
+AR Path="/63013830/621F775E" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/621F775E" Ref="SW?"  Part="1" 
+F 0 "SW37" H 7275 4785 50  0000 C CNN
+F 1 "K38" H 7275 4694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 7275 4525 50  0001 C CNN
+F 3 "" H 7275 4525 50  0001 C CNN
+	1    7275 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 4575 7000 4500
+Wire Wire Line
+	7000 4500 7075 4500
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 621F7766
+P 8025 4500
+AR Path="/621F7766" Ref="SW?"  Part="1" 
+AR Path="/60D44364/621F7766" Ref="SW?"  Part="1" 
+AR Path="/61150193/621F7766" Ref="SW?"  Part="1" 
+AR Path="/6123418A/621F7766" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/621F7766" Ref="SW43"  Part="1" 
+AR Path="/63013830/621F7766" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/621F7766" Ref="SW?"  Part="1" 
+F 0 "SW43" H 8025 4785 50  0000 C CNN
+F 1 "K39" H 8025 4694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 8025 4525 50  0001 C CNN
+F 3 "" H 8025 4525 50  0001 C CNN
+	1    8025 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 4575 7750 4500
+Wire Wire Line
+	7750 4500 7825 4500
+Wire Wire Line
+	7750 4875 7750 4925
+Wire Wire Line
+	7750 4925 7000 4925
+Wire Wire Line
+	7000 4925 7000 4875
+Wire Wire Line
+	7000 4925 6250 4925
+Connection ~ 5500 4925
+Connection ~ 6250 4925
+Connection ~ 7000 4925
+Wire Wire Line
+	5975 4500 6050 4500
+Wire Wire Line
+	6725 4500 6800 4500
+Wire Wire Line
+	7475 4500 7550 4500
+Wire Wire Line
+	8225 4500 8300 4500
+$Comp
+L Device:D D56
+U 1 1 621F7779
+P 5500 4725
+AR Path="/62F5643B/621F7779" Ref="D56"  Part="1" 
+AR Path="/63013830/621F7779" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/621F7779" Ref="D?"  Part="1" 
+F 0 "D56" V 5546 4645 50  0000 R CNN
+F 1 "D" V 5455 4645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 5500 4725 50  0001 C CNN
+F 3 "~" H 5500 4725 50  0001 C CNN
+	1    5500 4725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D62
+U 1 1 621F777F
+P 6250 4725
+AR Path="/62F5643B/621F777F" Ref="D62"  Part="1" 
+AR Path="/63013830/621F777F" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/621F777F" Ref="D?"  Part="1" 
+F 0 "D62" V 6296 4645 50  0000 R CNN
+F 1 "D" V 6205 4645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 6250 4725 50  0001 C CNN
+F 3 "~" H 6250 4725 50  0001 C CNN
+	1    6250 4725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D67
+U 1 1 621F7785
+P 7000 4725
+AR Path="/62F5643B/621F7785" Ref="D67"  Part="1" 
+AR Path="/63013830/621F7785" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/621F7785" Ref="D?"  Part="1" 
+F 0 "D67" V 7046 4645 50  0000 R CNN
+F 1 "D" V 6955 4645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 7000 4725 50  0001 C CNN
+F 3 "~" H 7000 4725 50  0001 C CNN
+	1    7000 4725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D73
+U 1 1 621F778B
+P 7750 4725
+AR Path="/62F5643B/621F778B" Ref="D73"  Part="1" 
+AR Path="/63013830/621F778B" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/621F778B" Ref="D?"  Part="1" 
+F 0 "D73" V 7796 4645 50  0000 R CNN
+F 1 "D" V 7705 4645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 7750 4725 50  0001 C CNN
+F 3 "~" H 7750 4725 50  0001 C CNN
+	1    7750 4725
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4750 4925
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 621F7792
+P 8775 4500
+AR Path="/621F7792" Ref="SW?"  Part="1" 
+AR Path="/60D44364/621F7792" Ref="SW?"  Part="1" 
+AR Path="/61150193/621F7792" Ref="SW?"  Part="1" 
+AR Path="/6123418A/621F7792" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/621F7792" Ref="SW48"  Part="1" 
+AR Path="/63013830/621F7792" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/621F7792" Ref="SW?"  Part="1" 
+F 0 "SW48" H 8775 4785 50  0000 C CNN
+F 1 "K40" H 8775 4694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 8775 4525 50  0001 C CNN
+F 3 "" H 8775 4525 50  0001 C CNN
+	1    8775 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 4575 8500 4500
+Wire Wire Line
+	8500 4500 8575 4500
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 621F779A
+P 9525 4500
+AR Path="/621F779A" Ref="SW?"  Part="1" 
+AR Path="/60D44364/621F779A" Ref="SW?"  Part="1" 
+AR Path="/61150193/621F779A" Ref="SW?"  Part="1" 
+AR Path="/6123418A/621F779A" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/621F779A" Ref="SW54"  Part="1" 
+AR Path="/63013830/621F779A" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/621F779A" Ref="SW?"  Part="1" 
+F 0 "SW54" H 9525 4785 50  0000 C CNN
+F 1 "K41" H 9525 4694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 9525 4525 50  0001 C CNN
+F 3 "" H 9525 4525 50  0001 C CNN
+	1    9525 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 4575 9250 4500
+Wire Wire Line
+	9250 4500 9325 4500
+Wire Wire Line
+	9250 4875 9250 4925
+Wire Wire Line
+	9250 4925 8500 4925
+Wire Wire Line
+	8500 4925 8500 4875
+Wire Wire Line
+	10000 4575 10000 4500
+Wire Wire Line
+	10000 4500 10075 4500
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 621F77A7
+P 11025 4500
+AR Path="/621F77A7" Ref="SW?"  Part="1" 
+AR Path="/60D44364/621F77A7" Ref="SW?"  Part="1" 
+AR Path="/61150193/621F77A7" Ref="SW?"  Part="1" 
+AR Path="/6123418A/621F77A7" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/621F77A7" Ref="SW66"  Part="1" 
+AR Path="/63013830/621F77A7" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/621F77A7" Ref="SW?"  Part="1" 
+F 0 "SW66" H 11025 4785 50  0000 C CNN
+F 1 "K43" H 11025 4694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 11025 4525 50  0001 C CNN
+F 3 "" H 11025 4525 50  0001 C CNN
+	1    11025 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10750 4575 10750 4500
+Wire Wire Line
+	10750 4500 10825 4500
+Wire Wire Line
+	10750 4875 10750 4925
+Wire Wire Line
+	10750 4925 10000 4925
+Wire Wire Line
+	10000 4925 10000 4875
+Wire Wire Line
+	10000 4925 9250 4925
+Connection ~ 9250 4925
+Connection ~ 10000 4925
+Wire Wire Line
+	8975 4500 9050 4500
+Wire Wire Line
+	9725 4500 9800 4500
+Wire Wire Line
+	10475 4500 10550 4500
+Wire Wire Line
+	11225 4500 11300 4500
+$Comp
+L Device:D D78
+U 1 1 621F77B9
+P 8500 4725
+AR Path="/62F5643B/621F77B9" Ref="D78"  Part="1" 
+AR Path="/63013830/621F77B9" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/621F77B9" Ref="D?"  Part="1" 
+F 0 "D78" V 8546 4645 50  0000 R CNN
+F 1 "D" V 8455 4645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 8500 4725 50  0001 C CNN
+F 3 "~" H 8500 4725 50  0001 C CNN
+	1    8500 4725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D84
+U 1 1 621F77BF
+P 9250 4725
+AR Path="/62F5643B/621F77BF" Ref="D84"  Part="1" 
+AR Path="/63013830/621F77BF" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/621F77BF" Ref="D?"  Part="1" 
+F 0 "D84" V 9296 4645 50  0000 R CNN
+F 1 "D" V 9205 4645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 9250 4725 50  0001 C CNN
+F 3 "~" H 9250 4725 50  0001 C CNN
+	1    9250 4725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D90
+U 1 1 621F77C5
+P 10000 4725
+AR Path="/62F5643B/621F77C5" Ref="D90"  Part="1" 
+AR Path="/63013830/621F77C5" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/621F77C5" Ref="D?"  Part="1" 
+F 0 "D90" V 10046 4645 50  0000 R CNN
+F 1 "D" V 9955 4645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 10000 4725 50  0001 C CNN
+F 3 "~" H 10000 4725 50  0001 C CNN
+	1    10000 4725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D96
+U 1 1 621F77CB
+P 10750 4725
+AR Path="/62F5643B/621F77CB" Ref="D96"  Part="1" 
+AR Path="/63013830/621F77CB" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/621F77CB" Ref="D?"  Part="1" 
+F 0 "D96" V 10796 4645 50  0000 R CNN
+F 1 "D" V 10705 4645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 10750 4725 50  0001 C CNN
+F 3 "~" H 10750 4725 50  0001 C CNN
+	1    10750 4725
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8500 4925 7750 4925
+Connection ~ 8500 4925
+Connection ~ 7750 4925
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 621F77D4
+P 6525 4500
+AR Path="/621F77D4" Ref="SW?"  Part="1" 
+AR Path="/60D44364/621F77D4" Ref="SW?"  Part="1" 
+AR Path="/61150193/621F77D4" Ref="SW?"  Part="1" 
+AR Path="/6123418A/621F77D4" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/621F77D4" Ref="SW32"  Part="1" 
+AR Path="/63013830/621F77D4" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/621F77D4" Ref="SW?"  Part="1" 
+F 0 "SW32" H 6525 4785 50  0000 C CNN
+F 1 "K37" H 6525 4694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 6525 4525 50  0001 C CNN
+F 3 "" H 6525 4525 50  0001 C CNN
+	1    6525 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 621F77DA
+P 11775 4500
+AR Path="/621F77DA" Ref="SW?"  Part="1" 
+AR Path="/60D44364/621F77DA" Ref="SW?"  Part="1" 
+AR Path="/61150193/621F77DA" Ref="SW?"  Part="1" 
+AR Path="/6123418A/621F77DA" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/621F77DA" Ref="SW72"  Part="1" 
+AR Path="/63013830/621F77DA" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/621F77DA" Ref="SW?"  Part="1" 
+F 0 "SW72" H 11775 4785 50  0000 C CNN
+F 1 "K44" H 11775 4694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 11775 4525 50  0001 C CNN
+F 3 "" H 11775 4525 50  0001 C CNN
+	1    11775 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11500 4575 11500 4500
+Wire Wire Line
+	11500 4500 11575 4500
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 621F77E2
+P 12525 4500
+AR Path="/621F77E2" Ref="SW?"  Part="1" 
+AR Path="/60D44364/621F77E2" Ref="SW?"  Part="1" 
+AR Path="/61150193/621F77E2" Ref="SW?"  Part="1" 
+AR Path="/6123418A/621F77E2" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/621F77E2" Ref="SW78"  Part="1" 
+AR Path="/63013830/621F77E2" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/621F77E2" Ref="SW?"  Part="1" 
+F 0 "SW78" H 12525 4785 50  0000 C CNN
+F 1 "K45" H 12525 4694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 12525 4525 50  0001 C CNN
+F 3 "" H 12525 4525 50  0001 C CNN
+	1    12525 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12250 4575 12250 4500
+Wire Wire Line
+	12250 4500 12325 4500
+Wire Wire Line
+	12250 4875 12250 4925
+Wire Wire Line
+	12250 4925 11500 4925
+Wire Wire Line
+	11500 4925 11500 4875
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 621F77ED
+P 13275 4500
+AR Path="/621F77ED" Ref="SW?"  Part="1" 
+AR Path="/60D44364/621F77ED" Ref="SW?"  Part="1" 
+AR Path="/61150193/621F77ED" Ref="SW?"  Part="1" 
+AR Path="/6123418A/621F77ED" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/621F77ED" Ref="SW83"  Part="1" 
+AR Path="/63013830/621F77ED" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/621F77ED" Ref="SW?"  Part="1" 
+F 0 "SW83" H 13275 4785 50  0000 C CNN
+F 1 "K46" H 13275 4694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 13275 4525 50  0001 C CNN
+F 3 "" H 13275 4525 50  0001 C CNN
+	1    13275 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13000 4575 13000 4500
+Wire Wire Line
+	13000 4500 13075 4500
+Wire Wire Line
+	13750 4575 13750 4500
+Wire Wire Line
+	13750 4500 13825 4500
+Wire Wire Line
+	13750 4875 13750 4925
+Wire Wire Line
+	13750 4925 13000 4925
+Wire Wire Line
+	13000 4925 13000 4875
+Wire Wire Line
+	13000 4925 12250 4925
+Connection ~ 12250 4925
+Connection ~ 13000 4925
+Wire Wire Line
+	11975 4500 12050 4500
+Wire Wire Line
+	12725 4500 12800 4500
+Wire Wire Line
+	13475 4500 13550 4500
+Wire Wire Line
+	14225 4500 14300 4500
+$Comp
+L Device:D D102
+U 1 1 621F7801
+P 11500 4725
+AR Path="/62F5643B/621F7801" Ref="D102"  Part="1" 
+AR Path="/63013830/621F7801" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/621F7801" Ref="D?"  Part="1" 
+F 0 "D102" V 11546 4645 50  0000 R CNN
+F 1 "D" V 11455 4645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 11500 4725 50  0001 C CNN
+F 3 "~" H 11500 4725 50  0001 C CNN
+	1    11500 4725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D108
+U 1 1 621F7807
+P 12250 4725
+AR Path="/62F5643B/621F7807" Ref="D108"  Part="1" 
+AR Path="/63013830/621F7807" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/621F7807" Ref="D?"  Part="1" 
+F 0 "D108" V 12296 4645 50  0000 R CNN
+F 1 "D" V 12205 4645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 12250 4725 50  0001 C CNN
+F 3 "~" H 12250 4725 50  0001 C CNN
+	1    12250 4725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D113
+U 1 1 621F780D
+P 13000 4725
+AR Path="/62F5643B/621F780D" Ref="D113"  Part="1" 
+AR Path="/63013830/621F780D" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/621F780D" Ref="D?"  Part="1" 
+F 0 "D113" V 13046 4645 50  0000 R CNN
+F 1 "D" V 12955 4645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 13000 4725 50  0001 C CNN
+F 3 "~" H 13000 4725 50  0001 C CNN
+	1    13000 4725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D118
+U 1 1 621F7813
+P 13750 4725
+AR Path="/62F5643B/621F7813" Ref="D118"  Part="1" 
+AR Path="/63013830/621F7813" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/621F7813" Ref="D?"  Part="1" 
+F 0 "D118" V 13796 4645 50  0000 R CNN
+F 1 "D" V 13705 4645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 13750 4725 50  0001 C CNN
+F 3 "~" H 13750 4725 50  0001 C CNN
+	1    13750 4725
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11500 4925 10750 4925
+Connection ~ 11500 4925
+Connection ~ 10750 4925
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 621F781C
+P 10275 4500
+AR Path="/621F781C" Ref="SW?"  Part="1" 
+AR Path="/60D44364/621F781C" Ref="SW?"  Part="1" 
+AR Path="/61150193/621F781C" Ref="SW?"  Part="1" 
+AR Path="/6123418A/621F781C" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/621F781C" Ref="SW60"  Part="1" 
+AR Path="/63013830/621F781C" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/621F781C" Ref="SW?"  Part="1" 
+F 0 "SW60" H 10275 4785 50  0000 C CNN
+F 1 "K42" H 10275 4694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 10275 4525 50  0001 C CNN
+F 3 "" H 10275 4525 50  0001 C CNN
+	1    10275 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 621F7822
+P 14025 4500
+AR Path="/621F7822" Ref="SW?"  Part="1" 
+AR Path="/60D44364/621F7822" Ref="SW?"  Part="1" 
+AR Path="/61150193/621F7822" Ref="SW?"  Part="1" 
+AR Path="/6123418A/621F7822" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/621F7822" Ref="SW88"  Part="1" 
+AR Path="/63013830/621F7822" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/621F7822" Ref="SW?"  Part="1" 
+F 0 "SW88" H 14025 4785 50  0000 C CNN
+F 1 "K47" H 14025 4694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 14025 4525 50  0001 C CNN
+F 3 "" H 14025 4525 50  0001 C CNN
+	1    14025 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3725 4500 3800 4500
+Connection ~ 3050 4500
+Connection ~ 3800 4500
+Connection ~ 4550 4500
+Connection ~ 5300 4500
+Connection ~ 6050 4500
+Connection ~ 6800 4500
+Connection ~ 7550 4500
+Connection ~ 8300 4500
+Connection ~ 9050 4500
+Connection ~ 9800 4500
+Connection ~ 10550 4500
+Connection ~ 11300 4500
+Connection ~ 12050 4500
+Connection ~ 12800 4500
+Connection ~ 13550 4500
+Connection ~ 14300 4500
+Wire Wire Line
+	12800 4500 12800 5500
+Wire Wire Line
+	12050 4500 12050 5500
+Wire Wire Line
+	11300 4500 11300 5500
+Wire Wire Line
+	10550 4500 10550 5500
+Wire Wire Line
+	9800 4500 9800 5500
+Wire Wire Line
+	9050 4500 9050 5500
+Wire Wire Line
+	8300 4500 8300 5500
+Wire Wire Line
+	7550 4500 7550 5500
+Wire Wire Line
+	6800 4500 6800 5500
+Wire Wire Line
+	6050 4500 6050 5500
+Wire Wire Line
+	5300 4500 5300 5500
+Wire Wire Line
+	4550 4500 4550 5500
+Wire Wire Line
+	3800 4500 3800 5500
+Wire Wire Line
+	3050 4500 3050 5500
+Connection ~ 14300 7500
+Connection ~ 13550 7500
+Connection ~ 12800 7500
+Connection ~ 12050 7500
+Connection ~ 11300 7500
+Connection ~ 10550 7500
+Connection ~ 9800 7500
+Connection ~ 9050 7500
+Connection ~ 7550 7500
+Connection ~ 6050 7500
+Connection ~ 4550 7500
+Connection ~ 3050 7500
+Wire Wire Line
+	14300 7500 14300 8500
+Wire Wire Line
+	13550 7500 13550 8500
+Wire Wire Line
+	12800 7500 12800 8500
+Wire Wire Line
+	12050 7500 12050 8500
+Wire Wire Line
+	11300 7500 11300 8500
+Wire Wire Line
+	10550 7500 10550 8500
+Wire Wire Line
+	9800 7500 9800 8500
+Wire Wire Line
+	9050 7500 9050 8500
+Wire Wire Line
+	7550 7500 7550 8500
+Wire Wire Line
+	6050 7500 6050 8500
+Wire Wire Line
+	4550 7500 4550 8500
+Wire Wire Line
+	3050 7500 3050 8500
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 62280250
+P 14025 7500
+AR Path="/62280250" Ref="SW?"  Part="1" 
+AR Path="/60D44364/62280250" Ref="SW?"  Part="1" 
+AR Path="/61150193/62280250" Ref="SW?"  Part="1" 
+AR Path="/6123418A/62280250" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/62280250" Ref="SW89"  Part="1" 
+AR Path="/63013830/62280250" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/62280250" Ref="SW?"  Part="1" 
+F 0 "SW89" H 14025 7785 50  0000 C CNN
+F 1 "K87" H 14025 7694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 14025 7525 50  0001 C CNN
+F 3 "" H 14025 7525 50  0001 C CNN
+	1    14025 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 6228024A
+P 10275 7500
+AR Path="/6228024A" Ref="SW?"  Part="1" 
+AR Path="/60D44364/6228024A" Ref="SW?"  Part="1" 
+AR Path="/61150193/6228024A" Ref="SW?"  Part="1" 
+AR Path="/6123418A/6228024A" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/6228024A" Ref="SW63"  Part="1" 
+AR Path="/63013830/6228024A" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/6228024A" Ref="SW?"  Part="1" 
+F 0 "SW63" H 10275 7785 50  0000 C CNN
+F 1 "K82" H 10275 7694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 10275 7525 50  0001 C CNN
+F 3 "" H 10275 7525 50  0001 C CNN
+	1    10275 7500
+	1    0    0    -1  
+$EndComp
+Connection ~ 10750 7925
+Connection ~ 11500 7925
+Wire Wire Line
+	11500 7925 10750 7925
+$Comp
+L Device:D D119
+U 1 1 62280241
+P 13750 7725
+AR Path="/62F5643B/62280241" Ref="D119"  Part="1" 
+AR Path="/63013830/62280241" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/62280241" Ref="D?"  Part="1" 
+F 0 "D119" V 13796 7645 50  0000 R CNN
+F 1 "D" V 13705 7645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 13750 7725 50  0001 C CNN
+F 3 "~" H 13750 7725 50  0001 C CNN
+	1    13750 7725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D115
+U 1 1 6228023B
+P 13000 7725
+AR Path="/62F5643B/6228023B" Ref="D115"  Part="1" 
+AR Path="/63013830/6228023B" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/6228023B" Ref="D?"  Part="1" 
+F 0 "D115" V 13046 7645 50  0000 R CNN
+F 1 "D" V 12955 7645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 13000 7725 50  0001 C CNN
+F 3 "~" H 13000 7725 50  0001 C CNN
+	1    13000 7725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D110
+U 1 1 62280235
+P 12250 7725
+AR Path="/62F5643B/62280235" Ref="D110"  Part="1" 
+AR Path="/63013830/62280235" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/62280235" Ref="D?"  Part="1" 
+F 0 "D110" V 12296 7645 50  0000 R CNN
+F 1 "D" V 12205 7645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 12250 7725 50  0001 C CNN
+F 3 "~" H 12250 7725 50  0001 C CNN
+	1    12250 7725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D105
+U 1 1 6228022F
+P 11500 7725
+AR Path="/62F5643B/6228022F" Ref="D105"  Part="1" 
+AR Path="/63013830/6228022F" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/6228022F" Ref="D?"  Part="1" 
+F 0 "D105" V 11546 7645 50  0000 R CNN
+F 1 "D" V 11455 7645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 11500 7725 50  0001 C CNN
+F 3 "~" H 11500 7725 50  0001 C CNN
+	1    11500 7725
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14225 7500 14300 7500
+Wire Wire Line
+	13475 7500 13550 7500
+Wire Wire Line
+	12725 7500 12800 7500
+Wire Wire Line
+	11975 7500 12050 7500
+Connection ~ 13000 7925
+Connection ~ 12250 7925
+Wire Wire Line
+	13000 7925 12250 7925
+Wire Wire Line
+	13000 7925 13000 7875
+Wire Wire Line
+	13750 7925 13000 7925
+Wire Wire Line
+	13750 7875 13750 7925
+Wire Wire Line
+	13750 7500 13825 7500
+Wire Wire Line
+	13750 7575 13750 7500
+Wire Wire Line
+	13000 7500 13075 7500
+Wire Wire Line
+	13000 7575 13000 7500
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 6228021B
+P 13275 7500
+AR Path="/6228021B" Ref="SW?"  Part="1" 
+AR Path="/60D44364/6228021B" Ref="SW?"  Part="1" 
+AR Path="/61150193/6228021B" Ref="SW?"  Part="1" 
+AR Path="/6123418A/6228021B" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/6228021B" Ref="SW85"  Part="1" 
+AR Path="/63013830/6228021B" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/6228021B" Ref="SW?"  Part="1" 
+F 0 "SW85" H 13275 7785 50  0000 C CNN
+F 1 "K86" H 13275 7694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 13275 7525 50  0001 C CNN
+F 3 "" H 13275 7525 50  0001 C CNN
+	1    13275 7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11500 7925 11500 7875
+Wire Wire Line
+	12250 7925 11500 7925
+Wire Wire Line
+	12250 7875 12250 7925
+Wire Wire Line
+	12250 7500 12325 7500
+Wire Wire Line
+	12250 7575 12250 7500
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 62280210
+P 12525 7500
+AR Path="/62280210" Ref="SW?"  Part="1" 
+AR Path="/60D44364/62280210" Ref="SW?"  Part="1" 
+AR Path="/61150193/62280210" Ref="SW?"  Part="1" 
+AR Path="/6123418A/62280210" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/62280210" Ref="SW80"  Part="1" 
+AR Path="/63013830/62280210" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/62280210" Ref="SW?"  Part="1" 
+F 0 "SW80" H 12525 7785 50  0000 C CNN
+F 1 "K85" H 12525 7694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 12525 7525 50  0001 C CNN
+F 3 "" H 12525 7525 50  0001 C CNN
+	1    12525 7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11500 7500 11575 7500
+Wire Wire Line
+	11500 7575 11500 7500
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 62280208
+P 11775 7500
+AR Path="/62280208" Ref="SW?"  Part="1" 
+AR Path="/60D44364/62280208" Ref="SW?"  Part="1" 
+AR Path="/61150193/62280208" Ref="SW?"  Part="1" 
+AR Path="/6123418A/62280208" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/62280208" Ref="SW75"  Part="1" 
+AR Path="/63013830/62280208" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/62280208" Ref="SW?"  Part="1" 
+F 0 "SW75" H 11775 7785 50  0000 C CNN
+F 1 "K84" H 11775 7694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 11775 7525 50  0001 C CNN
+F 3 "" H 11775 7525 50  0001 C CNN
+	1    11775 7500
+	1    0    0    -1  
+$EndComp
+Connection ~ 8500 7925
+$Comp
+L Device:D D99
+U 1 1 622801F9
+P 10750 7725
+AR Path="/62F5643B/622801F9" Ref="D99"  Part="1" 
+AR Path="/63013830/622801F9" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/622801F9" Ref="D?"  Part="1" 
+F 0 "D99" V 10796 7645 50  0000 R CNN
+F 1 "D" V 10705 7645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 10750 7725 50  0001 C CNN
+F 3 "~" H 10750 7725 50  0001 C CNN
+	1    10750 7725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D93
+U 1 1 622801F3
+P 10000 7725
+AR Path="/62F5643B/622801F3" Ref="D93"  Part="1" 
+AR Path="/63013830/622801F3" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/622801F3" Ref="D?"  Part="1" 
+F 0 "D93" V 10046 7645 50  0000 R CNN
+F 1 "D" V 9955 7645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 10000 7725 50  0001 C CNN
+F 3 "~" H 10000 7725 50  0001 C CNN
+	1    10000 7725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D87
+U 1 1 622801ED
+P 9250 7725
+AR Path="/62F5643B/622801ED" Ref="D87"  Part="1" 
+AR Path="/63013830/622801ED" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/622801ED" Ref="D?"  Part="1" 
+F 0 "D87" V 9296 7645 50  0000 R CNN
+F 1 "D" V 9205 7645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 9250 7725 50  0001 C CNN
+F 3 "~" H 9250 7725 50  0001 C CNN
+	1    9250 7725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D81
+U 1 1 622801E7
+P 8500 7725
+AR Path="/62F5643B/622801E7" Ref="D81"  Part="1" 
+AR Path="/63013830/622801E7" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/622801E7" Ref="D?"  Part="1" 
+F 0 "D81" V 8546 7645 50  0000 R CNN
+F 1 "D" V 8455 7645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 8500 7725 50  0001 C CNN
+F 3 "~" H 8500 7725 50  0001 C CNN
+	1    8500 7725
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11225 7500 11300 7500
+Wire Wire Line
+	10475 7500 10550 7500
+Wire Wire Line
+	9725 7500 9800 7500
+Wire Wire Line
+	8975 7500 9050 7500
+Connection ~ 10000 7925
+Connection ~ 9250 7925
+Wire Wire Line
+	10000 7925 9250 7925
+Wire Wire Line
+	10000 7925 10000 7875
+Wire Wire Line
+	10750 7925 10000 7925
+Wire Wire Line
+	10750 7875 10750 7925
+Wire Wire Line
+	10750 7500 10825 7500
+Wire Wire Line
+	10750 7575 10750 7500
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 622801D5
+P 11025 7500
+AR Path="/622801D5" Ref="SW?"  Part="1" 
+AR Path="/60D44364/622801D5" Ref="SW?"  Part="1" 
+AR Path="/61150193/622801D5" Ref="SW?"  Part="1" 
+AR Path="/6123418A/622801D5" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/622801D5" Ref="SW69"  Part="1" 
+AR Path="/63013830/622801D5" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/622801D5" Ref="SW?"  Part="1" 
+F 0 "SW69" H 11025 7785 50  0000 C CNN
+F 1 "K83" H 11025 7694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 11025 7525 50  0001 C CNN
+F 3 "" H 11025 7525 50  0001 C CNN
+	1    11025 7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10000 7500 10075 7500
+Wire Wire Line
+	10000 7575 10000 7500
+Wire Wire Line
+	8500 7925 8500 7875
+Wire Wire Line
+	9250 7925 8500 7925
+Wire Wire Line
+	9250 7875 9250 7925
+Wire Wire Line
+	9250 7500 9325 7500
+Wire Wire Line
+	9250 7575 9250 7500
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 622801C8
+P 9525 7500
+AR Path="/622801C8" Ref="SW?"  Part="1" 
+AR Path="/60D44364/622801C8" Ref="SW?"  Part="1" 
+AR Path="/61150193/622801C8" Ref="SW?"  Part="1" 
+AR Path="/6123418A/622801C8" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/622801C8" Ref="SW57"  Part="1" 
+AR Path="/63013830/622801C8" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/622801C8" Ref="SW?"  Part="1" 
+F 0 "SW57" H 9525 7785 50  0000 C CNN
+F 1 "K81" H 9525 7694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 9525 7525 50  0001 C CNN
+F 3 "" H 9525 7525 50  0001 C CNN
+	1    9525 7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 7500 8575 7500
+Wire Wire Line
+	8500 7575 8500 7500
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 622801C0
+P 8775 7500
+AR Path="/622801C0" Ref="SW?"  Part="1" 
+AR Path="/60D44364/622801C0" Ref="SW?"  Part="1" 
+AR Path="/61150193/622801C0" Ref="SW?"  Part="1" 
+AR Path="/6123418A/622801C0" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/622801C0" Ref="SW51"  Part="1" 
+AR Path="/63013830/622801C0" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/622801C0" Ref="SW?"  Part="1" 
+F 0 "SW51" H 8775 7785 50  0000 C CNN
+F 1 "K80" H 8775 7694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 8775 7525 50  0001 C CNN
+F 3 "" H 8775 7525 50  0001 C CNN
+	1    8775 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D70
+U 1 1 622801B3
+P 7000 7725
+AR Path="/62F5643B/622801B3" Ref="D70"  Part="1" 
+AR Path="/63013830/622801B3" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/622801B3" Ref="D?"  Part="1" 
+F 0 "D70" V 7046 7645 50  0000 R CNN
+F 1 "D" V 6955 7645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 7000 7725 50  0001 C CNN
+F 3 "~" H 7000 7725 50  0001 C CNN
+	1    7000 7725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D59
+U 1 1 622801A7
+P 5500 7725
+AR Path="/62F5643B/622801A7" Ref="D59"  Part="1" 
+AR Path="/63013830/622801A7" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/622801A7" Ref="D?"  Part="1" 
+F 0 "D59" V 5546 7645 50  0000 R CNN
+F 1 "D" V 5455 7645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 5500 7725 50  0001 C CNN
+F 3 "~" H 5500 7725 50  0001 C CNN
+	1    5500 7725
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7475 7500 7550 7500
+Wire Wire Line
+	5975 7500 6050 7500
+Connection ~ 7000 7925
+Connection ~ 5500 7925
+Wire Wire Line
+	7000 7925 7000 7875
+Wire Wire Line
+	7000 7500 7075 7500
+Wire Wire Line
+	7000 7575 7000 7500
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 6228018C
+P 7275 7500
+AR Path="/6228018C" Ref="SW?"  Part="1" 
+AR Path="/60D44364/6228018C" Ref="SW?"  Part="1" 
+AR Path="/61150193/6228018C" Ref="SW?"  Part="1" 
+AR Path="/6123418A/6228018C" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/6228018C" Ref="SW40"  Part="1" 
+AR Path="/63013830/6228018C" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/6228018C" Ref="SW?"  Part="1" 
+F 0 "SW40" H 7275 7785 50  0000 C CNN
+F 1 "K79" H 7275 7694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 7275 7525 50  0001 C CNN
+F 3 "" H 7275 7525 50  0001 C CNN
+	1    7275 7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 7925 5500 7875
+Wire Wire Line
+	5500 7500 5575 7500
+Wire Wire Line
+	5500 7575 5500 7500
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 6228017E
+P 5775 7500
+AR Path="/6228017E" Ref="SW?"  Part="1" 
+AR Path="/60D44364/6228017E" Ref="SW?"  Part="1" 
+AR Path="/61150193/6228017E" Ref="SW?"  Part="1" 
+AR Path="/6123418A/6228017E" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/6228017E" Ref="SW29"  Part="1" 
+AR Path="/63013830/6228017E" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/6228017E" Ref="SW?"  Part="1" 
+F 0 "SW29" H 5775 7785 50  0000 C CNN
+F 1 "K78" H 5775 7694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 5775 7525 50  0001 C CNN
+F 3 "" H 5775 7525 50  0001 C CNN
+	1    5775 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D48
+U 1 1 62280172
+P 4000 7725
+AR Path="/62F5643B/62280172" Ref="D48"  Part="1" 
+AR Path="/63013830/62280172" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/62280172" Ref="D?"  Part="1" 
+F 0 "D48" V 4046 7645 50  0000 R CNN
+F 1 "D" V 3955 7645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 4000 7725 50  0001 C CNN
+F 3 "~" H 4000 7725 50  0001 C CNN
+	1    4000 7725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D37
+U 1 1 62280166
+P 2500 7725
+AR Path="/62F5643B/62280166" Ref="D37"  Part="1" 
+AR Path="/63013830/62280166" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/62280166" Ref="D?"  Part="1" 
+F 0 "D37" V 2546 7645 50  0000 R CNN
+F 1 "D" V 2455 7645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 2500 7725 50  0001 C CNN
+F 3 "~" H 2500 7725 50  0001 C CNN
+	1    2500 7725
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4475 7500 4550 7500
+Wire Wire Line
+	2975 7500 3050 7500
+Connection ~ 4000 7925
+Wire Wire Line
+	4000 7925 4000 7875
+Wire Wire Line
+	4000 7500 4075 7500
+Wire Wire Line
+	4000 7575 4000 7500
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 6228014D
+P 4275 7500
+AR Path="/6228014D" Ref="SW?"  Part="1" 
+AR Path="/60D44364/6228014D" Ref="SW?"  Part="1" 
+AR Path="/61150193/6228014D" Ref="SW?"  Part="1" 
+AR Path="/6123418A/6228014D" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/6228014D" Ref="SW18"  Part="1" 
+AR Path="/63013830/6228014D" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/6228014D" Ref="SW?"  Part="1" 
+F 0 "SW18" H 4275 7785 50  0000 C CNN
+F 1 "K77" H 4275 7694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 4275 7525 50  0001 C CNN
+F 3 "" H 4275 7525 50  0001 C CNN
+	1    4275 7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 7925 2500 7875
+Wire Wire Line
+	2500 7500 2575 7500
+Wire Wire Line
+	2500 7575 2500 7500
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 6228013A
+P 2775 7500
+AR Path="/6228013A" Ref="SW?"  Part="1" 
+AR Path="/60D44364/6228013A" Ref="SW?"  Part="1" 
+AR Path="/61150193/6228013A" Ref="SW?"  Part="1" 
+AR Path="/6123418A/6228013A" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/6228013A" Ref="SW7"  Part="1" 
+AR Path="/63013830/6228013A" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/6228013A" Ref="SW?"  Part="1" 
+F 0 "SW7" H 2775 7785 50  0000 C CNN
+F 1 "K76" H 2775 7694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 2775 7525 50  0001 C CNN
+F 3 "" H 2775 7525 50  0001 C CNN
+	1    2775 7500
+	1    0    0    -1  
+$EndComp
+Connection ~ 13550 6500
+Connection ~ 12050 6500
+Connection ~ 11300 6500
+Connection ~ 10550 6500
+Connection ~ 9800 6500
+Connection ~ 9050 6500
+Connection ~ 8300 6500
+Connection ~ 7550 6500
+Connection ~ 6800 6500
+Connection ~ 6050 6500
+Connection ~ 5300 6500
+Connection ~ 4550 6500
+Connection ~ 3800 6500
+Connection ~ 3050 6500
+Wire Wire Line
+	13550 6500 13550 7500
+Wire Wire Line
+	12050 6500 12050 7500
+Wire Wire Line
+	11300 6500 11300 7500
+Wire Wire Line
+	10550 6500 10550 7500
+Wire Wire Line
+	9800 6500 9800 7500
+Wire Wire Line
+	9050 6500 9050 7500
+Wire Wire Line
+	7550 6500 7550 7500
+Wire Wire Line
+	6050 6500 6050 7500
+Wire Wire Line
+	4550 6500 4550 7500
+Wire Wire Line
+	3050 6500 3050 7500
+Wire Wire Line
+	12050 5500 12050 6500
+Wire Wire Line
+	11300 5500 11300 6500
+Wire Wire Line
+	10550 5500 10550 6500
+Wire Wire Line
+	9800 5500 9800 6500
+Wire Wire Line
+	9050 5500 9050 6500
+Wire Wire Line
+	8300 5500 8300 6500
+Wire Wire Line
+	7550 5500 7550 6500
+Wire Wire Line
+	6800 5500 6800 6500
+Wire Wire Line
+	6050 5500 6050 6500
+Wire Wire Line
+	5300 5500 5300 6500
+Wire Wire Line
+	4550 5500 4550 6500
+Wire Wire Line
+	3725 5500 3800 5500
+Wire Wire Line
+	3800 5500 3800 6500
+Wire Wire Line
+	3050 5500 3050 6500
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 622800FD
+P 10275 6500
+AR Path="/622800FD" Ref="SW?"  Part="1" 
+AR Path="/60D44364/622800FD" Ref="SW?"  Part="1" 
+AR Path="/61150193/622800FD" Ref="SW?"  Part="1" 
+AR Path="/6123418A/622800FD" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/622800FD" Ref="SW62"  Part="1" 
+AR Path="/63013830/622800FD" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/622800FD" Ref="SW?"  Part="1" 
+F 0 "SW62" H 10275 6785 50  0000 C CNN
+F 1 "K72" H 10275 6694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 10275 6525 50  0001 C CNN
+F 3 "" H 10275 6525 50  0001 C CNN
+	1    10275 6500
+	1    0    0    -1  
+$EndComp
+Connection ~ 10750 6925
+Connection ~ 11500 6925
+Wire Wire Line
+	11500 6925 10750 6925
+$Comp
+L Device:D D114
+U 1 1 622800EE
+P 13000 6725
+AR Path="/62F5643B/622800EE" Ref="D114"  Part="1" 
+AR Path="/63013830/622800EE" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/622800EE" Ref="D?"  Part="1" 
+F 0 "D114" V 13046 6645 50  0000 R CNN
+F 1 "D" V 12955 6645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 13000 6725 50  0001 C CNN
+F 3 "~" H 13000 6725 50  0001 C CNN
+	1    13000 6725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D104
+U 1 1 622800E2
+P 11500 6725
+AR Path="/62F5643B/622800E2" Ref="D104"  Part="1" 
+AR Path="/63013830/622800E2" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/622800E2" Ref="D?"  Part="1" 
+F 0 "D104" V 11546 6645 50  0000 R CNN
+F 1 "D" V 11455 6645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 11500 6725 50  0001 C CNN
+F 3 "~" H 11500 6725 50  0001 C CNN
+	1    11500 6725
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13475 6500 13550 6500
+Wire Wire Line
+	11975 6500 12050 6500
+Wire Wire Line
+	13000 6925 13000 6875
+Wire Wire Line
+	13000 6500 13075 6500
+Wire Wire Line
+	13000 6575 13000 6500
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 622800CE
+P 13275 6500
+AR Path="/622800CE" Ref="SW?"  Part="1" 
+AR Path="/60D44364/622800CE" Ref="SW?"  Part="1" 
+AR Path="/61150193/622800CE" Ref="SW?"  Part="1" 
+AR Path="/6123418A/622800CE" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/622800CE" Ref="SW84"  Part="1" 
+AR Path="/63013830/622800CE" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/622800CE" Ref="SW?"  Part="1" 
+F 0 "SW84" H 13275 6785 50  0000 C CNN
+F 1 "K75" H 13275 6694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 13275 6525 50  0001 C CNN
+F 3 "" H 13275 6525 50  0001 C CNN
+	1    13275 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11500 6925 11500 6875
+Wire Wire Line
+	11500 6500 11575 6500
+Wire Wire Line
+	11500 6575 11500 6500
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 622800BB
+P 11775 6500
+AR Path="/622800BB" Ref="SW?"  Part="1" 
+AR Path="/60D44364/622800BB" Ref="SW?"  Part="1" 
+AR Path="/61150193/622800BB" Ref="SW?"  Part="1" 
+AR Path="/6123418A/622800BB" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/622800BB" Ref="SW74"  Part="1" 
+AR Path="/63013830/622800BB" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/622800BB" Ref="SW?"  Part="1" 
+F 0 "SW74" H 11775 6785 50  0000 C CNN
+F 1 "K74" H 11775 6694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 11775 6525 50  0001 C CNN
+F 3 "" H 11775 6525 50  0001 C CNN
+	1    11775 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 622800B5
+P 6525 6500
+AR Path="/622800B5" Ref="SW?"  Part="1" 
+AR Path="/60D44364/622800B5" Ref="SW?"  Part="1" 
+AR Path="/61150193/622800B5" Ref="SW?"  Part="1" 
+AR Path="/6123418A/622800B5" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/622800B5" Ref="SW34"  Part="1" 
+AR Path="/63013830/622800B5" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/622800B5" Ref="SW?"  Part="1" 
+F 0 "SW34" H 6525 6785 50  0000 C CNN
+F 1 "K67" H 6525 6694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 6525 6525 50  0001 C CNN
+F 3 "" H 6525 6525 50  0001 C CNN
+	1    6525 6500
+	1    0    0    -1  
+$EndComp
+Connection ~ 7750 6925
+Connection ~ 8500 6925
+Wire Wire Line
+	8500 6925 7750 6925
+$Comp
+L Device:D D98
+U 1 1 622800AC
+P 10750 6725
+AR Path="/62F5643B/622800AC" Ref="D98"  Part="1" 
+AR Path="/63013830/622800AC" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/622800AC" Ref="D?"  Part="1" 
+F 0 "D98" V 10796 6645 50  0000 R CNN
+F 1 "D" V 10705 6645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 10750 6725 50  0001 C CNN
+F 3 "~" H 10750 6725 50  0001 C CNN
+	1    10750 6725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D92
+U 1 1 622800A6
+P 10000 6725
+AR Path="/62F5643B/622800A6" Ref="D92"  Part="1" 
+AR Path="/63013830/622800A6" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/622800A6" Ref="D?"  Part="1" 
+F 0 "D92" V 10046 6645 50  0000 R CNN
+F 1 "D" V 9955 6645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 10000 6725 50  0001 C CNN
+F 3 "~" H 10000 6725 50  0001 C CNN
+	1    10000 6725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D86
+U 1 1 622800A0
+P 9250 6725
+AR Path="/62F5643B/622800A0" Ref="D86"  Part="1" 
+AR Path="/63013830/622800A0" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/622800A0" Ref="D?"  Part="1" 
+F 0 "D86" V 9296 6645 50  0000 R CNN
+F 1 "D" V 9205 6645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 9250 6725 50  0001 C CNN
+F 3 "~" H 9250 6725 50  0001 C CNN
+	1    9250 6725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D80
+U 1 1 6228009A
+P 8500 6725
+AR Path="/62F5643B/6228009A" Ref="D80"  Part="1" 
+AR Path="/63013830/6228009A" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/6228009A" Ref="D?"  Part="1" 
+F 0 "D80" V 8546 6645 50  0000 R CNN
+F 1 "D" V 8455 6645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 8500 6725 50  0001 C CNN
+F 3 "~" H 8500 6725 50  0001 C CNN
+	1    8500 6725
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11225 6500 11300 6500
+Wire Wire Line
+	10475 6500 10550 6500
+Wire Wire Line
+	9725 6500 9800 6500
+Wire Wire Line
+	8975 6500 9050 6500
+Connection ~ 10000 6925
+Connection ~ 9250 6925
+Wire Wire Line
+	10000 6925 9250 6925
+Wire Wire Line
+	10000 6925 10000 6875
+Wire Wire Line
+	10750 6925 10000 6925
+Wire Wire Line
+	10750 6875 10750 6925
+Wire Wire Line
+	10750 6500 10825 6500
+Wire Wire Line
+	10750 6575 10750 6500
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 62280088
+P 11025 6500
+AR Path="/62280088" Ref="SW?"  Part="1" 
+AR Path="/60D44364/62280088" Ref="SW?"  Part="1" 
+AR Path="/61150193/62280088" Ref="SW?"  Part="1" 
+AR Path="/6123418A/62280088" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/62280088" Ref="SW68"  Part="1" 
+AR Path="/63013830/62280088" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/62280088" Ref="SW?"  Part="1" 
+F 0 "SW68" H 11025 6785 50  0000 C CNN
+F 1 "K73" H 11025 6694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 11025 6525 50  0001 C CNN
+F 3 "" H 11025 6525 50  0001 C CNN
+	1    11025 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10000 6500 10075 6500
+Wire Wire Line
+	10000 6575 10000 6500
+Wire Wire Line
+	8500 6925 8500 6875
+Wire Wire Line
+	9250 6925 8500 6925
+Wire Wire Line
+	9250 6875 9250 6925
+Wire Wire Line
+	9250 6500 9325 6500
+Wire Wire Line
+	9250 6575 9250 6500
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 6228007B
+P 9525 6500
+AR Path="/6228007B" Ref="SW?"  Part="1" 
+AR Path="/60D44364/6228007B" Ref="SW?"  Part="1" 
+AR Path="/61150193/6228007B" Ref="SW?"  Part="1" 
+AR Path="/6123418A/6228007B" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/6228007B" Ref="SW56"  Part="1" 
+AR Path="/63013830/6228007B" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/6228007B" Ref="SW?"  Part="1" 
+F 0 "SW56" H 9525 6785 50  0000 C CNN
+F 1 "K71" H 9525 6694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 9525 6525 50  0001 C CNN
+F 3 "" H 9525 6525 50  0001 C CNN
+	1    9525 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 6500 8575 6500
+Wire Wire Line
+	8500 6575 8500 6500
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 62280073
+P 8775 6500
+AR Path="/62280073" Ref="SW?"  Part="1" 
+AR Path="/60D44364/62280073" Ref="SW?"  Part="1" 
+AR Path="/61150193/62280073" Ref="SW?"  Part="1" 
+AR Path="/6123418A/62280073" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/62280073" Ref="SW50"  Part="1" 
+AR Path="/63013830/62280073" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/62280073" Ref="SW?"  Part="1" 
+F 0 "SW50" H 8775 6785 50  0000 C CNN
+F 1 "K70" H 8775 6694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 8775 6525 50  0001 C CNN
+F 3 "" H 8775 6525 50  0001 C CNN
+	1    8775 6500
+	1    0    0    -1  
+$EndComp
+Connection ~ 4750 6925
+$Comp
+L Device:D D75
+U 1 1 6228006C
+P 7750 6725
+AR Path="/62F5643B/6228006C" Ref="D75"  Part="1" 
+AR Path="/63013830/6228006C" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/6228006C" Ref="D?"  Part="1" 
+F 0 "D75" V 7796 6645 50  0000 R CNN
+F 1 "D" V 7705 6645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 7750 6725 50  0001 C CNN
+F 3 "~" H 7750 6725 50  0001 C CNN
+	1    7750 6725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D69
+U 1 1 62280066
+P 7000 6725
+AR Path="/62F5643B/62280066" Ref="D69"  Part="1" 
+AR Path="/63013830/62280066" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/62280066" Ref="D?"  Part="1" 
+F 0 "D69" V 7046 6645 50  0000 R CNN
+F 1 "D" V 6955 6645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 7000 6725 50  0001 C CNN
+F 3 "~" H 7000 6725 50  0001 C CNN
+	1    7000 6725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D64
+U 1 1 62280060
+P 6250 6725
+AR Path="/62F5643B/62280060" Ref="D64"  Part="1" 
+AR Path="/63013830/62280060" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/62280060" Ref="D?"  Part="1" 
+F 0 "D64" V 6296 6645 50  0000 R CNN
+F 1 "D" V 6205 6645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 6250 6725 50  0001 C CNN
+F 3 "~" H 6250 6725 50  0001 C CNN
+	1    6250 6725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D58
+U 1 1 6228005A
+P 5500 6725
+AR Path="/62F5643B/6228005A" Ref="D58"  Part="1" 
+AR Path="/63013830/6228005A" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/6228005A" Ref="D?"  Part="1" 
+F 0 "D58" V 5546 6645 50  0000 R CNN
+F 1 "D" V 5455 6645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 5500 6725 50  0001 C CNN
+F 3 "~" H 5500 6725 50  0001 C CNN
+	1    5500 6725
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8225 6500 8300 6500
+Wire Wire Line
+	7475 6500 7550 6500
+Wire Wire Line
+	6725 6500 6800 6500
+Wire Wire Line
+	5975 6500 6050 6500
+Connection ~ 7000 6925
+Connection ~ 6250 6925
+Connection ~ 5500 6925
+Wire Wire Line
+	7000 6925 6250 6925
+Wire Wire Line
+	7000 6925 7000 6875
+Wire Wire Line
+	7750 6925 7000 6925
+Wire Wire Line
+	7750 6875 7750 6925
+Wire Wire Line
+	7750 6500 7825 6500
+Wire Wire Line
+	7750 6575 7750 6500
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 62280047
+P 8025 6500
+AR Path="/62280047" Ref="SW?"  Part="1" 
+AR Path="/60D44364/62280047" Ref="SW?"  Part="1" 
+AR Path="/61150193/62280047" Ref="SW?"  Part="1" 
+AR Path="/6123418A/62280047" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/62280047" Ref="SW45"  Part="1" 
+AR Path="/63013830/62280047" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/62280047" Ref="SW?"  Part="1" 
+F 0 "SW45" H 8025 6785 50  0000 C CNN
+F 1 "K69" H 8025 6694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 8025 6525 50  0001 C CNN
+F 3 "" H 8025 6525 50  0001 C CNN
+	1    8025 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 6500 7075 6500
+Wire Wire Line
+	7000 6575 7000 6500
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 6228003F
+P 7275 6500
+AR Path="/6228003F" Ref="SW?"  Part="1" 
+AR Path="/60D44364/6228003F" Ref="SW?"  Part="1" 
+AR Path="/61150193/6228003F" Ref="SW?"  Part="1" 
+AR Path="/6123418A/6228003F" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/6228003F" Ref="SW39"  Part="1" 
+AR Path="/63013830/6228003F" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/6228003F" Ref="SW?"  Part="1" 
+F 0 "SW39" H 7275 6785 50  0000 C CNN
+F 1 "K68" H 7275 6694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 7275 6525 50  0001 C CNN
+F 3 "" H 7275 6525 50  0001 C CNN
+	1    7275 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 6925 4750 6925
+Wire Wire Line
+	5500 6925 5500 6875
+Wire Wire Line
+	6250 6925 5500 6925
+Wire Wire Line
+	6250 6875 6250 6925
+Wire Wire Line
+	6250 6500 6325 6500
+Wire Wire Line
+	6250 6575 6250 6500
+Wire Wire Line
+	5500 6500 5575 6500
+Wire Wire Line
+	5500 6575 5500 6500
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 62280031
+P 5775 6500
+AR Path="/62280031" Ref="SW?"  Part="1" 
+AR Path="/60D44364/62280031" Ref="SW?"  Part="1" 
+AR Path="/61150193/62280031" Ref="SW?"  Part="1" 
+AR Path="/6123418A/62280031" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/62280031" Ref="SW28"  Part="1" 
+AR Path="/63013830/62280031" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/62280031" Ref="SW?"  Part="1" 
+F 0 "SW28" H 5775 6785 50  0000 C CNN
+F 1 "K66" H 5775 6694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 5775 6525 50  0001 C CNN
+F 3 "" H 5775 6525 50  0001 C CNN
+	1    5775 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D53
+U 1 1 6228002B
+P 4750 6725
+AR Path="/62F5643B/6228002B" Ref="D53"  Part="1" 
+AR Path="/63013830/6228002B" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/6228002B" Ref="D?"  Part="1" 
+F 0 "D53" V 4796 6645 50  0000 R CNN
+F 1 "D" V 4705 6645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 4750 6725 50  0001 C CNN
+F 3 "~" H 4750 6725 50  0001 C CNN
+	1    4750 6725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D47
+U 1 1 62280025
+P 4000 6725
+AR Path="/62F5643B/62280025" Ref="D47"  Part="1" 
+AR Path="/63013830/62280025" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/62280025" Ref="D?"  Part="1" 
+F 0 "D47" V 4046 6645 50  0000 R CNN
+F 1 "D" V 3955 6645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 4000 6725 50  0001 C CNN
+F 3 "~" H 4000 6725 50  0001 C CNN
+	1    4000 6725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D42
+U 1 1 6228001F
+P 3250 6725
+AR Path="/62F5643B/6228001F" Ref="D42"  Part="1" 
+AR Path="/63013830/6228001F" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/6228001F" Ref="D?"  Part="1" 
+F 0 "D42" V 3296 6645 50  0000 R CNN
+F 1 "D" V 3205 6645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 3250 6725 50  0001 C CNN
+F 3 "~" H 3250 6725 50  0001 C CNN
+	1    3250 6725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D36
+U 1 1 62280019
+P 2500 6725
+AR Path="/62F5643B/62280019" Ref="D36"  Part="1" 
+AR Path="/63013830/62280019" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/62280019" Ref="D?"  Part="1" 
+F 0 "D36" V 2546 6645 50  0000 R CNN
+F 1 "D" V 2455 6645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 2500 6725 50  0001 C CNN
+F 3 "~" H 2500 6725 50  0001 C CNN
+	1    2500 6725
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5225 6500 5300 6500
+Wire Wire Line
+	4475 6500 4550 6500
+Wire Wire Line
+	3725 6500 3800 6500
+Wire Wire Line
+	2975 6500 3050 6500
+Connection ~ 4000 6925
+Connection ~ 3250 6925
+Wire Wire Line
+	4000 6925 3250 6925
+Wire Wire Line
+	4000 6925 4000 6875
+Wire Wire Line
+	4750 6925 4000 6925
+Wire Wire Line
+	4750 6875 4750 6925
+Wire Wire Line
+	4750 6500 4825 6500
+Wire Wire Line
+	4750 6575 4750 6500
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 62280007
+P 5025 6500
+AR Path="/62280007" Ref="SW?"  Part="1" 
+AR Path="/60D44364/62280007" Ref="SW?"  Part="1" 
+AR Path="/61150193/62280007" Ref="SW?"  Part="1" 
+AR Path="/6123418A/62280007" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/62280007" Ref="SW23"  Part="1" 
+AR Path="/63013830/62280007" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/62280007" Ref="SW?"  Part="1" 
+F 0 "SW23" H 5025 6785 50  0000 C CNN
+F 1 "K65" H 5025 6694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 5025 6525 50  0001 C CNN
+F 3 "" H 5025 6525 50  0001 C CNN
+	1    5025 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 6500 4075 6500
+Wire Wire Line
+	4000 6575 4000 6500
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 6227FFFF
+P 4275 6500
+AR Path="/6227FFFF" Ref="SW?"  Part="1" 
+AR Path="/60D44364/6227FFFF" Ref="SW?"  Part="1" 
+AR Path="/61150193/6227FFFF" Ref="SW?"  Part="1" 
+AR Path="/6123418A/6227FFFF" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/6227FFFF" Ref="SW17"  Part="1" 
+AR Path="/63013830/6227FFFF" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/6227FFFF" Ref="SW?"  Part="1" 
+F 0 "SW17" H 4275 6785 50  0000 C CNN
+F 1 "K64" H 4275 6694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 4275 6525 50  0001 C CNN
+F 3 "" H 4275 6525 50  0001 C CNN
+	1    4275 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 6925 2500 6875
+Wire Wire Line
+	3250 6925 2500 6925
+Wire Wire Line
+	3250 6875 3250 6925
+Wire Wire Line
+	3250 6500 3325 6500
+Wire Wire Line
+	3250 6575 3250 6500
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 6227FFF4
+P 3525 6500
+AR Path="/6227FFF4" Ref="SW?"  Part="1" 
+AR Path="/60D44364/6227FFF4" Ref="SW?"  Part="1" 
+AR Path="/61150193/6227FFF4" Ref="SW?"  Part="1" 
+AR Path="/6123418A/6227FFF4" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/6227FFF4" Ref="SW12"  Part="1" 
+AR Path="/63013830/6227FFF4" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/6227FFF4" Ref="SW?"  Part="1" 
+F 0 "SW12" H 3525 6785 50  0000 C CNN
+F 1 "K63" H 3525 6694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 3525 6525 50  0001 C CNN
+F 3 "" H 3525 6525 50  0001 C CNN
+	1    3525 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 6500 2575 6500
+Wire Wire Line
+	2500 6575 2500 6500
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 6227FFEC
+P 2775 6500
+AR Path="/6227FFEC" Ref="SW?"  Part="1" 
+AR Path="/60D44364/6227FFEC" Ref="SW?"  Part="1" 
+AR Path="/61150193/6227FFEC" Ref="SW?"  Part="1" 
+AR Path="/6123418A/6227FFEC" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/6227FFEC" Ref="SW6"  Part="1" 
+AR Path="/63013830/6227FFEC" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/6227FFEC" Ref="SW?"  Part="1" 
+F 0 "SW6" H 2775 6785 50  0000 C CNN
+F 1 "K62" H 2775 6694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 2775 6525 50  0001 C CNN
+F 3 "" H 2775 6525 50  0001 C CNN
+	1    2775 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 6227FFE0
+P 10275 5500
+AR Path="/6227FFE0" Ref="SW?"  Part="1" 
+AR Path="/60D44364/6227FFE0" Ref="SW?"  Part="1" 
+AR Path="/61150193/6227FFE0" Ref="SW?"  Part="1" 
+AR Path="/6123418A/6227FFE0" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/6227FFE0" Ref="SW61"  Part="1" 
+AR Path="/63013830/6227FFE0" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/6227FFE0" Ref="SW?"  Part="1" 
+F 0 "SW61" H 10275 5785 50  0000 C CNN
+F 1 "K58" H 10275 5694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 10275 5525 50  0001 C CNN
+F 3 "" H 10275 5525 50  0001 C CNN
+	1    10275 5500
+	1    0    0    -1  
+$EndComp
+Connection ~ 10750 5925
+Connection ~ 11500 5925
+Wire Wire Line
+	11500 5925 10750 5925
+$Comp
+L Device:D D109
+U 1 1 6227FFCB
+P 12250 5725
+AR Path="/62F5643B/6227FFCB" Ref="D109"  Part="1" 
+AR Path="/63013830/6227FFCB" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/6227FFCB" Ref="D?"  Part="1" 
+F 0 "D109" V 12296 5645 50  0000 R CNN
+F 1 "D" V 12205 5645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 12250 5725 50  0001 C CNN
+F 3 "~" H 12250 5725 50  0001 C CNN
+	1    12250 5725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D103
+U 1 1 6227FFC5
+P 11500 5725
+AR Path="/62F5643B/6227FFC5" Ref="D103"  Part="1" 
+AR Path="/63013830/6227FFC5" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/6227FFC5" Ref="D?"  Part="1" 
+F 0 "D103" V 11546 5645 50  0000 R CNN
+F 1 "D" V 11455 5645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 11500 5725 50  0001 C CNN
+F 3 "~" H 11500 5725 50  0001 C CNN
+	1    11500 5725
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12725 5500 12800 5500
+Wire Wire Line
+	11975 5500 12050 5500
+Wire Wire Line
+	11500 5925 11500 5875
+Wire Wire Line
+	12250 5925 11500 5925
+Wire Wire Line
+	12250 5875 12250 5925
+Wire Wire Line
+	12250 5500 12325 5500
+Wire Wire Line
+	12250 5575 12250 5500
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 6227FFA6
+P 12525 5500
+AR Path="/6227FFA6" Ref="SW?"  Part="1" 
+AR Path="/60D44364/6227FFA6" Ref="SW?"  Part="1" 
+AR Path="/61150193/6227FFA6" Ref="SW?"  Part="1" 
+AR Path="/6123418A/6227FFA6" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/6227FFA6" Ref="SW79"  Part="1" 
+AR Path="/63013830/6227FFA6" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/6227FFA6" Ref="SW?"  Part="1" 
+F 0 "SW79" H 12525 5785 50  0000 C CNN
+F 1 "K61" H 12525 5694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 12525 5525 50  0001 C CNN
+F 3 "" H 12525 5525 50  0001 C CNN
+	1    12525 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11500 5500 11575 5500
+Wire Wire Line
+	11500 5575 11500 5500
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 6227FF9E
+P 11775 5500
+AR Path="/6227FF9E" Ref="SW?"  Part="1" 
+AR Path="/60D44364/6227FF9E" Ref="SW?"  Part="1" 
+AR Path="/61150193/6227FF9E" Ref="SW?"  Part="1" 
+AR Path="/6123418A/6227FF9E" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/6227FF9E" Ref="SW73"  Part="1" 
+AR Path="/63013830/6227FF9E" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/6227FF9E" Ref="SW?"  Part="1" 
+F 0 "SW73" H 11775 5785 50  0000 C CNN
+F 1 "K60" H 11775 5694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 11775 5525 50  0001 C CNN
+F 3 "" H 11775 5525 50  0001 C CNN
+	1    11775 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 6227FF98
+P 6525 5500
+AR Path="/6227FF98" Ref="SW?"  Part="1" 
+AR Path="/60D44364/6227FF98" Ref="SW?"  Part="1" 
+AR Path="/61150193/6227FF98" Ref="SW?"  Part="1" 
+AR Path="/6123418A/6227FF98" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/6227FF98" Ref="SW33"  Part="1" 
+AR Path="/63013830/6227FF98" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/6227FF98" Ref="SW?"  Part="1" 
+F 0 "SW33" H 6525 5785 50  0000 C CNN
+F 1 "K53" H 6525 5694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 6525 5525 50  0001 C CNN
+F 3 "" H 6525 5525 50  0001 C CNN
+	1    6525 5500
+	1    0    0    -1  
+$EndComp
+Connection ~ 7750 5925
+Connection ~ 8500 5925
+Wire Wire Line
+	8500 5925 7750 5925
+$Comp
+L Device:D D97
+U 1 1 6227FF8F
+P 10750 5725
+AR Path="/62F5643B/6227FF8F" Ref="D97"  Part="1" 
+AR Path="/63013830/6227FF8F" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/6227FF8F" Ref="D?"  Part="1" 
+F 0 "D97" V 10796 5645 50  0000 R CNN
+F 1 "D" V 10705 5645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 10750 5725 50  0001 C CNN
+F 3 "~" H 10750 5725 50  0001 C CNN
+	1    10750 5725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D91
+U 1 1 6227FF89
+P 10000 5725
+AR Path="/62F5643B/6227FF89" Ref="D91"  Part="1" 
+AR Path="/63013830/6227FF89" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/6227FF89" Ref="D?"  Part="1" 
+F 0 "D91" V 10046 5645 50  0000 R CNN
+F 1 "D" V 9955 5645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 10000 5725 50  0001 C CNN
+F 3 "~" H 10000 5725 50  0001 C CNN
+	1    10000 5725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D85
+U 1 1 6227FF83
+P 9250 5725
+AR Path="/62F5643B/6227FF83" Ref="D85"  Part="1" 
+AR Path="/63013830/6227FF83" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/6227FF83" Ref="D?"  Part="1" 
+F 0 "D85" V 9296 5645 50  0000 R CNN
+F 1 "D" V 9205 5645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 9250 5725 50  0001 C CNN
+F 3 "~" H 9250 5725 50  0001 C CNN
+	1    9250 5725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D79
+U 1 1 6227FF7D
+P 8500 5725
+AR Path="/62F5643B/6227FF7D" Ref="D79"  Part="1" 
+AR Path="/63013830/6227FF7D" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/6227FF7D" Ref="D?"  Part="1" 
+F 0 "D79" V 8546 5645 50  0000 R CNN
+F 1 "D" V 8455 5645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 8500 5725 50  0001 C CNN
+F 3 "~" H 8500 5725 50  0001 C CNN
+	1    8500 5725
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11225 5500 11300 5500
+Wire Wire Line
+	10475 5500 10550 5500
+Wire Wire Line
+	9725 5500 9800 5500
+Wire Wire Line
+	8975 5500 9050 5500
+Connection ~ 10000 5925
+Connection ~ 9250 5925
+Wire Wire Line
+	10000 5925 9250 5925
+Wire Wire Line
+	10000 5925 10000 5875
+Wire Wire Line
+	10750 5925 10000 5925
+Wire Wire Line
+	10750 5875 10750 5925
+Wire Wire Line
+	10750 5500 10825 5500
+Wire Wire Line
+	10750 5575 10750 5500
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 6227FF6B
+P 11025 5500
+AR Path="/6227FF6B" Ref="SW?"  Part="1" 
+AR Path="/60D44364/6227FF6B" Ref="SW?"  Part="1" 
+AR Path="/61150193/6227FF6B" Ref="SW?"  Part="1" 
+AR Path="/6123418A/6227FF6B" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/6227FF6B" Ref="SW67"  Part="1" 
+AR Path="/63013830/6227FF6B" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/6227FF6B" Ref="SW?"  Part="1" 
+F 0 "SW67" H 11025 5785 50  0000 C CNN
+F 1 "K59" H 11025 5694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 11025 5525 50  0001 C CNN
+F 3 "" H 11025 5525 50  0001 C CNN
+	1    11025 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10000 5500 10075 5500
+Wire Wire Line
+	10000 5575 10000 5500
+Wire Wire Line
+	8500 5925 8500 5875
+Wire Wire Line
+	9250 5925 8500 5925
+Wire Wire Line
+	9250 5875 9250 5925
+Wire Wire Line
+	9250 5500 9325 5500
+Wire Wire Line
+	9250 5575 9250 5500
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 6227FF5E
+P 9525 5500
+AR Path="/6227FF5E" Ref="SW?"  Part="1" 
+AR Path="/60D44364/6227FF5E" Ref="SW?"  Part="1" 
+AR Path="/61150193/6227FF5E" Ref="SW?"  Part="1" 
+AR Path="/6123418A/6227FF5E" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/6227FF5E" Ref="SW55"  Part="1" 
+AR Path="/63013830/6227FF5E" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/6227FF5E" Ref="SW?"  Part="1" 
+F 0 "SW55" H 9525 5785 50  0000 C CNN
+F 1 "K57" H 9525 5694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 9525 5525 50  0001 C CNN
+F 3 "" H 9525 5525 50  0001 C CNN
+	1    9525 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 5500 8575 5500
+Wire Wire Line
+	8500 5575 8500 5500
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 6227FF56
+P 8775 5500
+AR Path="/6227FF56" Ref="SW?"  Part="1" 
+AR Path="/60D44364/6227FF56" Ref="SW?"  Part="1" 
+AR Path="/61150193/6227FF56" Ref="SW?"  Part="1" 
+AR Path="/6123418A/6227FF56" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/6227FF56" Ref="SW49"  Part="1" 
+AR Path="/63013830/6227FF56" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/6227FF56" Ref="SW?"  Part="1" 
+F 0 "SW49" H 8775 5785 50  0000 C CNN
+F 1 "K56" H 8775 5694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 8775 5525 50  0001 C CNN
+F 3 "" H 8775 5525 50  0001 C CNN
+	1    8775 5500
+	1    0    0    -1  
+$EndComp
+Connection ~ 4750 5925
+$Comp
+L Device:D D74
+U 1 1 6227FF4F
+P 7750 5725
+AR Path="/62F5643B/6227FF4F" Ref="D74"  Part="1" 
+AR Path="/63013830/6227FF4F" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/6227FF4F" Ref="D?"  Part="1" 
+F 0 "D74" V 7796 5645 50  0000 R CNN
+F 1 "D" V 7705 5645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 7750 5725 50  0001 C CNN
+F 3 "~" H 7750 5725 50  0001 C CNN
+	1    7750 5725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D68
+U 1 1 6227FF49
+P 7000 5725
+AR Path="/62F5643B/6227FF49" Ref="D68"  Part="1" 
+AR Path="/63013830/6227FF49" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/6227FF49" Ref="D?"  Part="1" 
+F 0 "D68" V 7046 5645 50  0000 R CNN
+F 1 "D" V 6955 5645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 7000 5725 50  0001 C CNN
+F 3 "~" H 7000 5725 50  0001 C CNN
+	1    7000 5725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D63
+U 1 1 6227FF43
+P 6250 5725
+AR Path="/62F5643B/6227FF43" Ref="D63"  Part="1" 
+AR Path="/63013830/6227FF43" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/6227FF43" Ref="D?"  Part="1" 
+F 0 "D63" V 6296 5645 50  0000 R CNN
+F 1 "D" V 6205 5645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 6250 5725 50  0001 C CNN
+F 3 "~" H 6250 5725 50  0001 C CNN
+	1    6250 5725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D57
+U 1 1 6227FF3D
+P 5500 5725
+AR Path="/62F5643B/6227FF3D" Ref="D57"  Part="1" 
+AR Path="/63013830/6227FF3D" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/6227FF3D" Ref="D?"  Part="1" 
+F 0 "D57" V 5546 5645 50  0000 R CNN
+F 1 "D" V 5455 5645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 5500 5725 50  0001 C CNN
+F 3 "~" H 5500 5725 50  0001 C CNN
+	1    5500 5725
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8225 5500 8300 5500
+Wire Wire Line
+	7475 5500 7550 5500
+Wire Wire Line
+	6725 5500 6800 5500
+Wire Wire Line
+	5975 5500 6050 5500
+Connection ~ 7000 5925
+Connection ~ 6250 5925
+Connection ~ 5500 5925
+Wire Wire Line
+	7000 5925 6250 5925
+Wire Wire Line
+	7000 5925 7000 5875
+Wire Wire Line
+	7750 5925 7000 5925
+Wire Wire Line
+	7750 5875 7750 5925
+Wire Wire Line
+	7750 5500 7825 5500
+Wire Wire Line
+	7750 5575 7750 5500
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 6227FF2A
+P 8025 5500
+AR Path="/6227FF2A" Ref="SW?"  Part="1" 
+AR Path="/60D44364/6227FF2A" Ref="SW?"  Part="1" 
+AR Path="/61150193/6227FF2A" Ref="SW?"  Part="1" 
+AR Path="/6123418A/6227FF2A" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/6227FF2A" Ref="SW44"  Part="1" 
+AR Path="/63013830/6227FF2A" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/6227FF2A" Ref="SW?"  Part="1" 
+F 0 "SW44" H 8025 5785 50  0000 C CNN
+F 1 "K55" H 8025 5694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 8025 5525 50  0001 C CNN
+F 3 "" H 8025 5525 50  0001 C CNN
+	1    8025 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 5500 7075 5500
+Wire Wire Line
+	7000 5575 7000 5500
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 6227FF22
+P 7275 5500
+AR Path="/6227FF22" Ref="SW?"  Part="1" 
+AR Path="/60D44364/6227FF22" Ref="SW?"  Part="1" 
+AR Path="/61150193/6227FF22" Ref="SW?"  Part="1" 
+AR Path="/6123418A/6227FF22" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/6227FF22" Ref="SW38"  Part="1" 
+AR Path="/63013830/6227FF22" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/6227FF22" Ref="SW?"  Part="1" 
+F 0 "SW38" H 7275 5785 50  0000 C CNN
+F 1 "K54" H 7275 5694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 7275 5525 50  0001 C CNN
+F 3 "" H 7275 5525 50  0001 C CNN
+	1    7275 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 5925 4750 5925
+Wire Wire Line
+	5500 5925 5500 5875
+Wire Wire Line
+	6250 5925 5500 5925
+Wire Wire Line
+	6250 5875 6250 5925
+Wire Wire Line
+	6250 5500 6325 5500
+Wire Wire Line
+	6250 5575 6250 5500
+Wire Wire Line
+	5500 5500 5575 5500
+Wire Wire Line
+	5500 5575 5500 5500
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 6227FF14
+P 5775 5500
+AR Path="/6227FF14" Ref="SW?"  Part="1" 
+AR Path="/60D44364/6227FF14" Ref="SW?"  Part="1" 
+AR Path="/61150193/6227FF14" Ref="SW?"  Part="1" 
+AR Path="/6123418A/6227FF14" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/6227FF14" Ref="SW27"  Part="1" 
+AR Path="/63013830/6227FF14" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/6227FF14" Ref="SW?"  Part="1" 
+F 0 "SW27" H 5775 5785 50  0000 C CNN
+F 1 "K52" H 5775 5694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 5775 5525 50  0001 C CNN
+F 3 "" H 5775 5525 50  0001 C CNN
+	1    5775 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D52
+U 1 1 6227FF0E
+P 4750 5725
+AR Path="/62F5643B/6227FF0E" Ref="D52"  Part="1" 
+AR Path="/63013830/6227FF0E" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/6227FF0E" Ref="D?"  Part="1" 
+F 0 "D52" V 4796 5645 50  0000 R CNN
+F 1 "D" V 4705 5645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 4750 5725 50  0001 C CNN
+F 3 "~" H 4750 5725 50  0001 C CNN
+	1    4750 5725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D46
+U 1 1 6227FF08
+P 4000 5725
+AR Path="/62F5643B/6227FF08" Ref="D46"  Part="1" 
+AR Path="/63013830/6227FF08" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/6227FF08" Ref="D?"  Part="1" 
+F 0 "D46" V 4046 5645 50  0000 R CNN
+F 1 "D" V 3955 5645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 4000 5725 50  0001 C CNN
+F 3 "~" H 4000 5725 50  0001 C CNN
+	1    4000 5725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D41
+U 1 1 6227FF02
+P 3250 5725
+AR Path="/62F5643B/6227FF02" Ref="D41"  Part="1" 
+AR Path="/63013830/6227FF02" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/6227FF02" Ref="D?"  Part="1" 
+F 0 "D41" V 3296 5645 50  0000 R CNN
+F 1 "D" V 3205 5645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 3250 5725 50  0001 C CNN
+F 3 "~" H 3250 5725 50  0001 C CNN
+	1    3250 5725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D35
+U 1 1 6227FEFC
+P 2500 5725
+AR Path="/62F5643B/6227FEFC" Ref="D35"  Part="1" 
+AR Path="/63013830/6227FEFC" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/6227FEFC" Ref="D?"  Part="1" 
+F 0 "D35" V 2546 5645 50  0000 R CNN
+F 1 "D" V 2455 5645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 2500 5725 50  0001 C CNN
+F 3 "~" H 2500 5725 50  0001 C CNN
+	1    2500 5725
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5225 5500 5300 5500
+Wire Wire Line
+	4475 5500 4550 5500
+Wire Wire Line
+	2975 5500 3050 5500
+Connection ~ 4000 5925
+Connection ~ 3250 5925
+Wire Wire Line
+	4000 5925 3250 5925
+Wire Wire Line
+	4000 5925 4000 5875
+Wire Wire Line
+	4750 5925 4000 5925
+Wire Wire Line
+	4750 5875 4750 5925
+Wire Wire Line
+	4750 5500 4825 5500
+Wire Wire Line
+	4750 5575 4750 5500
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 6227FEEB
+P 5025 5500
+AR Path="/6227FEEB" Ref="SW?"  Part="1" 
+AR Path="/60D44364/6227FEEB" Ref="SW?"  Part="1" 
+AR Path="/61150193/6227FEEB" Ref="SW?"  Part="1" 
+AR Path="/6123418A/6227FEEB" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/6227FEEB" Ref="SW22"  Part="1" 
+AR Path="/63013830/6227FEEB" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/6227FEEB" Ref="SW?"  Part="1" 
+F 0 "SW22" H 5025 5785 50  0000 C CNN
+F 1 "K51" H 5025 5694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 5025 5525 50  0001 C CNN
+F 3 "" H 5025 5525 50  0001 C CNN
+	1    5025 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 5500 4075 5500
+Wire Wire Line
+	4000 5575 4000 5500
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 6227FEE3
+P 4275 5500
+AR Path="/6227FEE3" Ref="SW?"  Part="1" 
+AR Path="/60D44364/6227FEE3" Ref="SW?"  Part="1" 
+AR Path="/61150193/6227FEE3" Ref="SW?"  Part="1" 
+AR Path="/6123418A/6227FEE3" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/6227FEE3" Ref="SW16"  Part="1" 
+AR Path="/63013830/6227FEE3" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/6227FEE3" Ref="SW?"  Part="1" 
+F 0 "SW16" H 4275 5785 50  0000 C CNN
+F 1 "K50" H 4275 5694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 4275 5525 50  0001 C CNN
+F 3 "" H 4275 5525 50  0001 C CNN
+	1    4275 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 5925 2500 5875
+Wire Wire Line
+	3250 5925 2500 5925
+Wire Wire Line
+	3250 5875 3250 5925
+Wire Wire Line
+	3250 5500 3325 5500
+Wire Wire Line
+	3250 5575 3250 5500
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 6227FED8
+P 3525 5500
+AR Path="/6227FED8" Ref="SW?"  Part="1" 
+AR Path="/60D44364/6227FED8" Ref="SW?"  Part="1" 
+AR Path="/61150193/6227FED8" Ref="SW?"  Part="1" 
+AR Path="/6123418A/6227FED8" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/6227FED8" Ref="SW11"  Part="1" 
+AR Path="/63013830/6227FED8" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/6227FED8" Ref="SW?"  Part="1" 
+F 0 "SW11" H 3525 5785 50  0000 C CNN
+F 1 "K49" H 3525 5694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 3525 5525 50  0001 C CNN
+F 3 "" H 3525 5525 50  0001 C CNN
+	1    3525 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 5500 2575 5500
+Wire Wire Line
+	2500 5575 2500 5500
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 6227FED0
+P 2775 5500
+AR Path="/6227FED0" Ref="SW?"  Part="1" 
+AR Path="/60D44364/6227FED0" Ref="SW?"  Part="1" 
+AR Path="/61150193/6227FED0" Ref="SW?"  Part="1" 
+AR Path="/6123418A/6227FED0" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/6227FED0" Ref="SW5"  Part="1" 
+AR Path="/63013830/6227FED0" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/6227FED0" Ref="SW?"  Part="1" 
+F 0 "SW5" H 2775 5785 50  0000 C CNN
+F 1 "K48" H 2775 5694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 2775 5525 50  0001 C CNN
+F 3 "" H 2775 5525 50  0001 C CNN
+	1    2775 5500
+	1    0    0    -1  
+$EndComp
+Connection ~ 3050 5500
+Connection ~ 3800 5500
+Connection ~ 4550 5500
+Connection ~ 5300 5500
+Connection ~ 6050 5500
+Connection ~ 6800 5500
+Connection ~ 7550 5500
+Connection ~ 8300 5500
+Connection ~ 9050 5500
+Connection ~ 9800 5500
+Connection ~ 10550 5500
+Connection ~ 11300 5500
+Connection ~ 12050 5500
+Connection ~ 12800 5500
+Wire Wire Line
+	13550 4500 13550 6500
+Wire Wire Line
+	12800 5500 12800 7500
+Wire Wire Line
+	11500 6925 13000 6925
+Wire Wire Line
+	14300 4500 14300 7500
+Wire Wire Line
+	3800 6500 3800 8500
+Wire Wire Line
+	2500 7925 4000 7925
+Wire Wire Line
+	5300 6500 5300 8500
+Wire Wire Line
+	4000 7925 5500 7925
+Wire Wire Line
+	6800 6500 6800 8500
+Wire Wire Line
+	5500 7925 7000 7925
+Wire Wire Line
+	8300 6500 8300 8500
+Wire Wire Line
+	7000 7925 8500 7925
+Wire Wire Line
+	2500 2925 1750 2925
+Connection ~ 2500 2925
+Wire Wire Line
+	2500 3925 1750 3925
+Connection ~ 2500 3925
+Wire Wire Line
+	2500 4925 1750 4925
+Connection ~ 2500 4925
+Wire Wire Line
+	2500 4875 2500 4925
+Wire Wire Line
+	2500 5925 1750 5925
+Wire Wire Line
+	2500 6925 1750 6925
+Wire Wire Line
+	2500 7925 1750 7925
+Connection ~ 2500 5925
+Connection ~ 2500 6925
+Connection ~ 2500 7925
+Text HLabel 1750 3925 0    50   Output ~ 0
+ROW[1]
+Text HLabel 1750 4925 0    50   Output ~ 0
+ROW[2]
+Text HLabel 1750 5925 0    50   Output ~ 0
+ROW[3]
+Text HLabel 1750 6925 0    50   Output ~ 0
+ROW[4]
+Text HLabel 1750 7925 0    50   Output ~ 0
+ROW[5]
+Text HLabel 3050 8500 3    50   Input ~ 0
+COL[0]
+Text HLabel 1750 2925 0    50   Output ~ 0
+ROW[0]
+Text HLabel 3800 8500 3    50   Input ~ 0
+COL[1]
+Text HLabel 4550 8500 3    50   Input ~ 0
+COL[2]
+Text HLabel 5300 8500 3    50   Input ~ 0
+COL[3]
+Text HLabel 6050 8500 3    50   Input ~ 0
+COL[4]
+Text HLabel 6800 8500 3    50   Input ~ 0
+COL5]
+Text HLabel 7550 8500 3    50   Input ~ 0
+COL[6]
+Text HLabel 8300 8500 3    50   Input ~ 0
+COL[7]
+Text HLabel 9050 8500 3    50   Input ~ 0
+COL[8]
+Text HLabel 9800 8500 3    50   Input ~ 0
+COL[9]
+Text HLabel 10550 8500 3    50   Input ~ 0
+COL[10]
+Text HLabel 11300 8500 3    50   Input ~ 0
+COL[11]
+Text HLabel 12050 8500 3    50   Input ~ 0
+COL[12]
+Text HLabel 12800 8500 3    50   Input ~ 0
+COL[13]
+Text HLabel 13550 8500 3    50   Input ~ 0
+COL[14]
+Text HLabel 14300 8500 3    50   Input ~ 0
+COL[15]
+$EndSCHEMATC
