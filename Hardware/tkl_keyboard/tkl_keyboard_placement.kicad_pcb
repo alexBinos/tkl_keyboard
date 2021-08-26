@@ -738,7 +738,7 @@
     (add_net VBUS)
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 61281043)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 61281043)
     (at 325.4375 125.4125 180)
     (path /62FB59AD/66AC9B6A)
     (fp_text reference D193 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -769,7 +769,7 @@
       (net 4 +5V))
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 61277E16)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 61277E16)
     (at 325.4375 130.96875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -808,7 +808,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket_StabWireBottom:CherryMX_2.75u_PCB_KailhSocket_StabWireBottom locked (layer F.Cu) (tedit 5E866FEB) (tstamp 6128EAB7)
+  (module CherryMX_PCB_KailhSocket_StabWireBottom:CherryMX_2.75u_PCB_KailhSocket_StabWireBottom (layer F.Cu) (tedit 5E866FEB) (tstamp 6128EAB7)
     (at 283.36875 169.06875 180)
     (descr "Cherry MX switch footprint. Size: 2.75u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: PCB mounted (Wire Bottom), Lighting: none")
     (tags "CherryMX 2.75u PCB KailhSocket StabWireBottom")
@@ -851,7 +851,7 @@
     )
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 6127687E)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 6127687E)
     (at 333.375 127.775 270)
     (path /62F5643B/665408AB)
     (fp_text reference D192 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -5200,7 +5200,7 @@
       (net 10 "Net-(D2-Pad4)"))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 6125FC17)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 6125FC17)
     (at 33.3375 84.93125 180)
     (path /62FB59AD/623C765F)
     (fp_text reference D3 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -5231,7 +5231,7 @@
       (net 12 UG_OUT))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 6125FC2B)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 6125FC2B)
     (at 38.1 125.4125 180)
     (path /62FB59AD/61A4D0E6)
     (fp_text reference D4 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -5262,7 +5262,7 @@
       (net 4 +5V))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 6125FC3F)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 6125FC3F)
     (at 45.24375 163.5125)
     (path /62FB59AD/61FA785F)
     (fp_text reference D5 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -5293,7 +5293,7 @@
       (net 16 "Net-(D10-Pad2)"))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 6125FC53)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 6125FC53)
     (at 261.9375 106.3625)
     (path /62FB59AD/61E75662)
     (fp_text reference D6 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -5324,7 +5324,7 @@
       (net 18 "Net-(D12-Pad2)"))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 6125FC67)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 6125FC67)
     (at 33.3375 106.3625)
     (path /62FB59AD/61942A58)
     (fp_text reference D7 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -5386,7 +5386,7 @@
       (net 4 +5V))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 6125FC8F)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 6125FC8F)
     (at 61.9125 84.93125 180)
     (path /62FB59AD/623C768F)
     (fp_text reference D9 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -5417,7 +5417,7 @@
       (net 4 +5V))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 6125FCA3)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 6125FCA3)
     (at 40.48125 144.4625)
     (path /62FB59AD/61A4D381)
     (fp_text reference D10 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -5448,7 +5448,7 @@
       (net 22 "Net-(D10-Pad4)"))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 6125FCB7)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 6125FCB7)
     (at 35.71875 182.5625)
     (path /62FB59AD/61FA7AFA)
     (fp_text reference D11 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -5479,7 +5479,7 @@
       (net 24 "Net-(D11-Pad4)"))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 6125FCCB)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 6125FCCB)
     (at 290.5125 106.3625)
     (path /62FB59AD/61E75678)
     (fp_text reference D12 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -5510,7 +5510,7 @@
       (net 25 "Net-(D12-Pad4)"))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 6125FCDF)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 6125FCDF)
     (at 61.9125 125.4125 180)
     (path /62FB59AD/61A4D0E0)
     (fp_text reference D13 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -5603,7 +5603,7 @@
       (net 4 +5V))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 6125FD1B)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 6125FD1B)
     (at 80.9625 84.93125 180)
     (path /62FB59AD/623C7646)
     (fp_text reference D16 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -5634,7 +5634,7 @@
       (net 21 "Net-(D16-Pad4)"))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 6125FD2F)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 6125FD2F)
     (at 59.53125 182.5625)
     (path /62FB59AD/61FA7859)
     (fp_text reference D17 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -5665,7 +5665,7 @@
       (net 4 +5V))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 6125FD43)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 6125FD43)
     (at 52.3875 106.3625)
     (path /62FB59AD/61942A5E)
     (fp_text reference D18 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -5696,7 +5696,7 @@
       (net 32 "Net-(D18-Pad4)"))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 6125FD57)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 6125FD57)
     (at 344.4875 106.3625)
     (path /62FB59AD/61E756AA)
     (fp_text reference D19 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -5727,7 +5727,7 @@
       (net 4 +5V))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 6125FD6B)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 6125FD6B)
     (at 66.675 144.4625)
     (path /62FB59AD/61A4D387)
     (fp_text reference D20 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -5820,7 +5820,7 @@
       (net 29 "Net-(D15-Pad2)"))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 6125FDA7)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 6125FDA7)
     (at 100.0125 84.93125 180)
     (path /62FB59AD/623C7630)
     (fp_text reference D23 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -5851,7 +5851,7 @@
       (net 4 +5V))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 6125FDBB)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 6125FDBB)
     (at 80.9625 125.4125 180)
     (path /62FB59AD/61A4D0DA)
     (fp_text reference D24 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -5882,7 +5882,7 @@
       (net 4 +5V))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 6125FDCF)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 6125FDCF)
     (at 76.2 163.5125)
     (path /62FB59AD/61FA7853)
     (fp_text reference D25 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -5913,7 +5913,7 @@
       (net 31 "Net-(D17-Pad2)"))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 6125FDE3)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 6125FDE3)
     (at 363.5375 106.3625)
     (path /62FB59AD/61E75691)
     (fp_text reference D26 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -5944,7 +5944,7 @@
       (net 40 "Net-(D189-Pad2)"))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 6125FDF7)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 6125FDF7)
     (at 71.4375 106.3625)
     (path /62FB59AD/61942A64)
     (fp_text reference D27 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -6099,7 +6099,7 @@
       (net 4 +5V))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 6128FC2C)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 6128FC2C)
     (at 41.275 87.29375 270)
     (path /62F5643B/61805335)
     (fp_text reference D32 (at 1.24714 1.75768 270) (layer B.SilkS)
@@ -6131,7 +6131,7 @@
       (net 46 "Net-(D32-Pad2)"))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 6129135C)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 6129135C)
     (at 41.275 108.725 270)
     (path /62F5643B/618F709E)
     (fp_text reference D33 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -6163,7 +6163,7 @@
       (net 48 "Net-(D33-Pad2)"))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 6125FE8C)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 6125FE8C)
     (at 46.0375 127.775 270)
     (path /62F5643B/621F7738)
     (fp_text reference D34 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -6195,7 +6195,7 @@
       (net 50 /Switches/ROW[2]))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 6125FEA3)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 6125FEA3)
     (at 48.41875 146.825 270)
     (path /62F5643B/6227FEFC)
     (fp_text reference D35 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -6227,7 +6227,7 @@
       (net 52 /Switches/ROW[3]))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 6125FEBA)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 6125FEBA)
     (at 53.18125 165.875 270)
     (path /62F5643B/62280019)
     (fp_text reference D36 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -6259,7 +6259,7 @@
       (net 54 "Net-(D36-Pad2)"))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 61295223)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 61295223)
     (at 43.65625 184.925 270)
     (path /62F5643B/62280166)
     (fp_text reference D37 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -6291,7 +6291,7 @@
       (net 56 /Switches/ROW[5]))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 612904AA)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 612904AA)
     (at 69.85 87.29375 270)
     (path /62F5643B/6180533B)
     (fp_text reference D38 (at 1.24714 1.75768 270) (layer B.SilkS)
@@ -6323,7 +6323,7 @@
       (net 45 /Switches/ROW[0]))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 6125FEFF)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 6125FEFF)
     (at 60.325 108.725 270)
     (path /62F5643B/618F70A4)
     (fp_text reference D39 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -6355,7 +6355,7 @@
       (net 47 /Switches/ROW[1]))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 6125FF16)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 6125FF16)
     (at 69.85 127.775 270)
     (path /62F5643B/621F773E)
     (fp_text reference D40 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -6387,7 +6387,7 @@
       (net 59 "Net-(D40-Pad2)"))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 61292CDF)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 61292CDF)
     (at 74.6125 146.825 270)
     (path /62F5643B/6227FF02)
     (fp_text reference D41 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -6419,7 +6419,7 @@
       (net 52 /Switches/ROW[3]))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 6129488D)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 6129488D)
     (at 67.46875 184.925 270)
     (path /62F5643B/6228001F)
     (fp_text reference D42 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -6451,7 +6451,7 @@
       (net 53 /Switches/ROW[4]))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 6125FF5B)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 6125FF5B)
     (at 88.9 87.29375 270)
     (path /62F5643B/61805341)
     (fp_text reference D43 (at 1.24714 1.75768 270) (layer B.SilkS)
@@ -6483,7 +6483,7 @@
       (net 62 "Net-(D43-Pad2)"))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 61291003)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 61291003)
     (at 79.375 108.725 270)
     (path /62F5643B/618F70AA)
     (fp_text reference D44 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -6515,7 +6515,7 @@
       (net 63 "Net-(D44-Pad2)"))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 6125FF89)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 6125FF89)
     (at 88.9 127.775 270)
     (path /62F5643B/621F7744)
     (fp_text reference D45 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -6547,7 +6547,7 @@
       (net 50 /Switches/ROW[2]))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 61292D21)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 61292D21)
     (at 93.6625 146.825 270)
     (path /62F5643B/6227FF08)
     (fp_text reference D46 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -6579,7 +6579,7 @@
       (net 65 "Net-(D46-Pad2)"))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 6125FFB7)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 6125FFB7)
     (at 84.1375 165.875 270)
     (path /62F5643B/62280025)
     (fp_text reference D47 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -6611,7 +6611,7 @@
       (net 66 "Net-(D47-Pad2)"))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 612953EA)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 612953EA)
     (at 91.28125 184.925 270)
     (path /62F5643B/62280172)
     (fp_text reference D48 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -6643,7 +6643,7 @@
       (net 67 "Net-(D48-Pad2)"))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 61290683)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 61290683)
     (at 107.95 87.29375 270)
     (path /62F5643B/61805347)
     (fp_text reference D49 (at 1.24714 1.75768 270) (layer B.SilkS)
@@ -6675,7 +6675,7 @@
       (net 45 /Switches/ROW[0]))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 61290EF7)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 61290EF7)
     (at 98.425 108.725 270)
     (path /62F5643B/618F70B0)
     (fp_text reference D50 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -6707,7 +6707,7 @@
       (net 47 /Switches/ROW[1]))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 61260013)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 61260013)
     (at 107.95 127.775 270)
     (path /62F5643B/621F774A)
     (fp_text reference D51 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -6739,7 +6739,7 @@
       (net 70 "Net-(D51-Pad2)"))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 6126002A)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 6126002A)
     (at 112.7125 146.825 270)
     (path /62F5643B/6227FF0E)
     (fp_text reference D52 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -6771,7 +6771,7 @@
       (net 71 "Net-(D52-Pad2)"))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 61292C5B)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 61292C5B)
     (at 103.1875 165.875 270)
     (path /62F5643B/6228002B)
     (fp_text reference D53 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -6803,7 +6803,7 @@
       (net 53 /Switches/ROW[4]))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 6129032E)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 6129032E)
     (at 127 87.29375 270)
     (path /62F5643B/6180537A)
     (fp_text reference D54 (at 1.24714 1.75768 270) (layer B.SilkS)
@@ -6835,7 +6835,7 @@
       (net 73 "Net-(D54-Pad2)"))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 6126006F)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 6126006F)
     (at 117.475 108.725 270)
     (path /62F5643B/618F70E3)
     (fp_text reference D55 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -6867,7 +6867,7 @@
       (net 74 "Net-(D55-Pad2)"))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 61260086)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 61260086)
     (at 127 127.775 270)
     (path /62F5643B/621F7779)
     (fp_text reference D56 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -6899,7 +6899,7 @@
       (net 50 /Switches/ROW[2]))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 6126009D)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 6126009D)
     (at 131.7625 146.825 270)
     (path /62F5643B/6227FF3D)
     (fp_text reference D57 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -6931,7 +6931,7 @@
       (net 52 /Switches/ROW[3]))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 612600B4)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 612600B4)
     (at 122.2375 165.875 270)
     (path /62F5643B/6228005A)
     (fp_text reference D58 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -6963,7 +6963,7 @@
       (net 53 /Switches/ROW[4]))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 612600CB)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 612600CB)
     (at 124.61875 184.925 270)
     (path /62F5643B/622801A7)
     (fp_text reference D59 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -6995,7 +6995,7 @@
       (net 56 /Switches/ROW[5]))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 612600E2)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 612600E2)
     (at 160.3375 87.29375 270)
     (path /62F5643B/61805380)
     (fp_text reference D60 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -7027,7 +7027,7 @@
       (net 45 /Switches/ROW[0]))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 612600F9)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 612600F9)
     (at 136.525 108.725 270)
     (path /62F5643B/618F70E9)
     (fp_text reference D61 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -7059,7 +7059,7 @@
       (net 80 "Net-(D61-Pad2)"))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 61260110)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 61260110)
     (at 146.05 127.775 270)
     (path /62F5643B/621F777F)
     (fp_text reference D62 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -7091,7 +7091,7 @@
       (net 81 "Net-(D62-Pad2)"))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 61260127)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 61260127)
     (at 150.8125 146.825 270)
     (path /62F5643B/6227FF43)
     (fp_text reference D63 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -7123,7 +7123,7 @@
       (net 82 "Net-(D63-Pad2)"))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 6126013E)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 6126013E)
     (at 141.2875 165.875 270)
     (path /62F5643B/62280060)
     (fp_text reference D64 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -7155,7 +7155,7 @@
       (net 83 "Net-(D64-Pad2)"))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 61260155)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 61260155)
     (at 179.3875 87.29375 270)
     (path /62F5643B/61805386)
     (fp_text reference D65 (at 1.24714 1.75768 270) (layer B.SilkS)
@@ -7187,7 +7187,7 @@
       (net 84 "Net-(D65-Pad2)"))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 6126016C)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 6126016C)
     (at 155.575 108.725 270)
     (path /62F5643B/618F70EF)
     (fp_text reference D66 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -7219,7 +7219,7 @@
       (net 47 /Switches/ROW[1]))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 61260183)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 61260183)
     (at 165.1 127.775 270)
     (path /62F5643B/621F7785)
     (fp_text reference D67 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -7251,7 +7251,7 @@
       (net 50 /Switches/ROW[2]))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 6126019A)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 6126019A)
     (at 169.8625 146.825 270)
     (path /62F5643B/6227FF49)
     (fp_text reference D68 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -7283,7 +7283,7 @@
       (net 52 /Switches/ROW[3]))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 612601B1)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 612601B1)
     (at 160.3375 165.875 270)
     (path /62F5643B/62280066)
     (fp_text reference D69 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -7315,7 +7315,7 @@
       (net 53 /Switches/ROW[4]))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 612601C8)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 612601C8)
     (at 162.71875 184.925 270)
     (path /62F5643B/622801B3)
     (fp_text reference D70 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -7347,7 +7347,7 @@
       (net 89 "Net-(D70-Pad2)"))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 612601DF)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 612601DF)
     (at 198.4375 87.29375 270)
     (path /62F5643B/6180538C)
     (fp_text reference D71 (at 1.24714 1.75768 270) (layer B.SilkS)
@@ -7379,7 +7379,7 @@
       (net 45 /Switches/ROW[0]))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 612601F6)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 612601F6)
     (at 174.625 108.725 270)
     (path /62F5643B/618F70F5)
     (fp_text reference D72 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -7411,7 +7411,7 @@
       (net 91 "Net-(D72-Pad2)"))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 6126020D)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 6126020D)
     (at 184.15 127.775 270)
     (path /62F5643B/621F778B)
     (fp_text reference D73 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -7443,7 +7443,7 @@
       (net 92 "Net-(D73-Pad2)"))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 61292C9D)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 61292C9D)
     (at 188.9125 146.825 270)
     (path /62F5643B/6227FF4F)
     (fp_text reference D74 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -7475,7 +7475,7 @@
       (net 93 "Net-(D74-Pad2)"))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 6126023B)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 6126023B)
     (at 179.3875 165.875 270)
     (path /62F5643B/6228006C)
     (fp_text reference D75 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -7507,7 +7507,7 @@
       (net 94 "Net-(D75-Pad2)"))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 6129043B)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 6129043B)
     (at 217.4875 87.29375 270)
     (path /62F5643B/618053C0)
     (fp_text reference D76 (at 1.24714 1.75768 270) (layer B.SilkS)
@@ -7539,7 +7539,7 @@
       (net 45 /Switches/ROW[0]))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 61260269)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 61260269)
     (at 193.675 108.725 270)
     (path /62F5643B/618F7123)
     (fp_text reference D77 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -7571,7 +7571,7 @@
       (net 47 /Switches/ROW[1]))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 61260280)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 61260280)
     (at 203.2 127.775 270)
     (path /62F5643B/621F77B9)
     (fp_text reference D78 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -7603,7 +7603,7 @@
       (net 50 /Switches/ROW[2]))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 61260297)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 61260297)
     (at 207.9625 146.825 270)
     (path /62F5643B/6227FF7D)
     (fp_text reference D79 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -7635,7 +7635,7 @@
       (net 52 /Switches/ROW[3]))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 612602AE)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 612602AE)
     (at 198.4375 165.875 270)
     (path /62F5643B/6228009A)
     (fp_text reference D80 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -7667,7 +7667,7 @@
       (net 53 /Switches/ROW[4]))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 612602C5)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 612602C5)
     (at 200.81875 184.925 270)
     (path /62F5643B/622801E7)
     (fp_text reference D81 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -7699,7 +7699,7 @@
       (net 56 /Switches/ROW[5]))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 612602DC)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 612602DC)
     (at 250.825 87.29375 270)
     (path /62F5643B/618053C6)
     (fp_text reference D82 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -7731,7 +7731,7 @@
       (net 45 /Switches/ROW[0]))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 612602F3)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 612602F3)
     (at 212.725 108.725 270)
     (path /62F5643B/618F7129)
     (fp_text reference D83 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -7763,7 +7763,7 @@
       (net 102 "Net-(D83-Pad2)"))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 6126030A)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 6126030A)
     (at 222.25 127.775 270)
     (path /62F5643B/621F77BF)
     (fp_text reference D84 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -7795,7 +7795,7 @@
       (net 103 "Net-(D84-Pad2)"))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 61260321)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 61260321)
     (at 227.0125 146.825 270)
     (path /62F5643B/6227FF83)
     (fp_text reference D85 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -7827,7 +7827,7 @@
       (net 104 "Net-(D85-Pad2)"))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 61260338)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 61260338)
     (at 217.4875 165.875 270)
     (path /62F5643B/622800A0)
     (fp_text reference D86 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -7859,7 +7859,7 @@
       (net 105 "Net-(D86-Pad2)"))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 6126034F)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 6126034F)
     (at 234.15625 184.925 270)
     (path /62F5643B/622801ED)
     (fp_text reference D87 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -7891,7 +7891,7 @@
       (net 106 "Net-(D87-Pad2)"))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 61260366)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 61260366)
     (at 269.875 87.29375 270)
     (path /62F5643B/618053CC)
     (fp_text reference D88 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -7923,7 +7923,7 @@
       (net 107 "Net-(D88-Pad2)"))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 6126037D)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 6126037D)
     (at 231.775 108.725 270)
     (path /62F5643B/618F712F)
     (fp_text reference D89 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -7955,7 +7955,7 @@
       (net 47 /Switches/ROW[1]))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 61260394)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 61260394)
     (at 241.3 127.775 270)
     (path /62F5643B/621F77C5)
     (fp_text reference D90 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -7987,7 +7987,7 @@
       (net 50 /Switches/ROW[2]))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 612603AB)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 612603AB)
     (at 246.0625 146.825 270)
     (path /62F5643B/6227FF89)
     (fp_text reference D91 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -8019,7 +8019,7 @@
       (net 52 /Switches/ROW[3]))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 612603C2)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 612603C2)
     (at 236.5375 165.875 270)
     (path /62F5643B/622800A6)
     (fp_text reference D92 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -8051,7 +8051,7 @@
       (net 53 /Switches/ROW[4]))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 612603D9)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 612603D9)
     (at 257.96875 184.925 270)
     (path /62F5643B/622801F3)
     (fp_text reference D93 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -8083,7 +8083,7 @@
       (net 56 /Switches/ROW[5]))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 612603F0)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 612603F0)
     (at 288.925 87.29375 270)
     (path /62F5643B/618053D2)
     (fp_text reference D94 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -8115,7 +8115,7 @@
       (net 45 /Switches/ROW[0]))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 61260407)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 61260407)
     (at 250.825 108.725 270)
     (path /62F5643B/618F7135)
     (fp_text reference D95 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -8147,7 +8147,7 @@
       (net 114 "Net-(D95-Pad2)"))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 6126041E)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 6126041E)
     (at 260.35 127.775 270)
     (path /62F5643B/621F77CB)
     (fp_text reference D96 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -8179,7 +8179,7 @@
       (net 115 "Net-(D96-Pad2)"))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 61260435)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 61260435)
     (at 265.1125 146.825 270)
     (path /62F5643B/6227FF8F)
     (fp_text reference D97 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -8211,7 +8211,7 @@
       (net 52 /Switches/ROW[3]))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 6126044C)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 6126044C)
     (at 255.5875 165.875 270)
     (path /62F5643B/622800AC)
     (fp_text reference D98 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -8243,7 +8243,7 @@
       (net 117 "Net-(D98-Pad2)"))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 6129556A)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 6129556A)
     (at 281.78125 184.925 270)
     (path /62F5643B/622801F9)
     (fp_text reference D99 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -8275,7 +8275,7 @@
       (net 118 "Net-(D99-Pad2)"))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 6126047A)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 6126047A)
     (at 307.975 87.29375 270)
     (path /62F5643B/6180540E)
     (fp_text reference D100 (at 1.24714 1.75768 270) (layer B.SilkS)
@@ -8307,7 +8307,7 @@
       (net 119 "Net-(D100-Pad2)"))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 61260491)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 61260491)
     (at 269.875 108.725 270)
     (path /62F5643B/618F716B)
     (fp_text reference D101 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -8339,7 +8339,7 @@
       (net 47 /Switches/ROW[1]))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 612604A8)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 612604A8)
     (at 279.4 127.775 270)
     (path /62F5643B/621F7801)
     (fp_text reference D102 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -8371,7 +8371,7 @@
       (net 50 /Switches/ROW[2]))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 6128FD3B)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 6128FD3B)
     (at 296.06875 146.825 270)
     (path /62F5643B/6227FFC5)
     (fp_text reference D103 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -8403,7 +8403,7 @@
       (net 122 "Net-(D103-Pad2)"))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 612604D6)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 612604D6)
     (at 291.30625 165.875 270)
     (path /62F5643B/622800E2)
     (fp_text reference D104 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -8435,7 +8435,7 @@
       (net 53 /Switches/ROW[4]))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 612604ED)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 612604ED)
     (at 305.59375 184.925 270)
     (path /62F5643B/6228022F)
     (fp_text reference D105 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -8467,7 +8467,7 @@
       (net 124 "Net-(D105-Pad2)"))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 61260504)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 61260504)
     (at 333.375 87.29375 270)
     (path /62F5643B/61805414)
     (fp_text reference D106 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -8499,7 +8499,7 @@
       (net 45 /Switches/ROW[0]))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 6126051B)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 6126051B)
     (at 298.45 108.725 270)
     (path /62F5643B/618F7171)
     (fp_text reference D107 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -8531,7 +8531,7 @@
       (net 126 "Net-(D107-Pad2)"))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 61260532)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 61260532)
     (at 303.2125 127.775 270)
     (path /62F5643B/621F7807)
     (fp_text reference D108 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -8563,7 +8563,7 @@
       (net 127 "Net-(D108-Pad2)"))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 61260549)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 61260549)
     (at 333.375 108.725 270)
     (path /62F5643B/6227FFCB)
     (fp_text reference D109 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -8595,7 +8595,7 @@
       (net 52 /Switches/ROW[3]))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 6129576E)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 6129576E)
     (at 333.375 184.925 270)
     (path /62F5643B/62280235)
     (fp_text reference D110 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -8627,7 +8627,7 @@
       (net 129 "Net-(D110-Pad2)"))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 61290790)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 61290790)
     (at 352.425 87.29375 270)
     (path /62F5643B/6180541A)
     (fp_text reference D111 (at 1.24714 1.75768 270) (layer B.SilkS)
@@ -8659,7 +8659,7 @@
       (net 130 "Net-(D111-Pad2)"))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 6126058E)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 6126058E)
     (at 352.425 108.725 270)
     (path /62F5643B/618F7177)
     (fp_text reference D112 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -8691,7 +8691,7 @@
       (net 47 /Switches/ROW[1]))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 612605A5)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 612605A5)
     (at 352.425 127.775 270)
     (path /62F5643B/621F780D)
     (fp_text reference D113 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -8723,7 +8723,7 @@
       (net 50 /Switches/ROW[2]))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 612605BC)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 612605BC)
     (at 352.425 165.875 270)
     (path /62F5643B/622800EE)
     (fp_text reference D114 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -8755,7 +8755,7 @@
       (net 133 "Net-(D114-Pad2)"))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 612605D3)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 612605D3)
     (at 352.425 184.925 270)
     (path /62F5643B/6228023B)
     (fp_text reference D115 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -8787,7 +8787,7 @@
       (net 56 /Switches/ROW[5]))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 612605EA)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 612605EA)
     (at 371.475 87.29375 270)
     (path /62F5643B/61805420)
     (fp_text reference D116 (at 1.24714 1.75768 270) (layer B.SilkS)
@@ -8819,7 +8819,7 @@
       (net 45 /Switches/ROW[0]))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 61260601)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 61260601)
     (at 371.475 108.725 270)
     (path /62F5643B/618F717D)
     (fp_text reference D117 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -8851,7 +8851,7 @@
       (net 136 "Net-(D117-Pad2)"))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 61260618)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 61260618)
     (at 371.475 127.775 270)
     (path /62F5643B/621F7813)
     (fp_text reference D118 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -8883,7 +8883,7 @@
       (net 137 "Net-(D118-Pad2)"))
   )
 
-  (module custom_footprint_library:SOD323_HS locked (layer B.Cu) (tedit 61173CD1) (tstamp 6126062F)
+  (module custom_footprint_library:SOD323_HS (layer B.Cu) (tedit 61173CD1) (tstamp 6126062F)
     (at 371.475 184.925 270)
     (path /62F5643B/62280241)
     (fp_text reference D119 (at 1.24714 1.75768 90) (layer B.SilkS)
@@ -8915,7 +8915,7 @@
       (net 138 "Net-(D119-Pad2)"))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 61260643)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 61260643)
     (at 85.725 144.4625)
     (path /62FB59AD/61A4D38D)
     (fp_text reference D120 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -8946,7 +8946,7 @@
       (net 4 +5V))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 61260657)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 61260657)
     (at 83.34375 182.5625)
     (path /62FB59AD/61FA7B06)
     (fp_text reference D121 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -8977,7 +8977,7 @@
       (net 4 +5V))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 6126066B)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 6126066B)
     (at 100.0125 125.4125 180)
     (path /62FB59AD/61A4D0EC)
     (fp_text reference D122 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -9008,7 +9008,7 @@
       (net 38 "Net-(D122-Pad4)"))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 6126067F)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 6126067F)
     (at 95.25 163.5125)
     (path /62FB59AD/61FA7865)
     (fp_text reference D123 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -9039,7 +9039,7 @@
       (net 4 +5V))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 61260693)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 61260693)
     (at 90.4875 106.3625)
     (path /62FB59AD/61942A6A)
     (fp_text reference D124 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -9070,7 +9070,7 @@
       (net 4 +5V))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 6127899F)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 6127899F)
     (at 104.775 144.4625)
     (path /62FB59AD/61A4D393)
     (fp_text reference D125 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -9101,7 +9101,7 @@
       (net 144 "Net-(D125-Pad4)"))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 612606BB)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 612606BB)
     (at 119.0625 84.93125 180)
     (path /62FB59AD/6141ABD4)
     (fp_text reference D126 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -9132,7 +9132,7 @@
       (net 4 +5V))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 612606CF)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 612606CF)
     (at 119.0625 125.4125 180)
     (path /62FB59AD/61A4D199)
     (fp_text reference D127 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -9163,7 +9163,7 @@
       (net 141 "Net-(D122-Pad2)"))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 612606E3)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 612606E3)
     (at 114.3 163.5125)
     (path /62FB59AD/61FA7912)
     (fp_text reference D128 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -9194,7 +9194,7 @@
       (net 4 +5V))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 612606F7)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 612606F7)
     (at 109.5375 106.3625)
     (path /62FB59AD/61776F6C)
     (fp_text reference D129 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -9225,7 +9225,7 @@
       (net 4 +5V))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 6128E8A4)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 6128E8A4)
     (at 123.825 144.4625)
     (path /62FB59AD/61A4D2B6)
     (fp_text reference D130 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -9256,7 +9256,7 @@
       (net 4 +5V))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 612831B7)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 612831B7)
     (at 116.68125 182.5625)
     (path /62FB59AD/61FA7A2F)
     (fp_text reference D131 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -9287,7 +9287,7 @@
       (net 150 "Net-(D131-Pad4)"))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 61260733)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 61260733)
     (at 152.4 84.93125 180)
     (path /62FB59AD/6141ABCE)
     (fp_text reference D132 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -9318,7 +9318,7 @@
       (net 145 "Net-(D126-Pad2)"))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 61260747)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 61260747)
     (at 138.1125 125.4125 180)
     (path /62FB59AD/61A4D193)
     (fp_text reference D133 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -9349,7 +9349,7 @@
       (net 146 "Net-(D127-Pad2)"))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 61278A11)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 61278A11)
     (at 133.35 163.5125)
     (path /62FB59AD/61FA790C)
     (fp_text reference D134 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -9380,7 +9380,7 @@
       (net 147 "Net-(D128-Pad2)"))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 61278966)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 61278966)
     (at 128.5875 106.3625)
     (path /62FB59AD/61776F72)
     (fp_text reference D135 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -9411,7 +9411,7 @@
       (net 154 "Net-(D135-Pad4)"))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 61260783)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 61260783)
     (at 142.875 144.4625)
     (path /62FB59AD/61A4D2BC)
     (fp_text reference D136 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -9442,7 +9442,7 @@
       (net 155 "Net-(D136-Pad4)"))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 61260797)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 61260797)
     (at 171.45 84.93125 180)
     (path /62FB59AD/6141ABC8)
     (fp_text reference D137 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -9473,7 +9473,7 @@
       (net 4 +5V))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 61279882)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 61279882)
     (at 157.1625 125.4125 180)
     (path /62FB59AD/61A4D18D)
     (fp_text reference D138 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -9504,7 +9504,7 @@
       (net 4 +5V))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 612607BF)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 612607BF)
     (at 152.4 163.5125)
     (path /62FB59AD/61FA7906)
     (fp_text reference D139 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -9535,7 +9535,7 @@
       (net 153 "Net-(D134-Pad2)"))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 612607D3)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 612607D3)
     (at 147.6375 106.3625)
     (path /62FB59AD/61776F78)
     (fp_text reference D140 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -9566,7 +9566,7 @@
       (net 159 "Net-(D140-Pad4)"))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 612607E7)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 612607E7)
     (at 161.925 144.4625)
     (path /62FB59AD/61A4D2C2)
     (fp_text reference D141 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -9597,7 +9597,7 @@
       (net 4 +5V))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 6127892D)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 6127892D)
     (at 154.78125 182.5625)
     (path /62FB59AD/61FA7A3B)
     (fp_text reference D142 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -9628,7 +9628,7 @@
       (net 4 +5V))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 6126080F)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 6126080F)
     (at 190.5 84.93125 180)
     (path /62FB59AD/6141ABDA)
     (fp_text reference D143 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -9659,7 +9659,7 @@
       (net 156 "Net-(D137-Pad2)"))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 61260823)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 61260823)
     (at 176.2125 125.4125 180)
     (path /62FB59AD/61A4D19F)
     (fp_text reference D144 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -9690,7 +9690,7 @@
       (net 4 +5V))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 61282C40)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 61282C40)
     (at 171.45 163.5125)
     (path /62FB59AD/61FA7918)
     (fp_text reference D145 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -9721,7 +9721,7 @@
       (net 158 "Net-(D139-Pad2)"))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 6126084B)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 6126084B)
     (at 166.6875 106.3625)
     (path /62FB59AD/61776F7E)
     (fp_text reference D146 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -9752,7 +9752,7 @@
       (net 4 +5V))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 612788F4)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 612788F4)
     (at 180.975 144.4625)
     (path /62FB59AD/61A4D2C8)
     (fp_text reference D147 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -9783,7 +9783,7 @@
       (net 4 +5V))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 61260873)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 61260873)
     (at 209.55 84.93125 180)
     (path /62FB59AD/6147161D)
     (fp_text reference D148 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -9814,7 +9814,7 @@
       (net 162 "Net-(D143-Pad2)"))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 61260887)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 61260887)
     (at 195.2625 125.4125 180)
     (path /62FB59AD/61A4D2B0)
     (fp_text reference D149 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -9845,7 +9845,7 @@
       (net 4 +5V))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 6126089B)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 6126089B)
     (at 190.5 163.5125)
     (path /62FB59AD/61FA7A29)
     (fp_text reference D150 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -9876,7 +9876,7 @@
       (net 4 +5V))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 612789D8)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 612789D8)
     (at 185.7375 106.3625)
     (path /62FB59AD/618813AD)
     (fp_text reference D151 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -9907,7 +9907,7 @@
       (net 170 "Net-(D151-Pad4)"))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 612788BB)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 612788BB)
     (at 200.025 144.4625)
     (path /62FB59AD/61A4D31A)
     (fp_text reference D152 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -9938,7 +9938,7 @@
       (net 171 "Net-(D152-Pad4)"))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 612608D7)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 612608D7)
     (at 192.88125 182.5625)
     (path /62FB59AD/61FA7A93)
     (fp_text reference D153 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -9969,7 +9969,7 @@
       (net 172 "Net-(D153-Pad4)"))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 612608EB)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 612608EB)
     (at 242.8875 84.93125 180)
     (path /62FB59AD/61471617)
     (fp_text reference D154 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -10000,7 +10000,7 @@
       (net 4 +5V))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 612608FF)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 612608FF)
     (at 214.3125 125.4125 180)
     (path /62FB59AD/61A4D1F7)
     (fp_text reference D155 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -10031,7 +10031,7 @@
       (net 168 "Net-(D149-Pad2)"))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 61260913)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 61260913)
     (at 209.55 163.5125)
     (path /62FB59AD/61FA7970)
     (fp_text reference D156 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -10062,7 +10062,7 @@
       (net 4 +5V))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 61278F65)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 61278F65)
     (at 204.7875 106.3625)
     (path /62FB59AD/618813B3)
     (fp_text reference D157 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -10093,7 +10093,7 @@
       (net 4 +5V))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 6126093B)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 6126093B)
     (at 219.075 144.4625)
     (path /62FB59AD/61A4D320)
     (fp_text reference D158 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -10124,7 +10124,7 @@
       (net 4 +5V))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 6126094F)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 6126094F)
     (at 226.21875 182.5625)
     (path /62FB59AD/61FA7A99)
     (fp_text reference D159 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -10186,7 +10186,7 @@
       (net 4 +5V))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 612799E0)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 612799E0)
     (at 261.9375 84.93125 180)
     (path /62FB59AD/61471611)
     (fp_text reference D161 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -10217,7 +10217,7 @@
       (net 173 "Net-(D154-Pad2)"))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 6126098B)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 6126098B)
     (at 233.3625 125.4125 180)
     (path /62FB59AD/61A4D1F1)
     (fp_text reference D162 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -10248,7 +10248,7 @@
       (net 174 "Net-(D155-Pad2)"))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 6126099F)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 6126099F)
     (at 228.6 163.5125)
     (path /62FB59AD/61FA796A)
     (fp_text reference D163 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -10279,7 +10279,7 @@
       (net 175 "Net-(D156-Pad2)"))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 61278882)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 61278882)
     (at 223.8375 106.3625)
     (path /62FB59AD/618813B9)
     (fp_text reference D164 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -10310,7 +10310,7 @@
       (net 183 "Net-(D164-Pad4)"))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 61278849)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 61278849)
     (at 238.125 144.4625)
     (path /62FB59AD/61A4D326)
     (fp_text reference D165 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -10341,7 +10341,7 @@
       (net 184 "Net-(D165-Pad4)"))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 61278810)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 61278810)
     (at 250.03125 182.5625)
     (path /62FB59AD/61FA7A9F)
     (fp_text reference D166 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -10403,7 +10403,7 @@
       (net 4 +5V))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 61260A03)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 61260A03)
     (at 280.9875 84.93125 180)
     (path /62FB59AD/61471623)
     (fp_text reference D168 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -10434,7 +10434,7 @@
       (net 4 +5V))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 61260A17)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 61260A17)
     (at 252.4125 125.4125 180)
     (path /62FB59AD/61A4D1FD)
     (fp_text reference D169 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -10465,7 +10465,7 @@
       (net 181 "Net-(D162-Pad2)"))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 612787D7)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 612787D7)
     (at 247.65 163.5125)
     (path /62FB59AD/61FA7976)
     (fp_text reference D170 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -10496,7 +10496,7 @@
       (net 182 "Net-(D163-Pad2)"))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 61260A3F)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 61260A3F)
     (at 242.8875 106.3625)
     (path /62FB59AD/618813BF)
     (fp_text reference D171 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -10527,7 +10527,7 @@
       (net 17 "Net-(D171-Pad4)"))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 61260A53)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 61260A53)
     (at 257.175 144.4625)
     (path /62FB59AD/61A4D32C)
     (fp_text reference D172 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -10558,7 +10558,7 @@
       (net 4 +5V))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 61260A67)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 61260A67)
     (at 273.84375 182.5625)
     (path /62FB59AD/61FA7AA5)
     (fp_text reference D173 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -10620,7 +10620,7 @@
       (net 4 +5V))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 61260A8F)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 61260A8F)
     (at 300.0375 84.93125 180)
     (path /62FB59AD/614AB8DA)
     (fp_text reference D175 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -10651,7 +10651,7 @@
       (net 4 +5V))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 61260AA3)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 61260AA3)
     (at 271.4625 125.4125 180)
     (path /62FB59AD/61A4D25B)
     (fp_text reference D176 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -10682,7 +10682,7 @@
       (net 4 +5V))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 61260AB7)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 61260AB7)
     (at 283.36875 163.5125)
     (path /62FB59AD/61FA79D4)
     (fp_text reference D177 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -10713,7 +10713,7 @@
       (net 189 "Net-(D170-Pad2)"))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 61260ACB)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 61260ACB)
     (at 288.13125 144.4625)
     (path /62FB59AD/61A4D0C1)
     (fp_text reference D178 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -10744,7 +10744,7 @@
       (net 196 "Net-(D178-Pad4)"))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 61260ADF)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 61260ADF)
     (at 297.65625 182.5625)
     (path /62FB59AD/61FA783A)
     (fp_text reference D179 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -10806,7 +10806,7 @@
       (net 4 +5V))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 61260B07)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 61260B07)
     (at 325.4375 84.93125 180)
     (path /62FB59AD/614AB8D4)
     (fp_text reference D181 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -10837,7 +10837,7 @@
       (net 4 +5V))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 61260B1B)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 61260B1B)
     (at 295.275 125.4125 180)
     (path /62FB59AD/61A4D255)
     (fp_text reference D182 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -10868,7 +10868,7 @@
       (net 194 "Net-(D176-Pad2)"))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 61260B2F)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 61260B2F)
     (at 325.4375 106.3625)
     (path /62FB59AD/61A4D0C7)
     (fp_text reference D183 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -10899,7 +10899,7 @@
       (net 4 +5V))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 6128EB75)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 6128EB75)
     (at 325.4375 182.5625)
     (path /62FB59AD/61FA7840)
     (fp_text reference D184 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -10930,7 +10930,7 @@
       (net 201 "Net-(D184-Pad4)"))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 61260B57)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 61260B57)
     (at 344.4875 84.93125 180)
     (path /62FB59AD/614AB8CE)
     (fp_text reference D185 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -10961,7 +10961,7 @@
       (net 198 "Net-(D181-Pad2)"))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 61260B6B)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 61260B6B)
     (at 344.4875 125.4125 180)
     (path /62FB59AD/61A4D24F)
     (fp_text reference D186 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -10992,7 +10992,7 @@
       (net 4 +5V))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 6128D325)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 6128D325)
     (at 344.4875 163.5125)
     (path /62FB59AD/61FA79C8)
     (fp_text reference D187 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -11023,7 +11023,7 @@
       (net 4 +5V))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 61260B93)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 61260B93)
     (at 344.4875 182.5625)
     (path /62FB59AD/61FA784C)
     (fp_text reference D188 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -11054,7 +11054,7 @@
       (net 4 +5V))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 61260BA7)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 61260BA7)
     (at 363.5375 84.93125 180)
     (path /62FB59AD/614AB8E0)
     (fp_text reference D189 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -11085,7 +11085,7 @@
       (net 202 "Net-(D185-Pad2)"))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 61260BBB)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 61260BBB)
     (at 363.5375 125.4125 180)
     (path /62FB59AD/61A4D261)
     (fp_text reference D190 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -11116,7 +11116,7 @@
       (net 203 "Net-(D186-Pad2)"))
   )
 
-  (module custom_footprint_library:SK6812-MINI-E locked (layer F.Cu) (tedit 611E001C) (tstamp 61283589)
+  (module custom_footprint_library:SK6812-MINI-E (layer F.Cu) (tedit 611E001C) (tstamp 61283589)
     (at 363.5375 182.5625)
     (path /62FB59AD/61FA7846)
     (fp_text reference D191 (at 0.50292 -2.26568) (layer B.SilkS)
@@ -13228,7 +13228,7 @@
       (net 233 RST))
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 61260FDE)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 61260FDE)
     (at 33.3375 90.4875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -13267,7 +13267,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 61260FF5)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 61260FF5)
     (at 33.3375 111.91875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -13306,7 +13306,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.50u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 61269DBA)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.50u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 61269DBA)
     (at 38.1 130.96875 180)
     (descr "Cherry MX switch footprint. Size: 1.50u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.50u PCB KailhSocket")
@@ -13345,7 +13345,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.75u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 61261023)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.75u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 61261023)
     (at 40.48125 150.01875 180)
     (descr "Cherry MX switch footprint. Size: 1.75u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.75u PCB KailhSocket")
@@ -13384,7 +13384,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket_StabWireBottom:CherryMX_2.25u_PCB_KailhSocket_StabWireBottom locked (layer F.Cu) (tedit 5E866FEB) (tstamp 6126103E)
+  (module CherryMX_PCB_KailhSocket_StabWireBottom:CherryMX_2.25u_PCB_KailhSocket_StabWireBottom (layer F.Cu) (tedit 5E866FEB) (tstamp 6126103E)
     (at 45.24375 169.06875 180)
     (descr "Cherry MX switch footprint. Size: 2.25u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: PCB mounted (Wire Bottom), Lighting: none")
     (tags "CherryMX 2.25u PCB KailhSocket StabWireBottom")
@@ -13427,7 +13427,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.25u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 61261055)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.25u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 61261055)
     (at 35.71875 188.11875 180)
     (descr "Cherry MX switch footprint. Size: 1.25u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.25u PCB KailhSocket")
@@ -13466,7 +13466,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 6126F043)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 6126F043)
     (at 61.9125 90.4875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -13505,7 +13505,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 61261083)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 61261083)
     (at 52.3875 111.91875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -13544,7 +13544,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 61269E3F)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 61269E3F)
     (at 61.9125 130.96875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -13583,7 +13583,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 612610B1)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 612610B1)
     (at 66.675 150.01875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -13622,7 +13622,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.25u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 612610C8)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.25u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 612610C8)
     (at 59.53125 188.11875 180)
     (descr "Cherry MX switch footprint. Size: 1.25u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.25u PCB KailhSocket")
@@ -13661,7 +13661,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 61290503)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 61290503)
     (at 80.9625 90.4875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -13700,7 +13700,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 612610F6)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 612610F6)
     (at 71.4375 111.91875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -13739,7 +13739,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 6126110D)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 6126110D)
     (at 80.9625 130.96875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -13778,7 +13778,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 61261124)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 61261124)
     (at 85.725 150.01875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -13817,7 +13817,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 6126113B)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 6126113B)
     (at 76.2 169.06875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -13856,7 +13856,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.25u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 61261152)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.25u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 61261152)
     (at 83.34375 188.11875 180)
     (descr "Cherry MX switch footprint. Size: 1.25u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.25u PCB KailhSocket")
@@ -13895,7 +13895,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 6126F085)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 6126F085)
     (at 100.0125 90.4875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -13934,7 +13934,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 61261180)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 61261180)
     (at 90.4875 111.91875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -13973,7 +13973,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 61261197)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 61261197)
     (at 100.0125 130.96875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -14012,7 +14012,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 612611AE)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 612611AE)
     (at 104.775 150.01875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -14051,7 +14051,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 612611C5)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 612611C5)
     (at 95.25 169.06875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -14090,7 +14090,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 6126EFBF)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 6126EFBF)
     (at 119.0625 90.4875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -14129,7 +14129,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 612611F3)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 612611F3)
     (at 109.5375 111.91875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -14168,7 +14168,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 6126120A)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 6126120A)
     (at 119.0625 130.96875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -14207,7 +14207,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 61261221)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 61261221)
     (at 123.825 150.01875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -14246,7 +14246,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 61261238)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 61261238)
     (at 114.3 169.06875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -14285,7 +14285,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket_StabWireBottom:CherryMX_2.25u_PCB_KailhSocket_StabWireBottom locked (layer F.Cu) (tedit 5E866FEB) (tstamp 61261253)
+  (module CherryMX_PCB_KailhSocket_StabWireBottom:CherryMX_2.25u_PCB_KailhSocket_StabWireBottom (layer F.Cu) (tedit 5E866FEB) (tstamp 61261253)
     (at 116.68125 188.11875 180)
     (descr "Cherry MX switch footprint. Size: 2.25u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: PCB mounted (Wire Bottom), Lighting: none")
     (tags "CherryMX 2.25u PCB KailhSocket StabWireBottom")
@@ -14328,7 +14328,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 6126126A)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 6126126A)
     (at 152.4 90.4875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -14367,7 +14367,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 61261281)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 61261281)
     (at 128.5875 111.91875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -14406,7 +14406,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 61261298)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 61261298)
     (at 138.1125 130.96875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -14445,7 +14445,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 612612AF)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 612612AF)
     (at 142.875 150.01875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -14484,7 +14484,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 612612C6)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 612612C6)
     (at 133.35 169.06875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -14523,7 +14523,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 612612DD)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 612612DD)
     (at 171.45 90.4875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -14562,7 +14562,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 612612F4)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 612612F4)
     (at 147.6375 111.91875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -14601,7 +14601,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 6126130B)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 6126130B)
     (at 157.1625 130.96875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -14640,7 +14640,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 61261322)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 61261322)
     (at 161.925 150.01875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -14679,7 +14679,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 61261339)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 61261339)
     (at 152.4 169.06875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -14718,7 +14718,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket_StabWireBottom:CherryMX_6.25u_PCB_KailhSocket_StabWireBottom locked (layer F.Cu) (tedit 5E866FEB) (tstamp 61261354)
+  (module CherryMX_PCB_KailhSocket_StabWireBottom:CherryMX_6.25u_PCB_KailhSocket_StabWireBottom (layer F.Cu) (tedit 5E866FEB) (tstamp 61261354)
     (at 154.78125 188.11875 180)
     (descr "Cherry MX switch footprint. Size: 6.25u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: PCB mounted (Wire Bottom), Lighting: none")
     (tags "CherryMX 6.25u PCB KailhSocket StabWireBottom")
@@ -14761,7 +14761,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 6126136B)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 6126136B)
     (at 190.5 90.4875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -14800,7 +14800,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 61261382)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 61261382)
     (at 166.6875 111.91875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -14839,7 +14839,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 61261399)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 61261399)
     (at 176.2125 130.96875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -14878,7 +14878,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 612613B0)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 612613B0)
     (at 180.975 150.01875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -14917,7 +14917,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 612613C7)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 612613C7)
     (at 171.45 169.06875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -14956,7 +14956,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 612613DE)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 612613DE)
     (at 209.55 90.4875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -14995,7 +14995,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 612613F5)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 612613F5)
     (at 185.7375 111.91875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -15034,7 +15034,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 6126140C)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 6126140C)
     (at 195.2625 130.96875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -15073,7 +15073,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 61261423)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 61261423)
     (at 200.025 150.01875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -15112,7 +15112,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 6126C3BD)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 6126C3BD)
     (at 190.5 169.06875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -15151,7 +15151,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket_StabWireBottom:CherryMX_2.25u_PCB_KailhSocket_StabWireBottom locked (layer F.Cu) (tedit 5E866FEB) (tstamp 61261455)
+  (module CherryMX_PCB_KailhSocket_StabWireBottom:CherryMX_2.25u_PCB_KailhSocket_StabWireBottom (layer F.Cu) (tedit 5E866FEB) (tstamp 61261455)
     (at 192.88125 188.11875 180)
     (descr "Cherry MX switch footprint. Size: 2.25u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: PCB mounted (Wire Bottom), Lighting: none")
     (tags "CherryMX 2.25u PCB KailhSocket StabWireBottom")
@@ -15194,7 +15194,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 6126146C)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 6126146C)
     (at 242.8875 90.4875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -15233,7 +15233,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 61261483)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 61261483)
     (at 204.7875 111.91875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -15272,7 +15272,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 6126149A)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 6126149A)
     (at 214.3125 130.96875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -15311,7 +15311,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 612614B1)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 612614B1)
     (at 219.075 150.01875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -15350,7 +15350,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 612614C8)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 612614C8)
     (at 209.55 169.06875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -15389,7 +15389,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.25u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 612614DF)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.25u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 612614DF)
     (at 226.21875 188.11875 180)
     (descr "Cherry MX switch footprint. Size: 1.25u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.25u PCB KailhSocket")
@@ -15428,7 +15428,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 612614F6)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 612614F6)
     (at 261.9375 90.4875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -15467,7 +15467,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 6126150D)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 6126150D)
     (at 223.8375 111.91875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -15506,7 +15506,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 61261524)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 61261524)
     (at 233.3625 130.96875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -15545,7 +15545,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 6126153B)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 6126153B)
     (at 238.125 150.01875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -15584,7 +15584,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 61261552)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 61261552)
     (at 228.6 169.06875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -15623,7 +15623,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.25u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 61261569)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.25u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 61261569)
     (at 250.03125 188.11875 180)
     (descr "Cherry MX switch footprint. Size: 1.25u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.25u PCB KailhSocket")
@@ -15662,7 +15662,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 61261580)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 61261580)
     (at 280.9875 90.4875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -15701,7 +15701,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 61261597)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 61261597)
     (at 242.8875 111.91875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -15740,7 +15740,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 612615AE)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 612615AE)
     (at 252.4125 130.96875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -15779,7 +15779,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 612615C5)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 612615C5)
     (at 257.175 150.01875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -15818,7 +15818,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 612615DC)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 612615DC)
     (at 247.65 169.06875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -15857,7 +15857,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.25u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 612615F3)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.25u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 612615F3)
     (at 273.84375 188.11875 180)
     (descr "Cherry MX switch footprint. Size: 1.25u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.25u PCB KailhSocket")
@@ -15896,7 +15896,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 6126160A)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 6126160A)
     (at 300.0375 90.4875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -15935,7 +15935,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 61261621)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 61261621)
     (at 261.9375 111.91875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -15974,7 +15974,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 61261638)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 61261638)
     (at 271.4625 130.96875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -16013,7 +16013,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket_StabWireBottom:CherryMX_2.25u_PCB_KailhSocket_StabWireBottom locked (layer F.Cu) (tedit 5E866FEB) (tstamp 61261653)
+  (module CherryMX_PCB_KailhSocket_StabWireBottom:CherryMX_2.25u_PCB_KailhSocket_StabWireBottom (layer F.Cu) (tedit 5E866FEB) (tstamp 61261653)
     (at 288.13125 150.01875 180)
     (descr "Cherry MX switch footprint. Size: 2.25u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: PCB mounted (Wire Bottom), Lighting: none")
     (tags "CherryMX 2.25u PCB KailhSocket StabWireBottom")
@@ -16056,7 +16056,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.25u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 61261685)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.25u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 61261685)
     (at 297.65625 188.11875 180)
     (descr "Cherry MX switch footprint. Size: 1.25u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.25u PCB KailhSocket")
@@ -16095,7 +16095,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 6126169C)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 6126169C)
     (at 325.4375 90.4875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -16134,7 +16134,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket_StabWireBottom:CherryMX_2.00u_PCB_KailhSocket_StabWireBottom locked (layer F.Cu) (tedit 5E866FEB) (tstamp 612616B7)
+  (module CherryMX_PCB_KailhSocket_StabWireBottom:CherryMX_2.00u_PCB_KailhSocket_StabWireBottom (layer F.Cu) (tedit 5E866FEB) (tstamp 612616B7)
     (at 290.5125 111.91875 180)
     (descr "Cherry MX switch footprint. Size: 2.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: PCB mounted (Wire Bottom), Lighting: none")
     (tags "CherryMX 2.00u PCB KailhSocket StabWireBottom")
@@ -16177,7 +16177,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.50u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 612616CE)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.50u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 612616CE)
     (at 295.275 130.96875 180)
     (descr "Cherry MX switch footprint. Size: 1.50u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.50u PCB KailhSocket")
@@ -16216,7 +16216,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 612616E5)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 612616E5)
     (at 325.4375 111.91875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -16255,7 +16255,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 612616FC)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 612616FC)
     (at 325.4375 188.11875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -16294,7 +16294,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 61261713)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 61261713)
     (at 344.4875 90.4875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -16333,7 +16333,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 6126172A)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 6126172A)
     (at 344.4875 111.91875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -16372,7 +16372,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 61261741)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 61261741)
     (at 344.4875 130.96875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -16411,7 +16411,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 61261758)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 61261758)
     (at 344.4875 169.06875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -16450,7 +16450,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 6126176F)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 6126176F)
     (at 344.4875 188.11875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -16489,7 +16489,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 61261786)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 61261786)
     (at 363.5375 90.4875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -16528,7 +16528,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 6126179D)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 6126179D)
     (at 363.5375 111.91875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -16567,7 +16567,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 612617B4)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 612617B4)
     (at 363.5375 130.96875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
@@ -16606,7 +16606,7 @@
     )
   )
 
-  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket locked (layer F.Cu) (tedit 5E866FEB) (tstamp 612617CB)
+  (module CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket (layer F.Cu) (tedit 5E866FEB) (tstamp 612617CB)
     (at 363.5375 188.11875 180)
     (descr "Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none")
     (tags "CherryMX 1.00u PCB KailhSocket")
