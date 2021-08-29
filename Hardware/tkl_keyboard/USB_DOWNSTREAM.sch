@@ -26,7 +26,7 @@ AR Path="/62FAC6FD/651136DD" Ref="J?"  Part="1"
 AR Path="/650FF941/651136DD" Ref="J2"  Part="1" 
 AR Path="/6511E0C5/651136DD" Ref="J3"  Part="1" 
 AR Path="/65128D7D/651136DD" Ref="J4"  Part="1" 
-F 0 "J4" H 6257 4567 50  0000 C CNN
+F 0 "J2" H 6257 4567 50  0000 C CNN
 F 1 "USB_C_Receptacle_USB2.0" H 6200 4475 50  0000 C CNN
 F 2 "Connector_USB:USB_C_Receptacle_GCT_USB4085" H 6300 3700 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 6300 3700 50  0001 C CNN
@@ -120,7 +120,7 @@ AR Path="/62FAC6FD/65113705" Ref="C?"  Part="1"
 AR Path="/650FF941/65113705" Ref="C116"  Part="1" 
 AR Path="/6511E0C5/65113705" Ref="C117"  Part="1" 
 AR Path="/65128D7D/65113705" Ref="C118"  Part="1" 
-F 0 "C118" V 6975 3300 50  0000 L CNN
+F 0 "C116" V 6975 3300 50  0000 L CNN
 F 1 "1uF" V 6900 3250 50  0000 L CNN
 F 2 "Capacitor_smd:C_0603_1608Metric" H 6813 3175 50  0001 C CNN
 F 3 "~" H 6775 3325 50  0001 C CNN

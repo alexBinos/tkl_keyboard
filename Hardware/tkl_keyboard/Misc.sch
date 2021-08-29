@@ -428,7 +428,7 @@ Text HLabel 6525 3900 0    50   BiDi ~ 0
 SCL
 Text GLabel 4025 2550 0    50   Output ~ 0
 ENC_ROW[0]
-Text GLabel 4025 2750 0    50   Output ~ 0
+Text GLabel 4025 2750 0    50   Input ~ 0
 ENC_COL[0]
 Wire Wire Line
 	4025 2550 4300 2550
@@ -564,7 +564,7 @@ Wire Notes Line
 	3250 4675 3250 3225
 Text GLabel 4025 4025 0    50   Output ~ 0
 ENC_ROW[1]
-Text GLabel 4025 4225 0    50   Output ~ 0
+Text GLabel 4025 4225 0    50   Input ~ 0
 ENC_COL[1]
 Wire Wire Line
 	4025 4025 4300 4025
@@ -700,7 +700,7 @@ Wire Notes Line
 	3250 6150 3250 4700
 Text GLabel 4025 5500 0    50   Output ~ 0
 ENC_ROW[2]
-Text GLabel 4025 5700 0    50   Output ~ 0
+Text GLabel 4025 5700 0    50   Input ~ 0
 ENC_COL[2]
 Wire Wire Line
 	4025 5500 4300 5500

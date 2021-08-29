@@ -414,8 +414,6 @@ Wire Wire Line
 	2300 6550 2450 6550
 Wire Wire Line
 	4800 6550 4950 6550
-Wire Wire Line
-	3800 6750 3650 6750
 $Comp
 L custom_parts_library:625L3C006M00000 X1
 U 1 1 61290DD6
@@ -568,16 +566,6 @@ Text Notes 675  2175 0    50   ~ 0
 RC rise time 6.5ms aprox
 Wire Wire Line
 	3075 2100 3075 2225
-Text GLabel 2450 6750 2    50   BiDi ~ 0
-USB_D1+
-Text GLabel 1150 6550 0    50   BiDi ~ 0
-USB_D1-
-Text GLabel 2450 6550 2    50   BiDi ~ 0
-USB_D2-
-Text GLabel 3650 6750 0    50   BiDi ~ 0
-USB_D3+
-Text GLabel 4950 6550 2    50   BiDi ~ 0
-USB_D3-
 $Comp
 L Power_Protection:SRV05-4 U?
 U 1 1 61242FBB
@@ -779,8 +767,6 @@ F 3 "~" H 4275 2575 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1300 6750 1150 6750
-Text GLabel 1150 6750 0    50   BiDi ~ 0
-USB_D2+
 Wire Notes Line
 	650  5575 650  7550
 Text Notes 700  5700 0    50   ~ 0
@@ -877,4 +863,18 @@ Wire Notes Line
 	8575 1925 8575 1275
 Wire Notes Line
 	8575 1275 5975 1275
+Text Label 4950 6550 0    50   ~ 0
+USBD[2]+
+Wire Wire Line
+	3800 6750 3650 6750
+Text Label 3650 6750 2    50   ~ 0
+USBD[2]-
+Text Label 2450 6550 0    50   ~ 0
+USBD[1]-
+Text Label 2450 6750 0    50   ~ 0
+USBD[0]+
+Text Label 1150 6550 2    50   ~ 0
+USBD[0]-
+Text Label 1150 6750 2    50   ~ 0
+USBD[1]+
 $EndSCHEMATC

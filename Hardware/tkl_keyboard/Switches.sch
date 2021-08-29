@@ -4130,4 +4130,34 @@ F 3 "" H 2775 7525 50  0001 C CNN
 	1    2775 7500
 	1    0    0    -1  
 $EndComp
+Text GLabel 12250 2250 1    50   Input ~ 0
+ENC_ROW[0]
+Text GLabel 12800 2250 1    50   Output ~ 0
+ENC_COL[0]
+Wire Wire Line
+	12250 2250 12250 2500
+Connection ~ 12250 2500
+Wire Wire Line
+	12800 2250 12800 2500
+Connection ~ 12800 2500
+Text GLabel 13000 2250 1    50   Input ~ 0
+ENC_ROW[1]
+Text GLabel 13550 2250 1    50   Output ~ 0
+ENC_COL[1]
+Wire Wire Line
+	13000 2250 13000 2500
+Wire Wire Line
+	13550 2250 13550 2500
+Connection ~ 13000 2500
+Connection ~ 13550 2500
+Text GLabel 13750 2250 1    50   Input ~ 0
+ENC_ROW[2]
+Text GLabel 14300 2250 1    50   Output ~ 0
+ENC_COL[2]
+Wire Wire Line
+	13750 2250 13750 2500
+Wire Wire Line
+	14300 2250 14300 2500
+Connection ~ 13750 2500
+Connection ~ 14300 2500
 $EndSCHEMATC

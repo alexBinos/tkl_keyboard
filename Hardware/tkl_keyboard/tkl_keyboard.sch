@@ -220,7 +220,7 @@ Wire Wire Line
 $Sheet
 S 8375 2825 525  375 
 U 650FF941
-F0 "USB Downstrem 0" 118
+F0 "USB Downstream 0" 118
 F1 "USB_DOWNSTREAM.sch" 50
 F2 "USBD+" B L 8375 2950 50 
 F3 "USBD-" I L 8375 3075 50 
