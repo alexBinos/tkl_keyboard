@@ -2723,7 +2723,6 @@ Connection ~ 6800 6500
 Connection ~ 6050 6500
 Connection ~ 5300 6500
 Connection ~ 4550 6500
-Connection ~ 3800 6500
 Connection ~ 3050 6500
 Wire Wire Line
 	13550 6500 13550 7500
@@ -2769,8 +2768,6 @@ Wire Wire Line
 	4550 5500 4550 6500
 Wire Wire Line
 	3725 5500 3800 5500
-Wire Wire Line
-	3800 5500 3800 6500
 Wire Wire Line
 	3050 5500 3050 6500
 $Comp
@@ -3232,15 +3229,15 @@ $EndComp
 $Comp
 L Device:D D42
 U 1 1 6228001F
-P 3250 6725
+P 3250 7725
 AR Path="/62F5643B/6228001F" Ref="D42"  Part="1" 
 AR Path="/63013830/6228001F" Ref="D?"  Part="1" 
 AR Path="/6301FD9D/6228001F" Ref="D?"  Part="1" 
-F 0 "D42" V 3296 6645 50  0000 R CNN
-F 1 "D" V 3205 6645 50  0000 R CNN
-F 2 "custom_footprint_library:SOD323_HS" H 3250 6725 50  0001 C CNN
-F 3 "~" H 3250 6725 50  0001 C CNN
-	1    3250 6725
+F 0 "D42" V 3296 7645 50  0000 R CNN
+F 1 "D" V 3205 7645 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 3250 7725 50  0001 C CNN
+F 3 "~" H 3250 7725 50  0001 C CNN
+	1    3250 7725
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -3262,13 +3259,10 @@ Wire Wire Line
 Wire Wire Line
 	4475 6500 4550 6500
 Wire Wire Line
-	3725 6500 3800 6500
+	3725 7500 3800 7500
 Wire Wire Line
 	2975 6500 3050 6500
 Connection ~ 4000 6925
-Connection ~ 3250 6925
-Wire Wire Line
-	4000 6925 3250 6925
 Wire Wire Line
 	4000 6925 4000 6875
 Wire Wire Line
@@ -3322,17 +3316,15 @@ $EndComp
 Wire Wire Line
 	2500 6925 2500 6875
 Wire Wire Line
-	3250 6925 2500 6925
+	3250 7875 3250 7925
 Wire Wire Line
-	3250 6875 3250 6925
+	3250 7500 3325 7500
 Wire Wire Line
-	3250 6500 3325 6500
-Wire Wire Line
-	3250 6575 3250 6500
+	3250 7575 3250 7500
 $Comp
 L CherryMX:CherryMX SW?
 U 1 1 6227FFF4
-P 3525 6500
+P 3525 7500
 AR Path="/6227FFF4" Ref="SW?"  Part="1" 
 AR Path="/60D44364/6227FFF4" Ref="SW?"  Part="1" 
 AR Path="/61150193/6227FFF4" Ref="SW?"  Part="1" 
@@ -3340,11 +3332,11 @@ AR Path="/6123418A/6227FFF4" Ref="SW?"  Part="1"
 AR Path="/62F5643B/6227FFF4" Ref="SW12"  Part="1" 
 AR Path="/63013830/6227FFF4" Ref="SW?"  Part="1" 
 AR Path="/6301FD9D/6227FFF4" Ref="SW?"  Part="1" 
-F 0 "SW12" H 3525 6785 50  0000 C CNN
-F 1 "K64" H 3525 6694 50  0000 C CNN
-F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.25u_PCB_KailhSocket" H 3525 6525 50  0001 C CNN
-F 3 "" H 3525 6525 50  0001 C CNN
-	1    3525 6500
+F 0 "SW12" H 3525 7785 50  0000 C CNN
+F 1 "K64" H 3525 7694 50  0000 C CNN
+F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.25u_PCB_KailhSocket" H 3525 7525 50  0001 C CNN
+F 3 "" H 3525 7525 50  0001 C CNN
+	1    3525 7500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -3986,10 +3978,6 @@ Wire Wire Line
 Wire Wire Line
 	14300 4500 14300 7500
 Wire Wire Line
-	3800 6500 3800 8500
-Wire Wire Line
-	2500 7925 4000 7925
-Wire Wire Line
 	5300 6500 5300 8500
 Wire Wire Line
 	4000 7925 5500 7925
@@ -4160,4 +4148,16 @@ Wire Wire Line
 	14300 2250 14300 2500
 Connection ~ 13750 2500
 Connection ~ 14300 2500
+Wire Wire Line
+	3800 5500 3800 7500
+Wire Wire Line
+	2500 6925 4000 6925
+Connection ~ 3250 7925
+Wire Wire Line
+	3250 7925 4000 7925
+Connection ~ 3800 7500
+Wire Wire Line
+	3800 7500 3800 8500
+Wire Wire Line
+	2500 7925 3250 7925
 $EndSCHEMATC

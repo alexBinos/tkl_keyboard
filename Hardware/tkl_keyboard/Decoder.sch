@@ -126,69 +126,69 @@ Text HLabel 4850 4850 0    50   Input ~ 0
 COLA[5]
 Wire Wire Line
 	4850 4850 5400 4850
-Text HLabel 6700 3350 2    50   Output ~ 0
+Text HLabel 6700 2650 2    50   Output ~ 0
 COL[0]
 Wire Wire Line
-	6700 3350 6150 3350
-Text HLabel 6700 3250 2    50   Output ~ 0
+	6700 2650 6150 2650
+Text HLabel 6700 2750 2    50   Output ~ 0
 COL[1]
 Wire Wire Line
-	6700 3250 6150 3250
-Text HLabel 6700 3150 2    50   Output ~ 0
+	6700 2750 6150 2750
+Text HLabel 6700 2850 2    50   Output ~ 0
 COL[2]
 Wire Wire Line
-	6700 3150 6150 3150
-Text HLabel 6700 3050 2    50   Output ~ 0
+	6700 2850 6150 2850
+Text HLabel 6700 2950 2    50   Output ~ 0
 COL[3]
 Wire Wire Line
-	6700 3050 6150 3050
-Text HLabel 6700 2950 2    50   Output ~ 0
+	6700 2950 6150 2950
+Text HLabel 6700 3050 2    50   Output ~ 0
 COL[4]
 Wire Wire Line
-	6700 2950 6150 2950
-Text HLabel 6700 2850 2    50   Output ~ 0
+	6700 3050 6150 3050
+Text HLabel 6700 3150 2    50   Output ~ 0
 COL[5]
 Wire Wire Line
-	6700 2850 6150 2850
+	6700 3150 6150 3150
 Wire Wire Line
-	6700 2750 6150 2750
-Text HLabel 6700 2650 2    50   Output ~ 0
+	6700 3250 6150 3250
+Text HLabel 6700 3350 2    50   Output ~ 0
 COL[7]
 Wire Wire Line
-	6700 2650 6150 2650
-Text HLabel 6700 5350 2    50   Output ~ 0
+	6700 3350 6150 3350
+Text HLabel 6700 4650 2    50   Output ~ 0
 COL[8]
 Wire Wire Line
-	6700 5350 6150 5350
-Text HLabel 6700 5250 2    50   Output ~ 0
+	6700 4650 6150 4650
+Text HLabel 6700 4750 2    50   Output ~ 0
 COL[9]
 Wire Wire Line
-	6700 5250 6150 5250
-Text HLabel 6700 5150 2    50   Output ~ 0
+	6700 4750 6150 4750
+Text HLabel 6700 4850 2    50   Output ~ 0
 COL[10]
 Wire Wire Line
-	6700 5150 6150 5150
-Text HLabel 6700 5050 2    50   Output ~ 0
+	6700 4850 6150 4850
+Text HLabel 6700 4950 2    50   Output ~ 0
 COL[11]
 Wire Wire Line
-	6700 5050 6150 5050
-Text HLabel 6700 4950 2    50   Output ~ 0
+	6700 4950 6150 4950
+Text HLabel 6700 5050 2    50   Output ~ 0
 COL[12]
 Wire Wire Line
-	6700 4950 6150 4950
-Text HLabel 6700 4850 2    50   Output ~ 0
+	6700 5050 6150 5050
+Text HLabel 6700 5150 2    50   Output ~ 0
 COL[13]
 Wire Wire Line
-	6700 4850 6150 4850
-Text HLabel 6700 4750 2    50   Output ~ 0
+	6700 5150 6150 5150
+Text HLabel 6700 5250 2    50   Output ~ 0
 COL[14]
 Wire Wire Line
-	6700 4750 6150 4750
-Text HLabel 6700 4650 2    50   Output ~ 0
+	6700 5250 6150 5250
+Text HLabel 6700 5350 2    50   Output ~ 0
 COL[15]
 Wire Wire Line
-	6700 4650 6150 4650
-Text HLabel 6700 2750 2    50   Output ~ 0
+	6700 5350 6150 5350
+Text HLabel 6700 3250 2    50   Output ~ 0
 COL[6]
 $Comp
 L Device:R R?
