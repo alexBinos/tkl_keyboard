@@ -407,11 +407,11 @@ $EndComp
 Wire Wire Line
 	4300 7225 4300 7150
 Wire Wire Line
-	1300 6550 1150 6550
-Wire Wire Line
-	2300 6750 2450 6750
-Wire Wire Line
 	2300 6550 2450 6550
+Wire Wire Line
+	1300 6750 1150 6750
+Wire Wire Line
+	1300 6550 1150 6550
 Wire Wire Line
 	4800 6550 4950 6550
 $Comp
@@ -766,7 +766,7 @@ F 3 "~" H 4275 2575 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1300 6750 1150 6750
+	2300 6750 2450 6750
 Wire Notes Line
 	650  5575 650  7550
 Text Notes 700  5700 0    50   ~ 0
@@ -869,12 +869,12 @@ Wire Wire Line
 	3800 6750 3650 6750
 Text Label 3650 6750 2    50   ~ 0
 USBD[2]-
-Text Label 2450 6550 0    50   ~ 0
-USBD[1]-
-Text Label 2450 6750 0    50   ~ 0
-USBD[0]+
 Text Label 1150 6550 2    50   ~ 0
-USBD[0]-
+USBD[1]-
 Text Label 1150 6750 2    50   ~ 0
+USBD[0]+
+Text Label 2450 6550 0    50   ~ 0
+USBD[0]-
+Text Label 2450 6750 0    50   ~ 0
 USBD[1]+
 $EndSCHEMATC

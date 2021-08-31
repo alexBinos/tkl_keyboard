@@ -332,62 +332,6 @@ F 3 "~" H 5475 3875 50  0001 C CNN
 	1    5475 3875
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	5675 3775 5725 3775
-$Comp
-L Device:R R6
-U 1 1 60DDF643
-P 5475 4075
-AR Path="/6114D32E/60DDF643" Ref="R6"  Part="1" 
-AR Path="/6247A5CE/60DDF643" Ref="R?"  Part="1" 
-AR Path="/612340DE/60DDF643" Ref="R6"  Part="1" 
-AR Path="/62F6B81F/60DDF643" Ref="R4"  Part="1" 
-F 0 "R4" V 5400 4075 50  0000 C CNN
-F 1 "OPT" V 5475 4075 50  0000 C CNN
-F 2 "resistor_smd:R_0603_1608Metric" V 5405 4075 50  0001 C CNN
-F 3 "~" H 5475 4075 50  0001 C CNN
-	1    5475 4075
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:R R5
-U 1 1 60DDFB5E
-P 5475 3650
-AR Path="/6114D32E/60DDFB5E" Ref="R5"  Part="1" 
-AR Path="/6247A5CE/60DDFB5E" Ref="R?"  Part="1" 
-AR Path="/612340DE/60DDFB5E" Ref="R5"  Part="1" 
-AR Path="/62F6B81F/60DDFB5E" Ref="R3"  Part="1" 
-F 0 "R3" V 5575 3650 50  0000 C CNN
-F 1 "OPT" V 5475 3650 50  0000 C CNN
-F 2 "resistor_smd:R_0603_1608Metric" V 5405 3650 50  0001 C CNN
-F 3 "~" H 5475 3650 50  0001 C CNN
-	1    5475 3650
-	0    1    -1   0   
-$EndComp
-Wire Wire Line
-	5325 4075 5250 4075
-Wire Wire Line
-	5250 4075 5250 3975
-Wire Wire Line
-	5250 3975 5275 3975
-Wire Wire Line
-	5675 3975 5725 3975
-Wire Wire Line
-	5625 4075 5725 4075
-Wire Wire Line
-	5725 4075 5725 3975
-Connection ~ 5725 3975
-Wire Wire Line
-	5725 3775 5725 3650
-Wire Wire Line
-	5725 3650 5625 3650
-Connection ~ 5725 3775
-Wire Wire Line
-	5325 3650 5250 3650
-Wire Wire Line
-	5250 3650 5250 3775
-Wire Wire Line
-	5250 3775 5275 3775
 Text Notes 7450 4775 0    50   ~ 0
 5V to 3V3 LDO\n200mA
 Wire Wire Line
@@ -551,10 +495,6 @@ Wire Wire Line
 Wire Wire Line
 	2725 4675 2725 4775
 Connection ~ 2725 4775
-Wire Wire Line
-	5725 3775 6000 3775
-Wire Wire Line
-	5725 3975 6000 3975
 Text Label 5875 3775 0    50   ~ 0
 D-
 Text Label 5875 3975 0    50   ~ 0
@@ -852,12 +792,18 @@ Wire Wire Line
 	4150 3775 5075 3775
 Wire Wire Line
 	4150 3975 4950 3975
-Wire Wire Line
-	5250 3775 5075 3775
-Connection ~ 5250 3775
 Connection ~ 5075 3775
-Wire Wire Line
-	5250 3975 4950 3975
-Connection ~ 5250 3975
 Connection ~ 4950 3975
+Text Label 4525 3775 0    50   ~ 0
+CD-
+Text Label 4525 3975 0    50   ~ 0
+CD+
+Wire Wire Line
+	5075 3775 5275 3775
+Wire Wire Line
+	5675 3775 6000 3775
+Wire Wire Line
+	4950 3975 5275 3975
+Wire Wire Line
+	5675 3975 6000 3975
 $EndSCHEMATC

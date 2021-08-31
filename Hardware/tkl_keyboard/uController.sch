@@ -72,11 +72,11 @@ Connection ~ 4975 5975
 Wire Wire Line
 	4975 5975 4975 6025
 Wire Wire Line
-	5575 4125 5925 4125
+	5575 4425 5925 4425
 Wire Wire Line
-	5575 3925 5925 3925
+	5575 4325 5925 4325
 Wire Wire Line
-	5575 3825 5925 3825
+	5575 3125 5925 3125
 $Comp
 L Device:C C?
 U 1 1 60D6926F
@@ -138,9 +138,9 @@ Wire Wire Line
 Wire Wire Line
 	4175 2250 4175 2175
 Wire Wire Line
-	5575 3525 5925 3525
+	3025 4875 3375 4875
 Wire Wire Line
-	5575 3625 5925 3625
+	2975 5025 3325 5025
 Text Notes 750  1000 0    315  ~ 0
 uController
 NoConn ~ 4375 3025
@@ -230,7 +230,7 @@ AR Path="/612342D1/60D692BA" Ref="J3"  Part="1"
 AR Path="/63013830/60D692BA" Ref="J5"  Part="1" 
 F 0 "J5" H 7400 3775 50  0000 C CNN
 F 1 "Conn_02x03_Odd_Even" H 7175 3700 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical_SMD" H 7425 3475 50  0001 C CNN
+F 2 "custom_footprint_library:ISP_POGO" H 7425 3475 50  0001 C CNN
 F 3 "~" H 7425 3475 50  0001 C CNN
 	1    7425 3475
 	1    0    0    -1  
@@ -238,7 +238,7 @@ $EndComp
 Text Notes 6700 3025 0    50   ~ 0
 Config
 Wire Wire Line
-	5575 4025 5925 4025
+	5575 4225 5925 4225
 $Comp
 L power:VBUS #PWR?
 U 1 1 60D692D1
@@ -707,9 +707,9 @@ Wire Wire Line
 Wire Notes Line
 	6650 2925 6650 4350
 Wire Wire Line
-	5925 4225 5575 4225
+	5925 3025 5575 3025
 Wire Wire Line
-	5925 5125 5575 5125
+	5925 3625 5575 3625
 Text Notes 2900 2475 0    50   ~ 0
 16MHz Crystal
 Text Notes 7250 4100 0    50   ~ 0
@@ -763,7 +763,7 @@ Wire Wire Line
 Wire Wire Line
 	6425 4725 6425 4800
 Wire Wire Line
-	5925 4525 5575 4525
+	5925 4125 5575 4125
 Wire Wire Line
 	5925 5025 5575 5025
 Wire Wire Line
@@ -778,12 +778,11 @@ Wire Wire Line
 	2925 2975 2925 2825
 Connection ~ 2925 2825
 Wire Wire Line
-	5575 3325 5925 3325
+	5575 3225 5925 3225
 Wire Wire Line
-	5925 2625 5575 2625
+	5925 3525 5575 3525
 Wire Wire Line
-	5575 4325 5925 4325
-NoConn ~ 5575 4425
+	5575 4525 5925 4525
 Wire Notes Line
 	2250 6325 2250 1750
 Wire Notes Line
@@ -808,40 +807,40 @@ Text HLabel 5925 4825 2    50   BiDi ~ 0
 SCL
 Text HLabel 5925 5025 2    50   BiDi ~ 0
 SDA
-Text HLabel 5925 5125 2    50   Output ~ 0
+Text HLabel 5925 3625 2    50   Output ~ 0
 RGB_DOUT
-Text HLabel 5925 3925 2    50   Input ~ 0
-ROW[0]
-Text HLabel 5925 4025 2    50   Input ~ 0
-ROW[1]
 Text HLabel 5925 4125 2    50   Input ~ 0
-ROW[2]
+ROW[0]
 Text HLabel 5925 4325 2    50   Input ~ 0
-ROW[3]
-Text HLabel 5925 4525 2    50   Input ~ 0
-ROW[5]
+ROW[1]
 Text HLabel 5925 4225 2    50   Input ~ 0
+ROW[2]
+Text HLabel 5925 4425 2    50   Input ~ 0
+ROW[3]
+Text HLabel 5925 3025 2    50   Input ~ 0
+ROW[5]
+Text HLabel 5925 4525 2    50   Input ~ 0
 ROW[4]
-Text HLabel 5925 2625 2    50   Output ~ 0
+Text HLabel 5925 3525 2    50   Output ~ 0
 COLA[0]
-Text HLabel 5925 3325 2    50   Output ~ 0
-COLA[1]
-Text HLabel 5925 3825 2    50   Output ~ 0
-COLA[2]
-Text HLabel 5925 3025 2    50   Output ~ 0
-COLA[3]
-Text HLabel 5925 3125 2    50   Output ~ 0
-COLA[4]
 Text HLabel 5925 3225 2    50   Output ~ 0
+COLA[1]
+Text HLabel 5925 3125 2    50   Output ~ 0
+COLA[2]
+Text HLabel 5925 3825 2    50   Output ~ 0
+COLA[3]
+Text HLabel 5925 3325 2    50   Output ~ 0
+COLA[4]
+Text HLabel 5925 2625 2    50   Output ~ 0
 COLA[5]
 Wire Wire Line
-	5925 3025 5575 3025
+	5925 3825 5575 3825
 Wire Wire Line
 	5925 2925 5575 2925
 Wire Wire Line
-	5925 3225 5575 3225
+	5925 2625 5575 2625
 Wire Wire Line
-	5925 3125 5575 3125
+	5925 3325 5575 3325
 Wire Wire Line
 	5575 5225 5925 5225
 Wire Wire Line
@@ -854,9 +853,9 @@ Wire Notes Line
 	2250 6325 6625 6325
 Wire Notes Line
 	6625 6325 6625 1750
-Text HLabel 5925 3525 2    50   Input ~ 0
+Text HLabel 3375 4875 2    50   Input ~ 0
 ENC_A[0]
-Text HLabel 5925 3625 2    50   Input ~ 0
+Text HLabel 3325 5025 2    50   Input ~ 0
 ENC_B[0]
 Text HLabel 5925 5225 2    50   Input ~ 0
 ENC_A[1]

@@ -4032,7 +4032,7 @@ COL[3]
 Text HLabel 6050 8500 3    50   Input ~ 0
 COL[4]
 Text HLabel 6800 8500 3    50   Input ~ 0
-COL5]
+COL[5]
 Text HLabel 7550 8500 3    50   Input ~ 0
 COL[6]
 Text HLabel 8300 8500 3    50   Input ~ 0
@@ -4069,8 +4069,6 @@ F 3 "~" H 13000 5725 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	13475 5500 13550 5500
-Wire Wire Line
-	13000 5925 12250 5925
 Wire Wire Line
 	13000 5875 13000 5925
 Wire Wire Line
@@ -4160,4 +4158,6 @@ Wire Wire Line
 	3800 7500 3800 8500
 Wire Wire Line
 	2500 7925 3250 7925
+Wire Wire Line
+	13000 5925 12250 5925
 $EndSCHEMATC

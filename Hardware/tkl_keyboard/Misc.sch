@@ -141,7 +141,7 @@ AR Path="/6301FD9D/63210BCD" Ref="J?"  Part="1"
 AR Path="/63166CC9/63210BCD" Ref="J6"  Part="1" 
 F 0 "J6" H 7628 3676 50  0000 L CNN
 F 1 "Conn_01x04_Female" H 7300 3400 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 7600 3700 50  0001 C CNN
+F 2 "custom_footprint_library:OLED_128_64" H 7600 3700 50  0001 C CNN
 F 3 "~" H 7600 3700 50  0001 C CNN
 	1    7600 3700
 	1    0    0    -1  
