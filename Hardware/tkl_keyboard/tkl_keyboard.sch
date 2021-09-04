@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 11
+Sheet 1 12
 Title ""
 Date ""
 Rev ""
@@ -287,4 +287,10 @@ Wire Wire Line
 	7850 4575 8375 4575
 Text Notes 750  1000 0    315  ~ 0
 TKL KEYBOARD
+$Sheet
+S 2125 6975 1650 700 
+U 613390DE
+F0 "Power" 118
+F1 "Power.sch" 50
+$EndSheet
 $EndSCHEMATC
