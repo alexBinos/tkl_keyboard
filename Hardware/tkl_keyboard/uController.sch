@@ -72,9 +72,9 @@ Connection ~ 4975 5975
 Wire Wire Line
 	4975 5975 4975 6025
 Wire Wire Line
-	5575 4325 5925 4325
+	5575 4125 5925 4125
 Wire Wire Line
-	5575 4025 5925 4025
+	5575 3925 5925 3925
 Wire Wire Line
 	5575 4525 5925 4525
 $Comp
@@ -238,23 +238,7 @@ $EndComp
 Text Notes 6700 3025 0    50   ~ 0
 Config
 Wire Wire Line
-	5575 4125 5925 4125
-$Comp
-L power:VBUS #PWR?
-U 1 1 60D692D1
-P 4225 3350
-AR Path="/60D692D1" Ref="#PWR?"  Part="1" 
-AR Path="/60D44BDB/60D692D1" Ref="#PWR?"  Part="1" 
-AR Path="/62022D96/60D692D1" Ref="#PWR0155"  Part="1" 
-AR Path="/612342D1/60D692D1" Ref="#PWR0155"  Part="1" 
-AR Path="/63013830/60D692D1" Ref="#PWR0178"  Part="1" 
-F 0 "#PWR0178" H 4225 3200 50  0001 C CNN
-F 1 "VBUS" H 4075 3425 50  0000 C CNN
-F 2 "" H 4225 3350 50  0001 C CNN
-F 3 "" H 4225 3350 50  0001 C CNN
-	1    4225 3350
-	1    0    0    -1  
-$EndComp
+	5575 4025 5925 4025
 Wire Wire Line
 	7800 3675 7800 3575
 Wire Wire Line
@@ -341,26 +325,8 @@ F 3 "" H 7800 3275 50  0001 C CNN
 	1    7800 3275
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 60D71BCE
-P 7850 4925
-AR Path="/60D71BCE" Ref="#PWR?"  Part="1" 
-AR Path="/60D44BDB/60D71BCE" Ref="#PWR?"  Part="1" 
-AR Path="/62022D96/60D71BCE" Ref="#PWR0166"  Part="1" 
-AR Path="/612342D1/60D71BCE" Ref="#PWR0166"  Part="1" 
-AR Path="/63013830/60D71BCE" Ref="#PWR0193"  Part="1" 
-F 0 "#PWR0193" H 7850 4775 50  0001 C CNN
-F 1 "+5V" H 7865 5098 50  0000 C CNN
-F 2 "" H 7850 4925 50  0001 C CNN
-F 3 "" H 7850 4925 50  0001 C CNN
-	1    7850 4925
-	1    0    0    -1  
-$EndComp
 Text Notes 6725 1875 0    50   ~ 0
 uController Decoupling
-Wire Wire Line
-	7850 4925 7850 4975
 Wire Wire Line
 	7400 2250 7400 2200
 Wire Wire Line
@@ -470,56 +436,6 @@ F 3 "~" H 2400 2775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6825 4975 6825 5025
-$Comp
-L power:GND #PWR?
-U 1 1 60D71C20
-P 6825 5025
-AR Path="/60D71C20" Ref="#PWR?"  Part="1" 
-AR Path="/60D44BDB/60D71C20" Ref="#PWR?"  Part="1" 
-AR Path="/62022D96/60D71C20" Ref="#PWR0159"  Part="1" 
-AR Path="/612342D1/60D71C20" Ref="#PWR0159"  Part="1" 
-AR Path="/63013830/60D71C20" Ref="#PWR0182"  Part="1" 
-F 0 "#PWR0182" H 6825 4775 50  0001 C CNN
-F 1 "GND" H 6830 4852 50  0000 C CNN
-F 2 "" H 6825 5025 50  0001 C CNN
-F 3 "" H 6825 5025 50  0001 C CNN
-	1    6825 5025
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP?
-U 1 1 60D71C26
-P 7850 4975
-AR Path="/60D71C26" Ref="TP?"  Part="1" 
-AR Path="/60D44BDB/60D71C26" Ref="TP?"  Part="1" 
-AR Path="/62022D96/60D71C26" Ref="TP3"  Part="1" 
-AR Path="/612342D1/60D71C26" Ref="TP3"  Part="1" 
-AR Path="/63013830/60D71C26" Ref="TP3"  Part="1" 
-F 0 "TP3" H 7675 4875 50  0000 L CNN
-F 1 "TestPoint" H 7450 4950 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 8050 4975 50  0001 C CNN
-F 3 "~" H 8050 4975 50  0001 C CNN
-	1    7850 4975
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:TestPoint TP?
-U 1 1 60D71C2C
-P 6825 4975
-AR Path="/60D71C2C" Ref="TP?"  Part="1" 
-AR Path="/60D44BDB/60D71C2C" Ref="TP?"  Part="1" 
-AR Path="/62022D96/60D71C2C" Ref="TP1"  Part="1" 
-AR Path="/612342D1/60D71C2C" Ref="TP1"  Part="1" 
-AR Path="/63013830/60D71C2C" Ref="TP1"  Part="1" 
-F 0 "TP1" H 6883 5093 50  0000 L CNN
-F 1 "TestPoint" H 6883 5002 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7025 4975 50  0001 C CNN
-F 3 "~" H 7025 4975 50  0001 C CNN
-	1    6825 4975
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
 	7850 2250 7850 2200
 Wire Wire Line
 	7850 2550 7850 2600
@@ -617,40 +533,6 @@ F 1 "+3.3V" H 7865 2373 50  0000 C CNN
 F 2 "" H 7850 2200 50  0001 C CNN
 F 3 "" H 7850 2200 50  0001 C CNN
 	1    7850 2200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7375 4925 7375 4975
-$Comp
-L Connector:TestPoint TP?
-U 1 1 60D71C8F
-P 7375 4975
-AR Path="/60D71C8F" Ref="TP?"  Part="1" 
-AR Path="/60D44BDB/60D71C8F" Ref="TP?"  Part="1" 
-AR Path="/62022D96/60D71C8F" Ref="TP2"  Part="1" 
-AR Path="/612342D1/60D71C8F" Ref="TP2"  Part="1" 
-AR Path="/63013830/60D71C8F" Ref="TP2"  Part="1" 
-F 0 "TP2" H 7200 4875 50  0000 L CNN
-F 1 "TestPoint" H 6975 4950 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7575 4975 50  0001 C CNN
-F 3 "~" H 7575 4975 50  0001 C CNN
-	1    7375 4975
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:+3.3V #PWR?
-U 1 1 60D71C9B
-P 7375 4925
-AR Path="/60D71C9B" Ref="#PWR?"  Part="1" 
-AR Path="/60D44BDB/60D71C9B" Ref="#PWR?"  Part="1" 
-AR Path="/62022D96/60D71C9B" Ref="#PWR0163"  Part="1" 
-AR Path="/612342D1/60D71C9B" Ref="#PWR0163"  Part="1" 
-AR Path="/63013830/60D71C9B" Ref="#PWR0186"  Part="1" 
-F 0 "#PWR0186" H 7375 4775 50  0001 C CNN
-F 1 "+3.3V" H 7390 5098 50  0000 C CNN
-F 2 "" H 7375 4925 50  0001 C CNN
-F 3 "" H 7375 4925 50  0001 C CNN
-	1    7375 4925
 	1    0    0    -1  
 $EndComp
 Text Notes 6700 4500 0    50   ~ 0
@@ -763,7 +645,7 @@ Wire Wire Line
 Wire Wire Line
 	6425 4725 6425 4800
 Wire Wire Line
-	5925 3925 5575 3925
+	5925 3825 5575 3825
 Wire Wire Line
 	5925 3225 5575 3225
 Wire Wire Line
@@ -809,13 +691,13 @@ Text HLabel 5925 3525 2    50   BiDi ~ 0
 SDA
 Text HLabel 5925 3225 2    50   Output ~ 0
 RGB_DOUT
-Text HLabel 5925 3925 2    50   Input ~ 0
+Text HLabel 5925 3825 2    50   Input ~ 0
 ROW[0]
-Text HLabel 5925 4025 2    50   Input ~ 0
+Text HLabel 5925 3925 2    50   Input ~ 0
 ROW[1]
-Text HLabel 5925 4325 2    50   Input ~ 0
-ROW[2]
 Text HLabel 5925 4125 2    50   Input ~ 0
+ROW[2]
+Text HLabel 5925 4025 2    50   Input ~ 0
 ROW[3]
 Text HLabel 5925 4425 2    50   Input ~ 0
 ROW[5]
@@ -853,16 +735,177 @@ Wire Notes Line
 	2250 6325 6625 6325
 Wire Notes Line
 	6625 6325 6625 1750
-Text HLabel 5925 5025 2    50   Input ~ 0
-ENC_A[0]
 Text HLabel 5925 5125 2    50   Input ~ 0
+ENC_A[0]
+Text HLabel 5925 5025 2    50   Input ~ 0
 ENC_B[0]
-Text HLabel 5925 5225 2    50   Input ~ 0
-ENC_A[1]
 Text HLabel 5925 5325 2    50   Input ~ 0
+ENC_A[1]
+Text HLabel 5925 5225 2    50   Input ~ 0
 ENC_B[1]
-Text HLabel 5925 5425 2    50   Input ~ 0
-ENC_A[2]
 Text HLabel 5925 5525 2    50   Input ~ 0
+ENC_A[2]
+Text HLabel 5925 5425 2    50   Input ~ 0
 ENC_B[2]
+$Comp
+L power:+5V #PWR?
+U 1 1 614076E8
+P 4225 3350
+AR Path="/6114D32E/614076E8" Ref="#PWR?"  Part="1" 
+AR Path="/6247A5CE/614076E8" Ref="#PWR?"  Part="1" 
+AR Path="/612340DE/614076E8" Ref="#PWR?"  Part="1" 
+AR Path="/62F6B81F/614076E8" Ref="#PWR?"  Part="1" 
+AR Path="/613390DE/614076E8" Ref="#PWR?"  Part="1" 
+AR Path="/63013830/614076E8" Ref="#PWR0178"  Part="1" 
+F 0 "#PWR0178" H 4225 3200 50  0001 C CNN
+F 1 "+5V" H 4100 3450 50  0000 C CNN
+F 2 "" H 4225 3350 50  0001 C CNN
+F 3 "" H 4225 3350 50  0001 C CNN
+	1    4225 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 60D71C2C
+P 7025 4825
+AR Path="/60D71C2C" Ref="TP?"  Part="1" 
+AR Path="/60D44BDB/60D71C2C" Ref="TP?"  Part="1" 
+AR Path="/62022D96/60D71C2C" Ref="TP1"  Part="1" 
+AR Path="/612342D1/60D71C2C" Ref="TP1"  Part="1" 
+AR Path="/63013830/60D71C2C" Ref="TP1"  Part="1" 
+F 0 "TP1" H 7083 4943 50  0000 L CNN
+F 1 "TestPoint" H 7083 4852 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7225 4825 50  0001 C CNN
+F 3 "~" H 7225 4825 50  0001 C CNN
+	1    7025 4825
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60D71C20
+P 7025 4875
+AR Path="/60D71C20" Ref="#PWR?"  Part="1" 
+AR Path="/60D44BDB/60D71C20" Ref="#PWR?"  Part="1" 
+AR Path="/62022D96/60D71C20" Ref="#PWR0159"  Part="1" 
+AR Path="/612342D1/60D71C20" Ref="#PWR0159"  Part="1" 
+AR Path="/63013830/60D71C20" Ref="#PWR0182"  Part="1" 
+F 0 "#PWR0182" H 7025 4625 50  0001 C CNN
+F 1 "GND" H 7030 4702 50  0000 C CNN
+F 2 "" H 7025 4875 50  0001 C CNN
+F 3 "" H 7025 4875 50  0001 C CNN
+	1    7025 4875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7025 4825 7025 4875
+$Comp
+L Connector:TestPoint TP?
+U 1 1 61432228
+P 7675 4825
+AR Path="/61432228" Ref="TP?"  Part="1" 
+AR Path="/60D44BDB/61432228" Ref="TP?"  Part="1" 
+AR Path="/62022D96/61432228" Ref="TP?"  Part="1" 
+AR Path="/612342D1/61432228" Ref="TP?"  Part="1" 
+AR Path="/63013830/61432228" Ref="TP2"  Part="1" 
+F 0 "TP2" H 7733 4943 50  0000 L CNN
+F 1 "TestPoint" H 7733 4852 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7875 4825 50  0001 C CNN
+F 3 "~" H 7875 4825 50  0001 C CNN
+	1    7675 4825
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6143222E
+P 7675 4875
+AR Path="/6143222E" Ref="#PWR?"  Part="1" 
+AR Path="/60D44BDB/6143222E" Ref="#PWR?"  Part="1" 
+AR Path="/62022D96/6143222E" Ref="#PWR?"  Part="1" 
+AR Path="/612342D1/6143222E" Ref="#PWR?"  Part="1" 
+AR Path="/63013830/6143222E" Ref="#PWR07"  Part="1" 
+F 0 "#PWR07" H 7675 4625 50  0001 C CNN
+F 1 "GND" H 7680 4702 50  0000 C CNN
+F 2 "" H 7675 4875 50  0001 C CNN
+F 3 "" H 7675 4875 50  0001 C CNN
+	1    7675 4875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7675 4825 7675 4875
+Wire Wire Line
+	5925 4325 5575 4325
+Text GLabel 5925 4325 2    50   Input ~ 0
+nCAPS
+$Comp
+L Device:R R?
+U 1 1 61453084
+P 2500 5675
+AR Path="/61453084" Ref="R?"  Part="1" 
+AR Path="/60D44BDB/61453084" Ref="R?"  Part="1" 
+AR Path="/60D99CF5/61453084" Ref="R?"  Part="1" 
+AR Path="/6114D32E/61453084" Ref="R?"  Part="1" 
+AR Path="/6247A5CE/61453084" Ref="R?"  Part="1" 
+AR Path="/612340DE/61453084" Ref="R?"  Part="1" 
+AR Path="/62F6B81F/61453084" Ref="R?"  Part="1" 
+AR Path="/613390DE/61453084" Ref="R?"  Part="1" 
+AR Path="/63013830/61453084" Ref="R3"  Part="1" 
+F 0 "R3" V 2425 5675 50  0000 C CNN
+F 1 "330R" V 2500 5675 50  0000 C CNN
+F 2 "resistor_smd:R_0603_1608Metric" V 2430 5675 50  0001 C CNN
+F 3 "~" H 2500 5675 50  0001 C CNN
+	1    2500 5675
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 61453090
+P 2500 5325
+AR Path="/61453090" Ref="D?"  Part="1" 
+AR Path="/60D44BDB/61453090" Ref="D?"  Part="1" 
+AR Path="/60D99CF5/61453090" Ref="D?"  Part="1" 
+AR Path="/6114D32E/61453090" Ref="D?"  Part="1" 
+AR Path="/6247A5CE/61453090" Ref="D?"  Part="1" 
+AR Path="/612340DE/61453090" Ref="D?"  Part="1" 
+AR Path="/62F6B81F/61453090" Ref="D?"  Part="1" 
+AR Path="/613390DE/61453090" Ref="D?"  Part="1" 
+AR Path="/63013830/61453090" Ref="D194"  Part="1" 
+F 0 "D194" V 2539 5207 50  0000 R CNN
+F 1 "LED" V 2448 5207 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 2500 5325 50  0001 C CNN
+F 3 "~" H 2500 5325 50  0001 C CNN
+	1    2500 5325
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 61453096
+P 2500 5125
+AR Path="/61453096" Ref="#PWR?"  Part="1" 
+AR Path="/60D44BDB/61453096" Ref="#PWR?"  Part="1" 
+AR Path="/60D99CF5/61453096" Ref="#PWR?"  Part="1" 
+AR Path="/6114D32E/61453096" Ref="#PWR?"  Part="1" 
+AR Path="/6247A5CE/61453096" Ref="#PWR?"  Part="1" 
+AR Path="/612340DE/61453096" Ref="#PWR?"  Part="1" 
+AR Path="/62F6B81F/61453096" Ref="#PWR?"  Part="1" 
+AR Path="/613390DE/61453096" Ref="#PWR?"  Part="1" 
+AR Path="/63013830/61453096" Ref="#PWR0186"  Part="1" 
+F 0 "#PWR0186" H 2500 4975 50  0001 C CNN
+F 1 "+3.3V" H 2515 5298 50  0000 C CNN
+F 2 "" H 2500 5125 50  0001 C CNN
+F 3 "" H 2500 5125 50  0001 C CNN
+	1    2500 5125
+	1    0    0    -1  
+$EndComp
+Text Notes 2375 4825 0    50   ~ 0
+Caps LED
+Wire Wire Line
+	2500 5125 2500 5175
+Wire Wire Line
+	2500 5475 2500 5525
+Text GLabel 2675 5900 2    50   Input ~ 0
+nCAPS
+Wire Wire Line
+	2500 5900 2500 5825
+Wire Wire Line
+	2675 5900 2500 5900
 $EndSCHEMATC

@@ -785,10 +785,6 @@ Text HLabel 6825 1625 0    50   BiDi ~ 0
 USB_UPSTREAM_IN+
 Text HLabel 6825 1725 0    50   BiDi ~ 0
 USB_UPSTREAM_IN-
-Text HLabel 7225 1625 2    50   BiDi ~ 0
-USB_DOWNSTREAM_LOCAL_OUT+
-Text HLabel 7225 1725 2    50   BiDi ~ 0
-USB_DOWNSTREAM_LOCAL_OUT-
 $Comp
 L Device:R R?
 U 1 1 6513C1DF
@@ -823,10 +819,6 @@ F 3 "~" H 7025 1725 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6875 1625 6825 1625
-Wire Wire Line
-	7175 1625 7225 1625
-Wire Wire Line
-	7175 1725 7225 1725
 Wire Wire Line
 	6875 1725 6825 1725
 Text HLabel 4575 2575 2    50   BiDi ~ 0
@@ -877,4 +869,12 @@ Text Label 2450 6550 0    50   ~ 0
 USBD[0]-
 Text Label 2450 6750 0    50   ~ 0
 USBD[1]+
+Wire Wire Line
+	7175 1625 7525 1625
+Wire Wire Line
+	7175 1725 7525 1725
+Text Label 7525 1625 0    50   ~ 0
+D4+
+Text Label 7525 1725 0    50   ~ 0
+D4-
 $EndSCHEMATC

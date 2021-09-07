@@ -995,7 +995,71 @@ Wire Notes Line
 Wire Notes Line
 	1750 3050 7925 3050
 Wire Notes Line
-	7925 3050 7925 1500
+	9300 3550 9300 2000
 Wire Notes Line
 	1750 1500 7925 1500
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 61422488
+P 8200 1950
+AR Path="/62F5643B/61422488" Ref="H?"  Part="1" 
+AR Path="/63013830/61422488" Ref="H?"  Part="1" 
+AR Path="/6301FD9D/61422488" Ref="H?"  Part="1" 
+AR Path="/63166CC9/61422488" Ref="H13"  Part="1" 
+F 0 "H13" H 8300 1999 50  0000 L CNN
+F 1 "MountingHole_Pad" H 8300 1908 50  0000 L CNN
+F 2 "mounting_hole:MountingHole_3.2mm_M3_ISO7380_Pad" H 8200 1950 50  0001 C CNN
+F 3 "~" H 8200 1950 50  0001 C CNN
+	1    8200 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6142248E
+P 8200 2125
+AR Path="/62F5643B/6142248E" Ref="#PWR?"  Part="1" 
+AR Path="/63013830/6142248E" Ref="#PWR?"  Part="1" 
+AR Path="/6301FD9D/6142248E" Ref="#PWR?"  Part="1" 
+AR Path="/63166CC9/6142248E" Ref="#PWR0529"  Part="1" 
+F 0 "#PWR0529" H 8200 1875 50  0001 C CNN
+F 1 "GND" H 8205 1952 50  0000 C CNN
+F 2 "" H 8200 2125 50  0001 C CNN
+F 3 "" H 8200 2125 50  0001 C CNN
+	1    8200 2125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 2125 8200 2050
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 61422495
+P 8200 2600
+AR Path="/62F5643B/61422495" Ref="H?"  Part="1" 
+AR Path="/63013830/61422495" Ref="H?"  Part="1" 
+AR Path="/6301FD9D/61422495" Ref="H?"  Part="1" 
+AR Path="/63166CC9/61422495" Ref="H14"  Part="1" 
+F 0 "H14" H 8300 2649 50  0000 L CNN
+F 1 "MountingHole_Pad" H 8300 2558 50  0000 L CNN
+F 2 "mounting_hole:MountingHole_3.2mm_M3_ISO7380_Pad" H 8200 2600 50  0001 C CNN
+F 3 "~" H 8200 2600 50  0001 C CNN
+	1    8200 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6142249B
+P 8200 2775
+AR Path="/62F5643B/6142249B" Ref="#PWR?"  Part="1" 
+AR Path="/63013830/6142249B" Ref="#PWR?"  Part="1" 
+AR Path="/6301FD9D/6142249B" Ref="#PWR?"  Part="1" 
+AR Path="/63166CC9/6142249B" Ref="#PWR0530"  Part="1" 
+F 0 "#PWR0530" H 8200 2525 50  0001 C CNN
+F 1 "GND" H 8205 2602 50  0000 C CNN
+F 2 "" H 8200 2775 50  0001 C CNN
+F 3 "" H 8200 2775 50  0001 C CNN
+	1    8200 2775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 2775 8200 2700
 $EndSCHEMATC

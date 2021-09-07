@@ -266,7 +266,7 @@ F 3 "~" H 5475 3875 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5075 3775 5075 4300
-NoConn ~ 6325 5025
+NoConn ~ 6325 5225
 Wire Wire Line
 	4975 2925 4975 2875
 Wire Wire Line
@@ -440,14 +440,8 @@ ESD Protection
 Wire Wire Line
 	5075 4300 6475 4300
 Wire Wire Line
-	6475 4300 6475 5225
-Wire Wire Line
-	6475 5225 6325 5225
-Wire Wire Line
-	5325 5025 4950 5025
-Wire Wire Line
-	4950 5025 4950 3975
-NoConn ~ 5325 5225
+	6475 4300 6475 5025
+NoConn ~ 5325 5025
 Wire Wire Line
 	3475 5150 3400 5150
 Wire Wire Line
@@ -516,4 +510,10 @@ Text GLabel 5250 2875 2    50   Input ~ 0
 Wire Wire Line
 	5250 2875 4975 2875
 Connection ~ 4975 2875
+Wire Wire Line
+	4950 5225 5325 5225
+Wire Wire Line
+	4950 3975 4950 5225
+Wire Wire Line
+	6325 5025 6475 5025
 $EndSCHEMATC
