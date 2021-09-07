@@ -582,4 +582,8 @@ Wire Notes Line
 	5250 5400 5250 3900
 Wire Notes Line
 	5250 3900 3000 3900
+Text Label 3850 2900 0    50   ~ 0
+DCDC_IN
+Text Label 5950 3100 0    50   ~ 0
+SW
 $EndSCHEMATC
