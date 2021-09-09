@@ -709,11 +709,11 @@ Text HLabel 5925 3025 2    50   Output ~ 0
 COLA[1]
 Text HLabel 5925 4525 2    50   Output ~ 0
 COLA[2]
-Text HLabel 5925 2625 2    50   Output ~ 0
-COLA[3]
-Text HLabel 5925 3325 2    50   Output ~ 0
-COLA[4]
 Text HLabel 5925 4825 2    50   Output ~ 0
+COLA[3]
+Text HLabel 5925 2625 2    50   Output ~ 0
+COLA[4]
+Text HLabel 5925 3325 2    50   Output ~ 0
 COLA[5]
 Wire Wire Line
 	5925 3325 5575 3325
