@@ -419,4 +419,130 @@ Wire Wire Line
 	4850 5125 4850 5350
 Wire Wire Line
 	4850 5350 5000 5350
+Wire Wire Line
+	4000 2650 4000 2600
+Wire Wire Line
+	4000 2950 4000 3000
+$Comp
+L power:GND #PWR?
+U 1 1 616D26BD
+P 4000 3000
+AR Path="/616D26BD" Ref="#PWR?"  Part="1" 
+AR Path="/60D44BDB/616D26BD" Ref="#PWR?"  Part="1" 
+AR Path="/60D99CF5/616D26BD" Ref="#PWR?"  Part="1" 
+AR Path="/60D44364/616D26BD" Ref="#PWR?"  Part="1" 
+AR Path="/61150193/616D26BD" Ref="#PWR?"  Part="1" 
+AR Path="/61D5AB4C/616D26BD" Ref="#PWR?"  Part="1" 
+AR Path="/61234213/616D26BD" Ref="#PWR?"  Part="1" 
+AR Path="/62FB59AD/616D26BD" Ref="#PWR?"  Part="1" 
+AR Path="/6301FD9D/616D26BD" Ref="#PWR0523"  Part="1" 
+F 0 "#PWR0523" H 4000 2750 50  0001 C CNN
+F 1 "GND" H 4005 2827 50  0000 C CNN
+F 2 "" H 4000 3000 50  0001 C CNN
+F 3 "" H 4000 3000 50  0001 C CNN
+	1    4000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 616D26C3
+P 4000 2800
+AR Path="/616D26C3" Ref="C?"  Part="1" 
+AR Path="/60D44BDB/616D26C3" Ref="C?"  Part="1" 
+AR Path="/60D99CF5/616D26C3" Ref="C?"  Part="1" 
+AR Path="/60D44364/616D26C3" Ref="C?"  Part="1" 
+AR Path="/61150193/616D26C3" Ref="C?"  Part="1" 
+AR Path="/61D5AB4C/616D26C3" Ref="C?"  Part="1" 
+AR Path="/61234213/616D26C3" Ref="C?"  Part="1" 
+AR Path="/62FB59AD/616D26C3" Ref="C?"  Part="1" 
+AR Path="/6301FD9D/616D26C3" Ref="C123"  Part="1" 
+F 0 "C123" H 3900 2900 50  0000 L CNN
+F 1 "100nF" V 4075 2850 50  0000 L CNN
+F 2 "Capacitor_smd:C_0603_1608Metric" H 4038 2650 50  0001 C CNN
+F 3 "~" H 4000 2800 50  0001 C CNN
+	1    4000 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 616D3E4D
+P 4000 2600
+AR Path="/616D3E4D" Ref="#PWR?"  Part="1" 
+AR Path="/60D44BDB/616D3E4D" Ref="#PWR?"  Part="1" 
+AR Path="/60D99CF5/616D3E4D" Ref="#PWR?"  Part="1" 
+AR Path="/6114D32E/616D3E4D" Ref="#PWR?"  Part="1" 
+AR Path="/6247A5CE/616D3E4D" Ref="#PWR?"  Part="1" 
+AR Path="/612340DE/616D3E4D" Ref="#PWR?"  Part="1" 
+AR Path="/62F6B81F/616D3E4D" Ref="#PWR?"  Part="1" 
+AR Path="/6301FD9D/616D3E4D" Ref="#PWR0531"  Part="1" 
+F 0 "#PWR0531" H 4000 2450 50  0001 C CNN
+F 1 "+3.3V" H 4015 2773 50  0000 C CNN
+F 2 "" H 4000 2600 50  0001 C CNN
+F 3 "" H 4000 2600 50  0001 C CNN
+	1    4000 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 4950 4000 5000
+$Comp
+L power:GND #PWR?
+U 1 1 616D9D88
+P 4000 5000
+AR Path="/616D9D88" Ref="#PWR?"  Part="1" 
+AR Path="/60D44BDB/616D9D88" Ref="#PWR?"  Part="1" 
+AR Path="/60D99CF5/616D9D88" Ref="#PWR?"  Part="1" 
+AR Path="/60D44364/616D9D88" Ref="#PWR?"  Part="1" 
+AR Path="/61150193/616D9D88" Ref="#PWR?"  Part="1" 
+AR Path="/61D5AB4C/616D9D88" Ref="#PWR?"  Part="1" 
+AR Path="/61234213/616D9D88" Ref="#PWR?"  Part="1" 
+AR Path="/62FB59AD/616D9D88" Ref="#PWR?"  Part="1" 
+AR Path="/6301FD9D/616D9D88" Ref="#PWR0532"  Part="1" 
+F 0 "#PWR0532" H 4000 4750 50  0001 C CNN
+F 1 "GND" H 4005 4827 50  0000 C CNN
+F 2 "" H 4000 5000 50  0001 C CNN
+F 3 "" H 4000 5000 50  0001 C CNN
+	1    4000 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 616D9D8E
+P 4000 4800
+AR Path="/616D9D8E" Ref="C?"  Part="1" 
+AR Path="/60D44BDB/616D9D8E" Ref="C?"  Part="1" 
+AR Path="/60D99CF5/616D9D8E" Ref="C?"  Part="1" 
+AR Path="/60D44364/616D9D8E" Ref="C?"  Part="1" 
+AR Path="/61150193/616D9D8E" Ref="C?"  Part="1" 
+AR Path="/61D5AB4C/616D9D8E" Ref="C?"  Part="1" 
+AR Path="/61234213/616D9D8E" Ref="C?"  Part="1" 
+AR Path="/62FB59AD/616D9D8E" Ref="C?"  Part="1" 
+AR Path="/6301FD9D/616D9D8E" Ref="C124"  Part="1" 
+F 0 "C124" H 3900 4900 50  0000 L CNN
+F 1 "100nF" V 4075 4850 50  0000 L CNN
+F 2 "Capacitor_smd:C_0603_1608Metric" H 4038 4650 50  0001 C CNN
+F 3 "~" H 4000 4800 50  0001 C CNN
+	1    4000 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 4650 4000 4600
+$Comp
+L power:+3.3V #PWR?
+U 1 1 616DBFA1
+P 4000 4600
+AR Path="/616DBFA1" Ref="#PWR?"  Part="1" 
+AR Path="/60D44BDB/616DBFA1" Ref="#PWR?"  Part="1" 
+AR Path="/60D99CF5/616DBFA1" Ref="#PWR?"  Part="1" 
+AR Path="/6114D32E/616DBFA1" Ref="#PWR?"  Part="1" 
+AR Path="/6247A5CE/616DBFA1" Ref="#PWR?"  Part="1" 
+AR Path="/612340DE/616DBFA1" Ref="#PWR?"  Part="1" 
+AR Path="/62F6B81F/616DBFA1" Ref="#PWR?"  Part="1" 
+AR Path="/6301FD9D/616DBFA1" Ref="#PWR0533"  Part="1" 
+F 0 "#PWR0533" H 4000 4450 50  0001 C CNN
+F 1 "+3.3V" H 4015 4773 50  0000 C CNN
+F 2 "" H 4000 4600 50  0001 C CNN
+F 3 "" H 4000 4600 50  0001 C CNN
+	1    4000 4600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

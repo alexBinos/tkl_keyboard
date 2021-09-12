@@ -26,17 +26,6 @@ F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADP2302
 	1    5350 3100
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:Barrel_Jack_MountingPin J7
-U 1 1 6133B7B7
-P 3400 3000
-F 0 "J7" H 3457 3317 50  0000 C CNN
-F 1 "Barrel_Jack_MountingPin" H 3457 3226 50  0000 C CNN
-F 2 "Connector_BarrelJack:BarrelJack_Wuerth_6941xx301002" H 3450 2960 50  0001 C CNN
-F 3 "~" H 3450 2960 50  0001 C CNN
-	1    3400 3000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3700 2900 4375 2900
 Wire Wire Line
@@ -502,4 +491,15 @@ Text Label 3850 2900 0    50   ~ 0
 DCDC_IN
 Text Label 5950 3100 0    50   ~ 0
 SW
+$Comp
+L custom_parts_library:Barrel_Jack J?
+U 1 1 61714EB0
+P 3400 3000
+F 0 "J?" H 3457 3325 50  0000 C CNN
+F 1 "Barrel_Jack" H 3457 3234 50  0000 C CNN
+F 2 "" H 2850 3350 50  0001 C CNN
+F 3 "" H 2850 3350 50  0001 C CNN
+	1    3400 3000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

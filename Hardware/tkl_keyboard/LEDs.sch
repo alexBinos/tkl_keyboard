@@ -8285,25 +8285,6 @@ F 3 "" H 13250 11775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
-U 1 1 649DA295
-P 13250 11575
-AR Path="/649DA295" Ref="C?"  Part="1" 
-AR Path="/60D44BDB/649DA295" Ref="C?"  Part="1" 
-AR Path="/60D99CF5/649DA295" Ref="C?"  Part="1" 
-AR Path="/60D44364/649DA295" Ref="C?"  Part="1" 
-AR Path="/61150193/649DA295" Ref="C?"  Part="1" 
-AR Path="/61D5AB4C/649DA295" Ref="C?"  Part="1" 
-AR Path="/61234213/649DA295" Ref="C?"  Part="1" 
-AR Path="/62FB59AD/649DA295" Ref="C72"  Part="1" 
-F 0 "C72" H 13150 11675 50  0000 L CNN
-F 1 "100nF" V 13325 11625 50  0000 L CNN
-F 2 "Capacitor_smd:C_0603_1608Metric" H 13288 11425 50  0001 C CNN
-F 3 "~" H 13250 11575 50  0001 C CNN
-	1    13250 11575
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+5V #PWR?
 U 1 1 649DA29B
 P 13500 11375
@@ -11575,4 +11556,84 @@ Wire Notes Line
 	3000 4200 20675 4200
 Wire Notes Line
 	3000 3000 20675 3000
+$Comp
+L Device:C C?
+U 1 1 649DA295
+P 13250 11575
+AR Path="/649DA295" Ref="C?"  Part="1" 
+AR Path="/60D44BDB/649DA295" Ref="C?"  Part="1" 
+AR Path="/60D99CF5/649DA295" Ref="C?"  Part="1" 
+AR Path="/60D44364/649DA295" Ref="C?"  Part="1" 
+AR Path="/61150193/649DA295" Ref="C?"  Part="1" 
+AR Path="/61D5AB4C/649DA295" Ref="C?"  Part="1" 
+AR Path="/61234213/649DA295" Ref="C?"  Part="1" 
+AR Path="/62FB59AD/649DA295" Ref="C72"  Part="1" 
+F 0 "C72" H 13150 11675 50  0000 L CNN
+F 1 "100nF" V 13325 11625 50  0000 L CNN
+F 2 "Capacitor_smd:C_0603_1608Metric" H 13288 11425 50  0001 C CNN
+F 3 "~" H 13250 11575 50  0001 C CNN
+	1    13250 11575
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 615F41BA
+P 18250 11375
+AR Path="/615F41BA" Ref="#PWR?"  Part="1" 
+AR Path="/60D44BDB/615F41BA" Ref="#PWR?"  Part="1" 
+AR Path="/60D99CF5/615F41BA" Ref="#PWR?"  Part="1" 
+AR Path="/60D44364/615F41BA" Ref="#PWR?"  Part="1" 
+AR Path="/61150193/615F41BA" Ref="#PWR?"  Part="1" 
+AR Path="/61D5AB4C/615F41BA" Ref="#PWR?"  Part="1" 
+AR Path="/61234213/615F41BA" Ref="#PWR?"  Part="1" 
+AR Path="/62FB59AD/615F41BA" Ref="#PWR0193"  Part="1" 
+F 0 "#PWR0193" H 18250 11225 50  0001 C CNN
+F 1 "+5V" H 18265 11548 50  0000 C CNN
+F 2 "" H 18250 11375 50  0001 C CNN
+F 3 "" H 18250 11375 50  0001 C CNN
+	1    18250 11375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	18250 11425 18250 11375
+Wire Wire Line
+	18250 11725 18250 11775
+$Comp
+L power:GND #PWR?
+U 1 1 615F41C2
+P 18250 11775
+AR Path="/615F41C2" Ref="#PWR?"  Part="1" 
+AR Path="/60D44BDB/615F41C2" Ref="#PWR?"  Part="1" 
+AR Path="/60D99CF5/615F41C2" Ref="#PWR?"  Part="1" 
+AR Path="/60D44364/615F41C2" Ref="#PWR?"  Part="1" 
+AR Path="/61150193/615F41C2" Ref="#PWR?"  Part="1" 
+AR Path="/61D5AB4C/615F41C2" Ref="#PWR?"  Part="1" 
+AR Path="/61234213/615F41C2" Ref="#PWR?"  Part="1" 
+AR Path="/62FB59AD/615F41C2" Ref="#PWR0522"  Part="1" 
+F 0 "#PWR0522" H 18250 11525 50  0001 C CNN
+F 1 "GND" H 18255 11602 50  0000 C CNN
+F 2 "" H 18250 11775 50  0001 C CNN
+F 3 "" H 18250 11775 50  0001 C CNN
+	1    18250 11775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 615F41C8
+P 18250 11575
+AR Path="/615F41C8" Ref="C?"  Part="1" 
+AR Path="/60D44BDB/615F41C8" Ref="C?"  Part="1" 
+AR Path="/60D99CF5/615F41C8" Ref="C?"  Part="1" 
+AR Path="/60D44364/615F41C8" Ref="C?"  Part="1" 
+AR Path="/61150193/615F41C8" Ref="C?"  Part="1" 
+AR Path="/61D5AB4C/615F41C8" Ref="C?"  Part="1" 
+AR Path="/61234213/615F41C8" Ref="C?"  Part="1" 
+AR Path="/62FB59AD/615F41C8" Ref="C122"  Part="1" 
+F 0 "C122" H 18150 11675 50  0000 L CNN
+F 1 "100nF" V 18325 11625 50  0000 L CNN
+F 2 "Capacitor_smd:C_0603_1608Metric" H 18288 11425 50  0001 C CNN
+F 3 "~" H 18250 11575 50  0001 C CNN
+	1    18250 11575
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
