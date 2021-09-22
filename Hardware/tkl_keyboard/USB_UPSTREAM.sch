@@ -258,7 +258,7 @@ AR Path="/6247A5CE/60DDC17D" Ref="L?"  Part="1"
 AR Path="/612340DE/60DDC17D" Ref="L1"  Part="1" 
 AR Path="/62F6B81F/60DDC17D" Ref="L1"  Part="1" 
 F 0 "L1" H 5200 3875 50  0000 C CNN
-F 1 "L_Core_Iron_Coupled_1423" H 5325 4300 50  0000 C CNN
+F 1 "L_Core_Iron_Coupled_1423" H 5800 4100 50  0000 C CNN
 F 2 "custom_footprint_library:SMM2012E" H 5475 3875 50  0001 C CNN
 F 3 "~" H 5475 3875 50  0001 C CNN
 	1    5475 3875
@@ -504,7 +504,7 @@ Wire Wire Line
 Wire Wire Line
 	4950 3975 5275 3975
 Wire Wire Line
-	5675 3975 6000 3975
+	5675 3975 5775 3975
 Text GLabel 5250 2875 2    50   Input ~ 0
 +5V0_USB
 Wire Wire Line
@@ -516,4 +516,42 @@ Wire Wire Line
 	4950 3975 4950 5225
 Wire Wire Line
 	6325 5025 6475 5025
+$Comp
+L Device:R R?
+U 1 1 614B1649
+P 5775 3475
+AR Path="/6114D32E/614B1649" Ref="R?"  Part="1" 
+AR Path="/6247A5CE/614B1649" Ref="R?"  Part="1" 
+AR Path="/612340DE/614B1649" Ref="R?"  Part="1" 
+AR Path="/62F6B81F/614B1649" Ref="R?"  Part="1" 
+F 0 "R?" V 5700 3475 50  0000 C CNN
+F 1 "1K5" V 5775 3475 50  0000 C CNN
+F 2 "resistor_smd:R_0603_1608Metric" V 5705 3475 50  0001 C CNN
+F 3 "~" H 5775 3475 50  0001 C CNN
+	1    5775 3475
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	5775 3625 5775 3975
+Connection ~ 5775 3975
+Wire Wire Line
+	5775 3975 6000 3975
+$Comp
+L power:+3.3V #PWR?
+U 1 1 614B6C4F
+P 5775 3275
+AR Path="/6114D32E/614B6C4F" Ref="#PWR?"  Part="1" 
+AR Path="/6247A5CE/614B6C4F" Ref="#PWR?"  Part="1" 
+AR Path="/612340DE/614B6C4F" Ref="#PWR?"  Part="1" 
+AR Path="/62F6B81F/614B6C4F" Ref="#PWR?"  Part="1" 
+AR Path="/613390DE/614B6C4F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5775 3125 50  0001 C CNN
+F 1 "+3.3V" H 5790 3448 50  0000 C CNN
+F 2 "" H 5775 3275 50  0001 C CNN
+F 3 "" H 5775 3275 50  0001 C CNN
+	1    5775 3275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5775 3325 5775 3275
 $EndSCHEMATC

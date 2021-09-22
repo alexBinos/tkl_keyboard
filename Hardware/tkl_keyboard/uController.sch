@@ -651,10 +651,6 @@ Wire Wire Line
 Wire Wire Line
 	5925 3525 5575 3525
 Wire Wire Line
-	3900 3625 4375 3625
-Wire Wire Line
-	3900 3725 4375 3725
-Wire Wire Line
 	2975 2975 2925 2975
 Wire Wire Line
 	2925 2975 2925 2825
@@ -681,9 +677,9 @@ Wire Notes Line
 	6650 1750 8300 1750
 Wire Notes Line
 	6650 2900 8300 2900
-Text HLabel 3900 3625 0    50   BiDi ~ 0
+Text HLabel 3500 3625 0    50   BiDi ~ 0
 USB_IN+
-Text HLabel 3900 3725 0    50   BiDi ~ 0
+Text HLabel 3500 3725 0    50   BiDi ~ 0
 USB_IN-
 Text HLabel 5925 3625 2    50   BiDi ~ 0
 SCL
@@ -908,4 +904,96 @@ Wire Wire Line
 	2500 5900 2500 5825
 Wire Wire Line
 	2675 5900 2500 5900
+$Comp
+L Device:R R?
+U 1 1 614C2CC6
+P 3675 4025
+AR Path="/6114D32E/614C2CC6" Ref="R?"  Part="1" 
+AR Path="/6247A5CE/614C2CC6" Ref="R?"  Part="1" 
+AR Path="/61234350/614C2CC6" Ref="R?"  Part="1" 
+AR Path="/62FAC6FD/614C2CC6" Ref="R?"  Part="1" 
+AR Path="/650FF941/614C2CC6" Ref="R?"  Part="1" 
+AR Path="/6511E0C5/614C2CC6" Ref="R?"  Part="1" 
+AR Path="/65128D7D/614C2CC6" Ref="R?"  Part="1" 
+AR Path="/63013830/614C2CC6" Ref="R?"  Part="1" 
+F 0 "R?" V 3600 4025 50  0000 C CNN
+F 1 "OPT" V 3675 4025 50  0000 C CNN
+F 2 "resistor_smd:R_0603_1608Metric" V 3605 4025 50  0001 C CNN
+F 3 "~" H 3675 4025 50  0001 C CNN
+	1    3675 4025
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 614C2CCC
+P 3850 4025
+AR Path="/6114D32E/614C2CCC" Ref="R?"  Part="1" 
+AR Path="/6247A5CE/614C2CCC" Ref="R?"  Part="1" 
+AR Path="/61234350/614C2CCC" Ref="R?"  Part="1" 
+AR Path="/62FAC6FD/614C2CCC" Ref="R?"  Part="1" 
+AR Path="/650FF941/614C2CCC" Ref="R?"  Part="1" 
+AR Path="/6511E0C5/614C2CCC" Ref="R?"  Part="1" 
+AR Path="/65128D7D/614C2CCC" Ref="R?"  Part="1" 
+AR Path="/63013830/614C2CCC" Ref="R?"  Part="1" 
+F 0 "R?" V 3775 4025 50  0000 C CNN
+F 1 "OPT" V 3850 4025 50  0000 C CNN
+F 2 "resistor_smd:R_0603_1608Metric" V 3780 4025 50  0001 C CNN
+F 3 "~" H 3850 4025 50  0001 C CNN
+	1    3850 4025
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 614C2CD2
+P 3675 4250
+AR Path="/6114D32E/614C2CD2" Ref="#PWR?"  Part="1" 
+AR Path="/6247A5CE/614C2CD2" Ref="#PWR?"  Part="1" 
+AR Path="/61234350/614C2CD2" Ref="#PWR?"  Part="1" 
+AR Path="/62FAC6FD/614C2CD2" Ref="#PWR?"  Part="1" 
+AR Path="/650FF941/614C2CD2" Ref="#PWR?"  Part="1" 
+AR Path="/6511E0C5/614C2CD2" Ref="#PWR?"  Part="1" 
+AR Path="/65128D7D/614C2CD2" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3675 4000 50  0001 C CNN
+F 1 "GND" H 3680 4077 50  0000 C CNN
+F 2 "" H 3675 4250 50  0001 C CNN
+F 3 "" H 3675 4250 50  0001 C CNN
+	1    3675 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 614C2CD8
+P 3850 4250
+AR Path="/6114D32E/614C2CD8" Ref="#PWR?"  Part="1" 
+AR Path="/6247A5CE/614C2CD8" Ref="#PWR?"  Part="1" 
+AR Path="/61234350/614C2CD8" Ref="#PWR?"  Part="1" 
+AR Path="/62FAC6FD/614C2CD8" Ref="#PWR?"  Part="1" 
+AR Path="/650FF941/614C2CD8" Ref="#PWR?"  Part="1" 
+AR Path="/6511E0C5/614C2CD8" Ref="#PWR?"  Part="1" 
+AR Path="/65128D7D/614C2CD8" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3850 4000 50  0001 C CNN
+F 1 "GND" H 3855 4077 50  0000 C CNN
+F 2 "" H 3850 4250 50  0001 C CNN
+F 3 "" H 3850 4250 50  0001 C CNN
+	1    3850 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3675 4250 3675 4175
+Wire Wire Line
+	3850 4250 3850 4175
+Wire Wire Line
+	3500 3625 3850 3625
+Wire Wire Line
+	3500 3725 3675 3725
+Wire Wire Line
+	3675 3875 3675 3725
+Connection ~ 3675 3725
+Wire Wire Line
+	3675 3725 4375 3725
+Wire Wire Line
+	3850 3875 3850 3625
+Connection ~ 3850 3625
+Wire Wire Line
+	3850 3625 4375 3625
 $EndSCHEMATC
