@@ -16,28 +16,6 @@ $EndDescr
 Text Notes 750  1000 0    197  ~ 0
 Column Line Decoders
 $Comp
-L custom_parts_library:CD74HC238 U7
-U 1 1 6311A92E
-P 5775 3500
-F 0 "U7" H 5225 4700 50  0000 C CNN
-F 1 "CD74HC238" H 5400 4625 50  0000 C CNN
-F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 5150 4600 50  0001 C CNN
-F 3 "" H 5150 4600 50  0001 C CNN
-	1    5775 3500
-	1    0    0    -1  
-$EndComp
-$Comp
-L custom_parts_library:CD74HC238 U8
-U 1 1 6311B6F2
-P 5775 5500
-F 0 "U8" H 5250 6700 50  0000 C CNN
-F 1 "CD74HC238" H 5425 6600 50  0000 C CNN
-F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 5150 6600 50  0001 C CNN
-F 3 "" H 5150 6600 50  0001 C CNN
-	1    5775 5500
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+3.3V #PWR?
 U 1 1 6311F726
 P 5775 2350
@@ -116,16 +94,10 @@ Wire Wire Line
 	4850 2850 5400 2850
 Text HLabel 4850 4650 0    50   Input ~ 0
 COLA[3]
-Wire Wire Line
-	4850 4650 5400 4650
 Text HLabel 4850 4750 0    50   Input ~ 0
 COLA[4]
-Wire Wire Line
-	4850 4750 5400 4750
 Text HLabel 4850 4850 0    50   Input ~ 0
 COLA[5]
-Wire Wire Line
-	4850 4850 5400 4850
 Text HLabel 6700 2650 2    50   Output ~ 0
 COL[0]
 Wire Wire Line
@@ -362,12 +334,6 @@ F 3 "~" H 5150 5350 50  0001 C CNN
 	1    5150 5350
 	0    1    -1   0   
 $EndComp
-Wire Wire Line
-	5300 5250 5400 5250
-Wire Wire Line
-	5300 5350 5400 5350
-Wire Wire Line
-	5300 5150 5400 5150
 $Comp
 L power:GND #PWR?
 U 1 1 63130BBB
@@ -543,6 +509,40 @@ F 1 "+3.3V" H 4015 4773 50  0000 C CNN
 F 2 "" H 4000 4600 50  0001 C CNN
 F 3 "" H 4000 4600 50  0001 C CNN
 	1    4000 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom_parts_library:CD74HC138 U7
+U 1 1 614D77B4
+P 5775 3500
+F 0 "U7" H 5875 4550 50  0000 C CNN
+F 1 "CD74HC138" H 5450 4575 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 5225 4575 50  0001 C CNN
+F 3 "" H 5225 4575 50  0001 C CNN
+	1    5775 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 5350 5400 5350
+Wire Wire Line
+	5300 5250 5400 5250
+Wire Wire Line
+	5300 5150 5400 5150
+Wire Wire Line
+	4850 4850 5400 4850
+Wire Wire Line
+	4850 4750 5400 4750
+Wire Wire Line
+	4850 4650 5400 4650
+$Comp
+L custom_parts_library:CD74HC138 U8
+U 1 1 614D9BD8
+P 5775 5500
+F 0 "U8" H 5875 6550 50  0000 C CNN
+F 1 "CD74HC138" H 5450 6575 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 5225 6575 50  0001 C CNN
+F 3 "" H 5225 6575 50  0001 C CNN
+	1    5775 5500
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
