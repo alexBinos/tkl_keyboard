@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 12 12
-Title ""
+Title "TKL Keyboard"
 Date ""
-Rev ""
+Rev "0"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -15,17 +15,6 @@ Comment4 ""
 $EndDescr
 Text Notes 750  1000 0    315  ~ 0
 Power
-$Comp
-L Regulator_Switching:ADP2303ARDZ-5.0 U2
-U 1 1 613398E3
-P 5350 3100
-F 0 "U2" H 5350 3567 50  0000 C CNN
-F 1 "ADP2303ARDZ-5.0" H 5350 3476 50  0000 C CNN
-F 2 "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm" H 5500 2750 50  0001 L CNN
-F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADP2302_2303.pdf" H 5150 3700 50  0001 C CNN
-	1    5350 3100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3700 2900 4375 2900
 Wire Wire Line
@@ -78,17 +67,6 @@ Connection ~ 4725 2900
 Wire Wire Line
 	4725 2900 4850 2900
 $Comp
-L Device:L L2
-U 1 1 6133D48E
-P 6775 3100
-F 0 "L2" V 6965 3100 50  0000 C CNN
-F 1 "L" V 6874 3100 50  0000 C CNN
-F 2 "Inductor_SMD:L_10.4x10.4_H4.8" H 6775 3100 50  0001 C CNN
-F 3 "~" H 6775 3100 50  0001 C CNN
-	1    6775 3100
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Device:C C121
 U 1 1 6133DD37
 P 7050 3300
@@ -98,17 +76,6 @@ F 2 "Capacitor_smd:C_1210_3225Metric" H 7088 3150 50  0001 C CNN
 F 3 "~" H 7050 3300 50  0001 C CNN
 	1    7050 3300
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D1
-U 1 1 6133E473
-P 6525 3300
-F 0 "D1" V 6479 3380 50  0000 L CNN
-F 1 "D" V 6570 3380 50  0000 L CNN
-F 2 "custom_footprint_library:DO-214AC" H 6525 3300 50  0001 C CNN
-F 3 "~" H 6525 3300 50  0001 C CNN
-	1    6525 3300
-	0    1    1    0   
 $EndComp
 Wire Wire Line
 	6525 3150 6525 3100
@@ -130,28 +97,6 @@ Wire Wire Line
 	6000 3300 5850 3300
 Wire Wire Line
 	5850 3100 6350 3100
-$Comp
-L Device:C C?
-U 1 1 6134519E
-P 6100 2900
-AR Path="/6134519E" Ref="C?"  Part="1" 
-AR Path="/60D44BDB/6134519E" Ref="C?"  Part="1" 
-AR Path="/60D99CF5/6134519E" Ref="C?"  Part="1" 
-AR Path="/60D44364/6134519E" Ref="C?"  Part="1" 
-AR Path="/61150193/6134519E" Ref="C?"  Part="1" 
-AR Path="/61D5AB4C/6134519E" Ref="C?"  Part="1" 
-AR Path="/6247A5CE/6134519E" Ref="C?"  Part="1" 
-AR Path="/6114D32E/6134519E" Ref="C?"  Part="1" 
-AR Path="/612340DE/6134519E" Ref="C?"  Part="1" 
-AR Path="/62F6B81F/6134519E" Ref="C?"  Part="1" 
-AR Path="/613390DE/6134519E" Ref="C119"  Part="1" 
-F 0 "C119" H 6000 3000 50  0000 L CNN
-F 1 "100nF" V 6175 2950 50  0000 L CNN
-F 2 "Capacitor_smd:C_0603_1608Metric" H 6138 2750 50  0001 C CNN
-F 3 "~" H 6100 2900 50  0001 C CNN
-	1    6100 2900
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	5850 2900 5950 2900
 Wire Wire Line
@@ -243,22 +188,6 @@ Text GLabel 3825 4850 0    50   Input ~ 0
 +5V0_USB
 Wire Wire Line
 	3825 4850 4125 4850
-$Comp
-L custom_parts_library:TCR2EF33 U?
-U 1 1 61533A30
-P 6600 4900
-AR Path="/6114D32E/61533A30" Ref="U?"  Part="1" 
-AR Path="/6247A5CE/61533A30" Ref="U?"  Part="1" 
-AR Path="/612340DE/61533A30" Ref="U?"  Part="1" 
-AR Path="/62F6B81F/61533A30" Ref="U?"  Part="1" 
-AR Path="/613390DE/61533A30" Ref="U9"  Part="1" 
-F 0 "U9" H 6500 5425 50  0000 C CNN
-F 1 "TCR2EF33" H 6500 5334 50  0000 C CNN
-F 2 "custom_footprint_library:TCR2EF33_SOT25" H 5800 5600 50  0001 C CNN
-F 3 "" H 5800 5600 50  0001 C CNN
-	1    6600 4900
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+5V #PWR?
 U 1 1 61533A36
@@ -492,14 +421,86 @@ DCDC_IN
 Text Label 5950 3100 0    50   ~ 0
 SW
 $Comp
-L custom_parts_library:Barrel_Jack J?
+L custom_parts_library:Barrel_Jack J7
 U 1 1 61714EB0
 P 3400 3000
-F 0 "J?" H 3457 3325 50  0000 C CNN
+F 0 "J7" H 3457 3325 50  0000 C CNN
 F 1 "Barrel_Jack" H 3457 3234 50  0000 C CNN
-F 2 "" H 2850 3350 50  0001 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_Wuerth_6941xx301002" H 2850 3350 50  0001 C CNN
 F 3 "" H 2850 3350 50  0001 C CNN
 	1    3400 3000
 	1    0    0    -1  
+$EndComp
+NoConn ~ 4850 3300
+$Comp
+L custom_parts_library:TCR2EF33 U?
+U 1 1 61533A30
+P 6600 4900
+AR Path="/6114D32E/61533A30" Ref="U?"  Part="1" 
+AR Path="/6247A5CE/61533A30" Ref="U?"  Part="1" 
+AR Path="/612340DE/61533A30" Ref="U?"  Part="1" 
+AR Path="/62F6B81F/61533A30" Ref="U?"  Part="1" 
+AR Path="/613390DE/61533A30" Ref="U9"  Part="1" 
+F 0 "U9" H 6500 5425 50  0000 C CNN
+F 1 "TCR2EF33" H 6500 5334 50  0000 C CNN
+F 2 "custom_footprint_library:TCR2EF33_SOT25" H 5800 5600 50  0001 C CNN
+F 3 "" H 5800 5600 50  0001 C CNN
+	1    6600 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D1
+U 1 1 6133E473
+P 6525 3300
+F 0 "D1" V 6525 3375 50  0000 L CNN
+F 1 "SSA33LEH3" V 6625 3350 50  0000 L CNN
+F 2 "custom_footprint_library:DO-214AC" H 6525 3300 50  0001 C CNN
+F 3 "~" H 6525 3300 50  0001 C CNN
+	1    6525 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6134519E
+P 6100 2900
+AR Path="/6134519E" Ref="C?"  Part="1" 
+AR Path="/60D44BDB/6134519E" Ref="C?"  Part="1" 
+AR Path="/60D99CF5/6134519E" Ref="C?"  Part="1" 
+AR Path="/60D44364/6134519E" Ref="C?"  Part="1" 
+AR Path="/61150193/6134519E" Ref="C?"  Part="1" 
+AR Path="/61D5AB4C/6134519E" Ref="C?"  Part="1" 
+AR Path="/6247A5CE/6134519E" Ref="C?"  Part="1" 
+AR Path="/6114D32E/6134519E" Ref="C?"  Part="1" 
+AR Path="/612340DE/6134519E" Ref="C?"  Part="1" 
+AR Path="/62F6B81F/6134519E" Ref="C?"  Part="1" 
+AR Path="/613390DE/6134519E" Ref="C119"  Part="1" 
+F 0 "C119" V 6050 2975 50  0000 L CNN
+F 1 "100nF" V 6175 2950 50  0000 L CNN
+F 2 "Capacitor_smd:C_0603_1608Metric" H 6138 2750 50  0001 C CNN
+F 3 "~" H 6100 2900 50  0001 C CNN
+	1    6100 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Regulator_Switching:ADP2303ARDZ-5.0 U2
+U 1 1 613398E3
+P 5350 3100
+F 0 "U2" H 5350 3567 50  0000 C CNN
+F 1 "ADP2303ARDZ-5.0" H 5350 3450 50  0000 C CNN
+F 2 "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm" H 5500 2750 50  0001 L CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADP2302_2303.pdf" H 5150 3700 50  0001 C CNN
+	1    5350 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L2
+U 1 1 6133D48E
+P 6775 3100
+F 0 "L2" V 6965 3100 50  0000 C CNN
+F 1 "5.2uH" V 6874 3100 50  0000 C CNN
+F 2 "Inductor_SMD:L_10.4x10.4_H4.8" H 6775 3100 50  0001 C CNN
+F 3 "~" H 6775 3100 50  0001 C CNN
+	1    6775 3100
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC

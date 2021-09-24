@@ -4,9 +4,9 @@ EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
 Sheet 5 12
-Title ""
+Title "TKL Keyboard"
 Date ""
-Rev ""
+Rev "0"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -68,20 +68,6 @@ F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H 7250 5050 50  00
 F 3 "" H 7250 5050 50  0001 C CNN
 	1    7250 5025
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D32
-U 1 1 61805335
-P 4675 5025
-AR Path="/62F5643B/61805335" Ref="D32"  Part="1" 
-AR Path="/63013830/61805335" Ref="D?"  Part="1" 
-AR Path="/6301FD9D/61805335" Ref="D?"  Part="1" 
-F 0 "D32" V 4721 4945 50  0000 R CNN
-F 1 "D" V 4630 4945 50  0000 R CNN
-F 2 "custom_footprint_library:SOD323_HS" H 4675 5025 50  0001 C CNN
-F 3 "~" H 4675 5025 50  0001 C CNN
-	1    4675 5025
-	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D D38
@@ -2389,23 +2375,19 @@ F 3 "" H 4250 8800 50  0001 C CNN
 	1    4250 8775
 	1    0    0    -1  
 $EndComp
-Text GLabel 16975 4775 1    50   Input ~ 0
-ENC_ROW[0]
-Text GLabel 17475 4775 1    50   Output ~ 0
+Text GLabel 16975 4775 1    50   Output ~ 0
+ENC_ROW
+Text GLabel 17475 4775 1    50   Input ~ 0
 ENC_COL[0]
 Wire Wire Line
 	16975 4775 16975 5025
 Wire Wire Line
 	17475 4775 17475 5025
-Text GLabel 17975 4775 1    50   Input ~ 0
-ENC_ROW[1]
-Text GLabel 18475 4775 1    50   Output ~ 0
+Text GLabel 18475 4775 1    50   Input ~ 0
 ENC_COL[1]
 Wire Wire Line
 	18475 4775 18475 5025
-Text GLabel 18975 4775 1    50   Input ~ 0
-ENC_ROW[2]
-Text GLabel 19475 4775 1    50   Output ~ 0
+Text GLabel 19475 4775 1    50   Input ~ 0
 ENC_COL[2]
 Wire Wire Line
 	18975 4775 18975 5025
@@ -4167,4 +4149,22 @@ Wire Wire Line
 Connection ~ 4975 8925
 Wire Wire Line
 	4975 8925 5975 8925
+$Comp
+L Device:D D32
+U 1 1 61805335
+P 4675 5025
+AR Path="/62F5643B/61805335" Ref="D32"  Part="1" 
+AR Path="/63013830/61805335" Ref="D?"  Part="1" 
+AR Path="/6301FD9D/61805335" Ref="D?"  Part="1" 
+F 0 "D32" V 4721 4945 50  0000 R CNN
+F 1 "D" V 4630 4945 50  0000 R CNN
+F 2 "custom_footprint_library:SOD323_HS" H 4675 5025 50  0001 C CNN
+F 3 "~" H 4675 5025 50  0001 C CNN
+	1    4675 5025
+	-1   0    0    1   
+$EndComp
+Text GLabel 17975 4775 1    50   Output ~ 0
+ENC_ROW
+Text GLabel 18975 4775 1    50   Output ~ 0
+ENC_ROW
 $EndSCHEMATC

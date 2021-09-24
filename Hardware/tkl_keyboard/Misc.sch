@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 7 12
-Title ""
+Title "TKL Keyboard"
 Date ""
-Rev ""
+Rev "0"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -25,7 +25,7 @@ AR Path="/62F5643B/63210B97" Ref="R?"  Part="1"
 AR Path="/63013830/63210B97" Ref="R?"  Part="1" 
 AR Path="/6301FD9D/63210B97" Ref="R?"  Part="1" 
 AR Path="/63166CC9/63210B97" Ref="R32"  Part="1" 
-F 0 "R32" V 3625 3600 50  0000 L CNN
+F 0 "R32" V 3775 3550 50  0000 L CNN
 F 1 "10K" V 3700 3575 50  0000 L CNN
 F 2 "resistor_smd:R_0603_1608Metric" V 3630 3650 50  0001 C CNN
 F 3 "~" H 3700 3650 50  0001 C CNN
@@ -44,7 +44,7 @@ AR Path="/62F5643B/63210B9D" Ref="R?"  Part="1"
 AR Path="/63013830/63210B9D" Ref="R?"  Part="1" 
 AR Path="/6301FD9D/63210B9D" Ref="R?"  Part="1" 
 AR Path="/63166CC9/63210B9D" Ref="R35"  Part="1" 
-F 0 "R35" V 3800 3600 50  0000 L CNN
+F 0 "R35" V 3775 3550 50  0000 L CNN
 F 1 "10K" V 3875 3575 50  0000 L CNN
 F 2 "resistor_smd:R_0603_1608Metric" V 3805 3650 50  0001 C CNN
 F 3 "~" H 3875 3650 50  0001 C CNN
@@ -335,7 +335,7 @@ AR Path="/62F5643B/63210C20" Ref="R?"  Part="1"
 AR Path="/63013830/63210C20" Ref="R?"  Part="1" 
 AR Path="/6301FD9D/63210C20" Ref="R?"  Part="1" 
 AR Path="/63166CC9/63210C20" Ref="R31"  Part="1" 
-F 0 "R31" V 5400 3750 50  0000 C CNN
+F 0 "R31" V 5375 3750 50  0000 C CNN
 F 1 "4K7" V 5475 3750 50  0000 C CNN
 F 2 "resistor_smd:R_0603_1608Metric" V 5405 3750 50  0001 C CNN
 F 3 "~" H 5475 3750 50  0001 C CNN
@@ -355,7 +355,7 @@ AR Path="/62F5643B/63210C26" Ref="R?"  Part="1"
 AR Path="/63013830/63210C26" Ref="R?"  Part="1" 
 AR Path="/6301FD9D/63210C26" Ref="R?"  Part="1" 
 AR Path="/63166CC9/63210C26" Ref="R30"  Part="1" 
-F 0 "R30" V 5150 3750 50  0000 C CNN
+F 0 "R30" V 5125 3750 50  0000 C CNN
 F 1 "4K7" V 5225 3750 50  0000 C CNN
 F 2 "resistor_smd:R_0603_1608Metric" V 5155 3750 50  0001 C CNN
 F 3 "~" H 5225 3750 50  0001 C CNN
@@ -418,9 +418,9 @@ Text HLabel 5025 4025 0    50   BiDi ~ 0
 SDA
 Text HLabel 5025 4125 0    50   BiDi ~ 0
 SCL
-Text GLabel 2525 3875 0    50   Output ~ 0
-ENC_ROW[0]
-Text GLabel 2525 4075 0    50   Input ~ 0
+Text GLabel 2525 3875 0    50   Input ~ 0
+ENC_ROW
+Text GLabel 2525 4075 0    50   Output ~ 0
 ENC_COL[0]
 Wire Wire Line
 	2525 3875 2800 3875
@@ -438,7 +438,7 @@ AR Path="/62F5643B/63221704" Ref="R?"  Part="1"
 AR Path="/63013830/63221704" Ref="R?"  Part="1" 
 AR Path="/6301FD9D/63221704" Ref="R?"  Part="1" 
 AR Path="/63166CC9/63221704" Ref="R33"  Part="1" 
-F 0 "R33" V 3625 5075 50  0000 L CNN
+F 0 "R33" V 3775 5025 50  0000 L CNN
 F 1 "10K" V 3700 5050 50  0000 L CNN
 F 2 "resistor_smd:R_0603_1608Metric" V 3630 5125 50  0001 C CNN
 F 3 "~" H 3700 5125 50  0001 C CNN
@@ -457,7 +457,7 @@ AR Path="/62F5643B/6322170A" Ref="R?"  Part="1"
 AR Path="/63013830/6322170A" Ref="R?"  Part="1" 
 AR Path="/6301FD9D/6322170A" Ref="R?"  Part="1" 
 AR Path="/63166CC9/6322170A" Ref="R36"  Part="1" 
-F 0 "R36" V 3800 5075 50  0000 L CNN
+F 0 "R36" V 3775 5025 50  0000 L CNN
 F 1 "10K" V 3875 5050 50  0000 L CNN
 F 2 "resistor_smd:R_0603_1608Metric" V 3805 5125 50  0001 C CNN
 F 3 "~" H 3875 5125 50  0001 C CNN
@@ -554,9 +554,7 @@ Wire Notes Line
 	4525 6000 1750 6000
 Wire Notes Line
 	1750 6000 1750 4550
-Text GLabel 2525 5350 0    50   Output ~ 0
-ENC_ROW[1]
-Text GLabel 2525 5550 0    50   Input ~ 0
+Text GLabel 2525 5550 0    50   Output ~ 0
 ENC_COL[1]
 Wire Wire Line
 	2525 5350 2800 5350
@@ -574,7 +572,7 @@ AR Path="/62F5643B/63223F26" Ref="R?"  Part="1"
 AR Path="/63013830/63223F26" Ref="R?"  Part="1" 
 AR Path="/6301FD9D/63223F26" Ref="R?"  Part="1" 
 AR Path="/63166CC9/63223F26" Ref="R34"  Part="1" 
-F 0 "R34" V 3625 6550 50  0000 L CNN
+F 0 "R34" V 3775 6500 50  0000 L CNN
 F 1 "10K" V 3700 6525 50  0000 L CNN
 F 2 "resistor_smd:R_0603_1608Metric" V 3630 6600 50  0001 C CNN
 F 3 "~" H 3700 6600 50  0001 C CNN
@@ -593,7 +591,7 @@ AR Path="/62F5643B/63223F2C" Ref="R?"  Part="1"
 AR Path="/63013830/63223F2C" Ref="R?"  Part="1" 
 AR Path="/6301FD9D/63223F2C" Ref="R?"  Part="1" 
 AR Path="/63166CC9/63223F2C" Ref="R37"  Part="1" 
-F 0 "R37" V 3800 6550 50  0000 L CNN
+F 0 "R37" V 3775 6500 50  0000 L CNN
 F 1 "10K" V 3875 6525 50  0000 L CNN
 F 2 "resistor_smd:R_0603_1608Metric" V 3805 6600 50  0001 C CNN
 F 3 "~" H 3875 6600 50  0001 C CNN
@@ -690,9 +688,7 @@ Wire Notes Line
 	4525 7475 1750 7475
 Wire Notes Line
 	1750 7475 1750 6025
-Text GLabel 2525 6825 0    50   Output ~ 0
-ENC_ROW[2]
-Text GLabel 2525 7025 0    50   Input ~ 0
+Text GLabel 2525 7025 0    50   Output ~ 0
 ENC_COL[2]
 Wire Wire Line
 	2525 6825 2800 6825
@@ -992,12 +988,6 @@ Wire Wire Line
 	7075 2775 7075 2700
 Wire Notes Line
 	1750 1500 1750 3050
-Wire Notes Line
-	1750 3050 7925 3050
-Wire Notes Line
-	9300 3550 9300 2000
-Wire Notes Line
-	1750 1500 7925 1500
 $Comp
 L Mechanical:MountingHole_Pad H?
 U 1 1 61422488
@@ -1062,4 +1052,14 @@ F 3 "" H 8200 2775 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8200 2775 8200 2700
+Wire Notes Line
+	9025 3050 9025 1500
+Wire Notes Line
+	1750 3050 9025 3050
+Wire Notes Line
+	1750 1500 9025 1500
+Text GLabel 2525 5350 0    50   Input ~ 0
+ENC_ROW
+Text GLabel 2525 6825 0    50   Input ~ 0
+ENC_ROW
 $EndSCHEMATC

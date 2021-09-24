@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 12
-Title ""
+Title "TKL Keyboard"
 Date ""
-Rev ""
+Rev "0"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -22,8 +22,8 @@ AR Path="/60D44BDB/60D69247" Ref="U?"  Part="1"
 AR Path="/62022D96/60D69247" Ref="U5"  Part="1" 
 AR Path="/612342D1/60D69247" Ref="U5"  Part="1" 
 AR Path="/63013830/60D69247" Ref="U6"  Part="1" 
-F 0 "U6" H 4525 5950 50  0000 C CNN
-F 1 "ATmega32U4-AU" H 4550 5875 50  0000 C CNN
+F 0 "U6" H 4525 6025 50  0000 C CNN
+F 1 "ATmega32U4-AU" H 4550 5925 50  0000 C CNN
 F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 4975 4125 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 4975 4125 50  0001 C CNN
 	1    4975 4125
@@ -124,7 +124,7 @@ AR Path="/60D44BDB/60D6927E" Ref="R?"  Part="1"
 AR Path="/62022D96/60D6927E" Ref="R18"  Part="1" 
 AR Path="/612342D1/60D6927E" Ref="R18"  Part="1" 
 AR Path="/63013830/60D6927E" Ref="R22"  Part="1" 
-F 0 "R22" H 4000 2425 50  0000 L CNN
+F 0 "R22" H 3975 2475 50  0000 L CNN
 F 1 "10K" V 4175 2350 50  0000 L CNN
 F 2 "resistor_smd:R_0603_1608Metric" V 4105 2400 50  0001 C CNN
 F 3 "~" H 4175 2400 50  0001 C CNN
@@ -904,96 +904,8 @@ Wire Wire Line
 	2500 5900 2500 5825
 Wire Wire Line
 	2675 5900 2500 5900
-$Comp
-L Device:R R?
-U 1 1 614C2CC6
-P 3675 4025
-AR Path="/6114D32E/614C2CC6" Ref="R?"  Part="1" 
-AR Path="/6247A5CE/614C2CC6" Ref="R?"  Part="1" 
-AR Path="/61234350/614C2CC6" Ref="R?"  Part="1" 
-AR Path="/62FAC6FD/614C2CC6" Ref="R?"  Part="1" 
-AR Path="/650FF941/614C2CC6" Ref="R?"  Part="1" 
-AR Path="/6511E0C5/614C2CC6" Ref="R?"  Part="1" 
-AR Path="/65128D7D/614C2CC6" Ref="R?"  Part="1" 
-AR Path="/63013830/614C2CC6" Ref="R?"  Part="1" 
-F 0 "R?" V 3600 4025 50  0000 C CNN
-F 1 "OPT" V 3675 4025 50  0000 C CNN
-F 2 "resistor_smd:R_0603_1608Metric" V 3605 4025 50  0001 C CNN
-F 3 "~" H 3675 4025 50  0001 C CNN
-	1    3675 4025
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 614C2CCC
-P 3850 4025
-AR Path="/6114D32E/614C2CCC" Ref="R?"  Part="1" 
-AR Path="/6247A5CE/614C2CCC" Ref="R?"  Part="1" 
-AR Path="/61234350/614C2CCC" Ref="R?"  Part="1" 
-AR Path="/62FAC6FD/614C2CCC" Ref="R?"  Part="1" 
-AR Path="/650FF941/614C2CCC" Ref="R?"  Part="1" 
-AR Path="/6511E0C5/614C2CCC" Ref="R?"  Part="1" 
-AR Path="/65128D7D/614C2CCC" Ref="R?"  Part="1" 
-AR Path="/63013830/614C2CCC" Ref="R?"  Part="1" 
-F 0 "R?" V 3775 4025 50  0000 C CNN
-F 1 "OPT" V 3850 4025 50  0000 C CNN
-F 2 "resistor_smd:R_0603_1608Metric" V 3780 4025 50  0001 C CNN
-F 3 "~" H 3850 4025 50  0001 C CNN
-	1    3850 4025
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 614C2CD2
-P 3675 4250
-AR Path="/6114D32E/614C2CD2" Ref="#PWR?"  Part="1" 
-AR Path="/6247A5CE/614C2CD2" Ref="#PWR?"  Part="1" 
-AR Path="/61234350/614C2CD2" Ref="#PWR?"  Part="1" 
-AR Path="/62FAC6FD/614C2CD2" Ref="#PWR?"  Part="1" 
-AR Path="/650FF941/614C2CD2" Ref="#PWR?"  Part="1" 
-AR Path="/6511E0C5/614C2CD2" Ref="#PWR?"  Part="1" 
-AR Path="/65128D7D/614C2CD2" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3675 4000 50  0001 C CNN
-F 1 "GND" H 3680 4077 50  0000 C CNN
-F 2 "" H 3675 4250 50  0001 C CNN
-F 3 "" H 3675 4250 50  0001 C CNN
-	1    3675 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 614C2CD8
-P 3850 4250
-AR Path="/6114D32E/614C2CD8" Ref="#PWR?"  Part="1" 
-AR Path="/6247A5CE/614C2CD8" Ref="#PWR?"  Part="1" 
-AR Path="/61234350/614C2CD8" Ref="#PWR?"  Part="1" 
-AR Path="/62FAC6FD/614C2CD8" Ref="#PWR?"  Part="1" 
-AR Path="/650FF941/614C2CD8" Ref="#PWR?"  Part="1" 
-AR Path="/6511E0C5/614C2CD8" Ref="#PWR?"  Part="1" 
-AR Path="/65128D7D/614C2CD8" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3850 4000 50  0001 C CNN
-F 1 "GND" H 3855 4077 50  0000 C CNN
-F 2 "" H 3850 4250 50  0001 C CNN
-F 3 "" H 3850 4250 50  0001 C CNN
-	1    3850 4250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	3675 4250 3675 4175
+	3500 3725 4375 3725
 Wire Wire Line
-	3850 4250 3850 4175
-Wire Wire Line
-	3500 3625 3850 3625
-Wire Wire Line
-	3500 3725 3675 3725
-Wire Wire Line
-	3675 3875 3675 3725
-Connection ~ 3675 3725
-Wire Wire Line
-	3675 3725 4375 3725
-Wire Wire Line
-	3850 3875 3850 3625
-Connection ~ 3850 3625
-Wire Wire Line
-	3850 3625 4375 3625
+	3500 3625 4375 3625
 $EndSCHEMATC

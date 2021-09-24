@@ -4,9 +4,9 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 12
-Title ""
+Title "TKL Keyboard"
 Date ""
-Rev ""
+Rev "0"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -280,17 +280,17 @@ Wire Wire Line
 Wire Wire Line
 	7750 4450 8375 4450
 Wire Wire Line
-	6600 5700 7850 5700
-Wire Wire Line
-	7850 5700 7850 4575
-Wire Wire Line
-	7850 4575 8375 4575
+	6600 5700 7825 5700
 Text Notes 750  1000 0    315  ~ 0
 TKL KEYBOARD
 $Sheet
-S 2125 6975 1650 700 
+S 1750 6250 1650 700 
 U 613390DE
 F0 "Power" 118
 F1 "Power.sch" 50
 $EndSheet
+Wire Wire Line
+	7825 5700 7825 4575
+Wire Wire Line
+	7825 4575 8375 4575
 $EndSCHEMATC
