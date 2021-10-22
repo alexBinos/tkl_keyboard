@@ -16,10 +16,10 @@
 #define MATRIX_COL_ENABLE_PINS 2
 
 /* Micro controller pins */
-#define MATRIX_ROW_PINS { D0, D1, D2, D3, D4, D6 }
+#define MATRIX_ROW_PINS { D0, D1, D3, D2, D4, D6 }
 #define MATRIX_COL_PINS { B5, B4, D7, E6, B0, B7 }
-#define MATRIX_COL_ENABLES { F6, F7 }
-#define UNUSED_PINS { E2, F0, F1, F4, F5, C6, C7 }
+#define MATRIX_COL_ENABLES { F1, F0 }
+#define UNUSED_PINS { E2, F4, F5, F6, F7, C6, C7 }
 
 /* COL2ROW, ROW2COL*/
 #define DIODE_DIRECTION ROW2COL
