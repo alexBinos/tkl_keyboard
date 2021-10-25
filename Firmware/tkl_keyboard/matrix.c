@@ -27,9 +27,6 @@ static void select_col(uint8_t col) {
       col_addr <<= 3;
    }
    
-   //uprintf("Column: %u, Address: %u \n", col, col_addr);
-   
-   
    // Write address pins
    for (uint8_t i = 0; i < MATRIX_COL_CONTROL_PINS; i++) {
       if (col_addr & (1 << i)) {
@@ -122,14 +119,6 @@ bool matrix_scan_custom(void) {
    
    for (uint8_t current_col = 0; current_col < MATRIX_COLS; current_col++) {
       changed |= read_rows_on_col(raw_matrix, current_col);
-   }
-   
-   if (changed) {
-      print("Changed: ");
-      for (int i = 0; i < MATRIX_ROWS; i++) {
-         uprintf(" %u ", raw_matrix[i]);
-      }
-      print("\n");
    }
    
    debounce(raw_matrix, matrix, MATRIX_ROWS, changed);
