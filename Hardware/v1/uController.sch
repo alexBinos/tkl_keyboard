@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 12
+Sheet 12 12
 Title "TKL Keyboard"
 Date ""
 Rev "0"
@@ -74,7 +74,7 @@ Wire Wire Line
 Wire Wire Line
 	5575 4125 5925 4125
 Wire Wire Line
-	5575 3925 5925 3925
+	5575 3625 5925 3625
 Wire Wire Line
 	5575 4525 5925 4525
 $Comp
@@ -137,8 +137,6 @@ Wire Wire Line
 	4175 2625 4375 2625
 Wire Wire Line
 	4175 2250 4175 2175
-Wire Wire Line
-	5575 5025 5925 5025
 Wire Wire Line
 	5575 5125 5925 5125
 Text Notes 750  1000 0    315  ~ 0
@@ -591,7 +589,7 @@ Wire Notes Line
 Wire Wire Line
 	5925 4425 5575 4425
 Wire Wire Line
-	5925 3625 5575 3625
+	5925 3825 5575 3825
 Text Notes 2900 2475 0    50   ~ 0
 16MHz Crystal
 Text Notes 7250 4100 0    50   ~ 0
@@ -645,11 +643,11 @@ Wire Wire Line
 Wire Wire Line
 	6425 4725 6425 4800
 Wire Wire Line
-	5925 3825 5575 3825
+	5925 3525 5575 3525
 Wire Wire Line
 	5925 3225 5575 3225
 Wire Wire Line
-	5925 3525 5575 3525
+	5925 3925 5575 3925
 Wire Wire Line
 	2975 2975 2925 2975
 Wire Wire Line
@@ -681,15 +679,15 @@ Text HLabel 3500 3625 0    50   BiDi ~ 0
 USB_IN+
 Text HLabel 3500 3725 0    50   BiDi ~ 0
 USB_IN-
-Text HLabel 5925 3625 2    50   BiDi ~ 0
+Text HLabel 5925 3825 2    50   BiDi ~ 0
 SCL
-Text HLabel 5925 3525 2    50   BiDi ~ 0
+Text HLabel 5925 3925 2    50   BiDi ~ 0
 SDA
 Text HLabel 5925 3225 2    50   Output ~ 0
 RGB_DOUT
-Text HLabel 5925 3825 2    50   Input ~ 0
+Text HLabel 5925 3525 2    50   Input ~ 0
 ROW[0]
-Text HLabel 5925 3925 2    50   Input ~ 0
+Text HLabel 5925 3625 2    50   Input ~ 0
 ROW[1]
 Text HLabel 5925 4125 2    50   Input ~ 0
 ROW[2]
@@ -731,18 +729,16 @@ Wire Notes Line
 	2250 6325 6625 6325
 Wire Notes Line
 	6625 6325 6625 1750
-Text HLabel 5925 5125 2    50   Input ~ 0
-ENC_A[0]
-Text HLabel 5925 5025 2    50   Input ~ 0
-ENC_B[0]
+Text HLabel 5925 5125 2    50   Output ~ 0
+COL_EN[0]
 Text HLabel 5925 5325 2    50   Input ~ 0
-ENC_A[1]
+ENC_A[0]
 Text HLabel 5925 5225 2    50   Input ~ 0
-ENC_B[1]
+ENC_B[0]
 Text HLabel 5925 5525 2    50   Input ~ 0
-ENC_A[2]
+ENC_A[1]
 Text HLabel 5925 5425 2    50   Input ~ 0
-ENC_B[2]
+ENC_B[1]
 $Comp
 L power:+5V #PWR?
 U 1 1 614076E8
@@ -908,4 +904,8 @@ Wire Wire Line
 	3500 3725 4375 3725
 Wire Wire Line
 	3500 3625 4375 3625
+Text HLabel 5925 5025 2    50   Output ~ 0
+COL_EN[1]
+Wire Wire Line
+	5575 5025 5925 5025
 $EndSCHEMATC

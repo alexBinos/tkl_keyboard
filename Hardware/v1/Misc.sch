@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 12
+Sheet 6 12
 Title "TKL Keyboard"
 Date ""
 Rev "0"
@@ -13,124 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Device:R R?
-U 1 1 63210B97
-P 3700 3650
-AR Path="/63210B97" Ref="R?"  Part="1" 
-AR Path="/60D44364/63210B97" Ref="R?"  Part="1" 
-AR Path="/61150193/63210B97" Ref="R?"  Part="1" 
-AR Path="/6123418A/63210B97" Ref="R?"  Part="1" 
-AR Path="/62F5643B/63210B97" Ref="R?"  Part="1" 
-AR Path="/63013830/63210B97" Ref="R?"  Part="1" 
-AR Path="/6301FD9D/63210B97" Ref="R?"  Part="1" 
-AR Path="/63166CC9/63210B97" Ref="R32"  Part="1" 
-F 0 "R32" V 3775 3550 50  0000 L CNN
-F 1 "10K" V 3700 3575 50  0000 L CNN
-F 2 "resistor_smd:R_0603_1608Metric" V 3630 3650 50  0001 C CNN
-F 3 "~" H 3700 3650 50  0001 C CNN
-	1    3700 3650
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 63210B9D
-P 3875 3650
-AR Path="/63210B9D" Ref="R?"  Part="1" 
-AR Path="/60D44364/63210B9D" Ref="R?"  Part="1" 
-AR Path="/61150193/63210B9D" Ref="R?"  Part="1" 
-AR Path="/6123418A/63210B9D" Ref="R?"  Part="1" 
-AR Path="/62F5643B/63210B9D" Ref="R?"  Part="1" 
-AR Path="/63013830/63210B9D" Ref="R?"  Part="1" 
-AR Path="/6301FD9D/63210B9D" Ref="R?"  Part="1" 
-AR Path="/63166CC9/63210B9D" Ref="R35"  Part="1" 
-F 0 "R35" V 3775 3550 50  0000 L CNN
-F 1 "10K" V 3875 3575 50  0000 L CNN
-F 2 "resistor_smd:R_0603_1608Metric" V 3805 3650 50  0001 C CNN
-F 3 "~" H 3875 3650 50  0001 C CNN
-	1    3875 3650
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	4000 3875 3875 3875
-Wire Wire Line
-	4000 4075 3700 4075
-Wire Wire Line
-	3700 4075 3700 3800
-Wire Wire Line
-	3875 3875 3875 3800
-Wire Wire Line
-	3700 3500 3700 3425
-Wire Wire Line
-	3700 3425 3875 3425
-Wire Wire Line
-	3875 3500 3875 3425
-$Comp
-L power:+3.3V #PWR?
-U 1 1 63210BAB
-P 3875 3375
-AR Path="/63210BAB" Ref="#PWR?"  Part="1" 
-AR Path="/60D44364/63210BAB" Ref="#PWR?"  Part="1" 
-AR Path="/61150193/63210BAB" Ref="#PWR?"  Part="1" 
-AR Path="/6123418A/63210BAB" Ref="#PWR?"  Part="1" 
-AR Path="/62F5643B/63210BAB" Ref="#PWR?"  Part="1" 
-AR Path="/63013830/63210BAB" Ref="#PWR?"  Part="1" 
-AR Path="/6301FD9D/63210BAB" Ref="#PWR?"  Part="1" 
-AR Path="/63166CC9/63210BAB" Ref="#PWR0213"  Part="1" 
-F 0 "#PWR0213" H 3875 3225 50  0001 C CNN
-F 1 "+3.3V" H 3890 3548 50  0000 C CNN
-F 2 "" H 3875 3375 50  0001 C CNN
-F 3 "" H 3875 3375 50  0001 C CNN
-	1    3875 3375
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	3875 3375 3875 3425
-Connection ~ 3875 3425
-Wire Wire Line
-	3400 3875 3875 3875
-Connection ~ 3875 3875
-Wire Wire Line
-	3400 4075 3700 4075
-Connection ~ 3700 4075
-$Comp
-L Device:Rotary_Encoder_Switch SW?
-U 1 1 63210BBF
-P 3100 3975
-AR Path="/63210BBF" Ref="SW?"  Part="1" 
-AR Path="/60D44364/63210BBF" Ref="SW?"  Part="1" 
-AR Path="/61150193/63210BBF" Ref="SW?"  Part="1" 
-AR Path="/6123418A/63210BBF" Ref="SW?"  Part="1" 
-AR Path="/62F5643B/63210BBF" Ref="SW?"  Part="1" 
-AR Path="/63013830/63210BBF" Ref="SW?"  Part="1" 
-AR Path="/6301FD9D/63210BBF" Ref="SW?"  Part="1" 
-AR Path="/63166CC9/63210BBF" Ref="SW90"  Part="1" 
-F 0 "SW90" H 3100 4342 50  0000 C CNN
-F 1 "Rotary_Encoder_Switch" H 3100 4251 50  0000 C CNN
-F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 2950 4135 50  0001 C CNN
-F 3 "~" H 3100 4235 50  0001 C CNN
-	1    3100 3975
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 63210BC5
-P 3450 4225
-AR Path="/62F5643B/63210BC5" Ref="#PWR?"  Part="1" 
-AR Path="/63013830/63210BC5" Ref="#PWR?"  Part="1" 
-AR Path="/6301FD9D/63210BC5" Ref="#PWR?"  Part="1" 
-AR Path="/63166CC9/63210BC5" Ref="#PWR0210"  Part="1" 
-F 0 "#PWR0210" H 3450 3975 50  0001 C CNN
-F 1 "GND" H 3455 4052 50  0000 C CNN
-F 2 "" H 3450 4225 50  0001 C CNN
-F 3 "" H 3450 4225 50  0001 C CNN
-	1    3450 4225
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3450 4225 3450 3975
-Wire Wire Line
-	3450 3975 3400 3975
 $Comp
 L Connector:Conn_01x04_Female J?
 U 1 1 63210BCD
@@ -206,23 +88,6 @@ F 3 "~" H 1900 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
-U 1 1 63210BEC
-P 1900 2125
-AR Path="/62F5643B/63210BEC" Ref="#PWR?"  Part="1" 
-AR Path="/63013830/63210BEC" Ref="#PWR?"  Part="1" 
-AR Path="/6301FD9D/63210BEC" Ref="#PWR?"  Part="1" 
-AR Path="/63166CC9/63210BEC" Ref="#PWR0202"  Part="1" 
-F 0 "#PWR0202" H 1900 1875 50  0001 C CNN
-F 1 "GND" H 1905 1952 50  0000 C CNN
-F 2 "" H 1900 2125 50  0001 C CNN
-F 3 "" H 1900 2125 50  0001 C CNN
-	1    1900 2125
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1900 2125 1900 2050
-$Comp
 L Mechanical:MountingHole_Pad H?
 U 1 1 63210BF3
 P 2925 1950
@@ -237,23 +102,6 @@ F 3 "~" H 2925 1950 50  0001 C CNN
 	1    2925 1950
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 63210BF9
-P 2925 2125
-AR Path="/62F5643B/63210BF9" Ref="#PWR?"  Part="1" 
-AR Path="/63013830/63210BF9" Ref="#PWR?"  Part="1" 
-AR Path="/6301FD9D/63210BF9" Ref="#PWR?"  Part="1" 
-AR Path="/63166CC9/63210BF9" Ref="#PWR0208"  Part="1" 
-F 0 "#PWR0208" H 2925 1875 50  0001 C CNN
-F 1 "GND" H 2930 1952 50  0000 C CNN
-F 2 "" H 2925 2125 50  0001 C CNN
-F 3 "" H 2925 2125 50  0001 C CNN
-	1    2925 2125
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2925 2125 2925 2050
 $Comp
 L Mechanical:MountingHole_Pad H?
 U 1 1 63210C00
@@ -270,23 +118,6 @@ F 3 "~" H 1900 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
-U 1 1 63210C06
-P 1900 2775
-AR Path="/62F5643B/63210C06" Ref="#PWR?"  Part="1" 
-AR Path="/63013830/63210C06" Ref="#PWR?"  Part="1" 
-AR Path="/6301FD9D/63210C06" Ref="#PWR?"  Part="1" 
-AR Path="/63166CC9/63210C06" Ref="#PWR0203"  Part="1" 
-F 0 "#PWR0203" H 1900 2525 50  0001 C CNN
-F 1 "GND" H 1905 2602 50  0000 C CNN
-F 2 "" H 1900 2775 50  0001 C CNN
-F 3 "" H 1900 2775 50  0001 C CNN
-	1    1900 2775
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1900 2775 1900 2700
-$Comp
 L Mechanical:MountingHole_Pad H?
 U 1 1 63210C0D
 P 2925 2600
@@ -301,27 +132,8 @@ F 3 "~" H 2925 2600 50  0001 C CNN
 	1    2925 2600
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 63210C13
-P 2925 2775
-AR Path="/62F5643B/63210C13" Ref="#PWR?"  Part="1" 
-AR Path="/63013830/63210C13" Ref="#PWR?"  Part="1" 
-AR Path="/6301FD9D/63210C13" Ref="#PWR?"  Part="1" 
-AR Path="/63166CC9/63210C13" Ref="#PWR0209"  Part="1" 
-F 0 "#PWR0209" H 2925 2525 50  0001 C CNN
-F 1 "GND" H 2930 2602 50  0000 C CNN
-F 2 "" H 2925 2775 50  0001 C CNN
-F 3 "" H 2925 2775 50  0001 C CNN
-	1    2925 2775
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2925 2775 2925 2700
 Text Notes 1775 1625 0    50   ~ 0
 Mounting holes
-Text Notes 1800 3200 0    50   ~ 0
-Rotary encoder
 $Comp
 L Device:R R?
 U 1 1 63210C20
@@ -406,30 +218,14 @@ Wire Wire Line
 	5225 3525 5225 3600
 Wire Wire Line
 	5475 3525 5475 3600
-Wire Notes Line
-	1750 3075 4525 3075
-Wire Notes Line
-	4525 3075 4525 4525
-Wire Notes Line
-	4525 4525 1750 4525
-Wire Notes Line
-	1750 4525 1750 3075
 Text HLabel 5025 4025 0    50   BiDi ~ 0
 SDA
 Text HLabel 5025 4125 0    50   BiDi ~ 0
 SCL
-Text GLabel 2525 3875 0    50   Input ~ 0
-ENC_ROW
-Text GLabel 2525 4075 0    50   Output ~ 0
-ENC_COL[0]
-Wire Wire Line
-	2525 3875 2800 3875
-Wire Wire Line
-	2525 4075 2800 4075
 $Comp
 L Device:R R?
 U 1 1 63221704
-P 3700 5125
+P 3700 3650
 AR Path="/63221704" Ref="R?"  Part="1" 
 AR Path="/60D44364/63221704" Ref="R?"  Part="1" 
 AR Path="/61150193/63221704" Ref="R?"  Part="1" 
@@ -438,17 +234,17 @@ AR Path="/62F5643B/63221704" Ref="R?"  Part="1"
 AR Path="/63013830/63221704" Ref="R?"  Part="1" 
 AR Path="/6301FD9D/63221704" Ref="R?"  Part="1" 
 AR Path="/63166CC9/63221704" Ref="R33"  Part="1" 
-F 0 "R33" V 3775 5025 50  0000 L CNN
-F 1 "10K" V 3700 5050 50  0000 L CNN
-F 2 "resistor_smd:R_0603_1608Metric" V 3630 5125 50  0001 C CNN
-F 3 "~" H 3700 5125 50  0001 C CNN
-	1    3700 5125
+F 0 "R33" V 3775 3550 50  0000 L CNN
+F 1 "10K" V 3700 3575 50  0000 L CNN
+F 2 "resistor_smd:R_0603_1608Metric" V 3630 3650 50  0001 C CNN
+F 3 "~" H 3700 3650 50  0001 C CNN
+	1    3700 3650
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 6322170A
-P 3875 5125
+P 3875 3650
 AR Path="/6322170A" Ref="R?"  Part="1" 
 AR Path="/60D44364/6322170A" Ref="R?"  Part="1" 
 AR Path="/61150193/6322170A" Ref="R?"  Part="1" 
@@ -457,7 +253,141 @@ AR Path="/62F5643B/6322170A" Ref="R?"  Part="1"
 AR Path="/63013830/6322170A" Ref="R?"  Part="1" 
 AR Path="/6301FD9D/6322170A" Ref="R?"  Part="1" 
 AR Path="/63166CC9/6322170A" Ref="R36"  Part="1" 
-F 0 "R36" V 3775 5025 50  0000 L CNN
+F 0 "R36" V 3775 3550 50  0000 L CNN
+F 1 "10K" V 3875 3575 50  0000 L CNN
+F 2 "resistor_smd:R_0603_1608Metric" V 3805 3650 50  0001 C CNN
+F 3 "~" H 3875 3650 50  0001 C CNN
+	1    3875 3650
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 3875 3875 3875
+Wire Wire Line
+	4000 4075 3700 4075
+Wire Wire Line
+	3700 4075 3700 3800
+Wire Wire Line
+	3875 3875 3875 3800
+Wire Wire Line
+	3700 3500 3700 3425
+Wire Wire Line
+	3700 3425 3875 3425
+Wire Wire Line
+	3875 3500 3875 3425
+$Comp
+L power:+3.3V #PWR?
+U 1 1 63221718
+P 3875 3375
+AR Path="/63221718" Ref="#PWR?"  Part="1" 
+AR Path="/60D44364/63221718" Ref="#PWR?"  Part="1" 
+AR Path="/61150193/63221718" Ref="#PWR?"  Part="1" 
+AR Path="/6123418A/63221718" Ref="#PWR?"  Part="1" 
+AR Path="/62F5643B/63221718" Ref="#PWR?"  Part="1" 
+AR Path="/63013830/63221718" Ref="#PWR?"  Part="1" 
+AR Path="/6301FD9D/63221718" Ref="#PWR?"  Part="1" 
+AR Path="/63166CC9/63221718" Ref="#PWR0214"  Part="1" 
+F 0 "#PWR0214" H 3875 3225 50  0001 C CNN
+F 1 "+3.3V" H 3890 3548 50  0000 C CNN
+F 2 "" H 3875 3375 50  0001 C CNN
+F 3 "" H 3875 3375 50  0001 C CNN
+	1    3875 3375
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3875 3375 3875 3425
+Connection ~ 3875 3425
+Wire Wire Line
+	3400 3875 3875 3875
+Connection ~ 3875 3875
+Wire Wire Line
+	3400 4075 3700 4075
+Connection ~ 3700 4075
+$Comp
+L Device:Rotary_Encoder_Switch SW?
+U 1 1 63221725
+P 3100 3975
+AR Path="/63221725" Ref="SW?"  Part="1" 
+AR Path="/60D44364/63221725" Ref="SW?"  Part="1" 
+AR Path="/61150193/63221725" Ref="SW?"  Part="1" 
+AR Path="/6123418A/63221725" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/63221725" Ref="SW?"  Part="1" 
+AR Path="/63013830/63221725" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/63221725" Ref="SW?"  Part="1" 
+AR Path="/63166CC9/63221725" Ref="SW91"  Part="1" 
+F 0 "SW91" H 3100 4342 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 3100 4251 50  0000 C CNN
+F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 2950 4135 50  0001 C CNN
+F 3 "~" H 3100 4235 50  0001 C CNN
+	1    3100 3975
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6322172B
+P 3450 4225
+AR Path="/62F5643B/6322172B" Ref="#PWR?"  Part="1" 
+AR Path="/63013830/6322172B" Ref="#PWR?"  Part="1" 
+AR Path="/6301FD9D/6322172B" Ref="#PWR?"  Part="1" 
+AR Path="/63166CC9/6322172B" Ref="#PWR0211"  Part="1" 
+F 0 "#PWR0211" H 3450 3975 50  0001 C CNN
+F 1 "GND" H 3455 4052 50  0000 C CNN
+F 2 "" H 3450 4225 50  0001 C CNN
+F 3 "" H 3450 4225 50  0001 C CNN
+	1    3450 4225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 4225 3450 3975
+Wire Wire Line
+	3450 3975 3400 3975
+Text Notes 1800 3200 0    50   ~ 0
+Rotary encoder
+Wire Notes Line
+	1750 3075 4525 3075
+Wire Notes Line
+	4525 3075 4525 4525
+Wire Notes Line
+	4525 4525 1750 4525
+Wire Notes Line
+	1750 4525 1750 3075
+Text GLabel 2525 4075 0    50   Output ~ 0
+ENC_COL[0]
+Wire Wire Line
+	2525 3875 2800 3875
+Wire Wire Line
+	2525 4075 2800 4075
+$Comp
+L Device:R R?
+U 1 1 63223F26
+P 3700 5125
+AR Path="/63223F26" Ref="R?"  Part="1" 
+AR Path="/60D44364/63223F26" Ref="R?"  Part="1" 
+AR Path="/61150193/63223F26" Ref="R?"  Part="1" 
+AR Path="/6123418A/63223F26" Ref="R?"  Part="1" 
+AR Path="/62F5643B/63223F26" Ref="R?"  Part="1" 
+AR Path="/63013830/63223F26" Ref="R?"  Part="1" 
+AR Path="/6301FD9D/63223F26" Ref="R?"  Part="1" 
+AR Path="/63166CC9/63223F26" Ref="R34"  Part="1" 
+F 0 "R34" V 3775 5025 50  0000 L CNN
+F 1 "10K" V 3700 5050 50  0000 L CNN
+F 2 "resistor_smd:R_0603_1608Metric" V 3630 5125 50  0001 C CNN
+F 3 "~" H 3700 5125 50  0001 C CNN
+	1    3700 5125
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 63223F2C
+P 3875 5125
+AR Path="/63223F2C" Ref="R?"  Part="1" 
+AR Path="/60D44364/63223F2C" Ref="R?"  Part="1" 
+AR Path="/61150193/63223F2C" Ref="R?"  Part="1" 
+AR Path="/6123418A/63223F2C" Ref="R?"  Part="1" 
+AR Path="/62F5643B/63223F2C" Ref="R?"  Part="1" 
+AR Path="/63013830/63223F2C" Ref="R?"  Part="1" 
+AR Path="/6301FD9D/63223F2C" Ref="R?"  Part="1" 
+AR Path="/63166CC9/63223F2C" Ref="R37"  Part="1" 
+F 0 "R37" V 3775 5025 50  0000 L CNN
 F 1 "10K" V 3875 5050 50  0000 L CNN
 F 2 "resistor_smd:R_0603_1608Metric" V 3805 5125 50  0001 C CNN
 F 3 "~" H 3875 5125 50  0001 C CNN
@@ -480,17 +410,17 @@ Wire Wire Line
 	3875 4975 3875 4900
 $Comp
 L power:+3.3V #PWR?
-U 1 1 63221718
+U 1 1 63223F3A
 P 3875 4850
-AR Path="/63221718" Ref="#PWR?"  Part="1" 
-AR Path="/60D44364/63221718" Ref="#PWR?"  Part="1" 
-AR Path="/61150193/63221718" Ref="#PWR?"  Part="1" 
-AR Path="/6123418A/63221718" Ref="#PWR?"  Part="1" 
-AR Path="/62F5643B/63221718" Ref="#PWR?"  Part="1" 
-AR Path="/63013830/63221718" Ref="#PWR?"  Part="1" 
-AR Path="/6301FD9D/63221718" Ref="#PWR?"  Part="1" 
-AR Path="/63166CC9/63221718" Ref="#PWR0214"  Part="1" 
-F 0 "#PWR0214" H 3875 4700 50  0001 C CNN
+AR Path="/63223F3A" Ref="#PWR?"  Part="1" 
+AR Path="/60D44364/63223F3A" Ref="#PWR?"  Part="1" 
+AR Path="/61150193/63223F3A" Ref="#PWR?"  Part="1" 
+AR Path="/6123418A/63223F3A" Ref="#PWR?"  Part="1" 
+AR Path="/62F5643B/63223F3A" Ref="#PWR?"  Part="1" 
+AR Path="/63013830/63223F3A" Ref="#PWR?"  Part="1" 
+AR Path="/6301FD9D/63223F3A" Ref="#PWR?"  Part="1" 
+AR Path="/63166CC9/63223F3A" Ref="#PWR0215"  Part="1" 
+F 0 "#PWR0215" H 3875 4700 50  0001 C CNN
 F 1 "+3.3V" H 3890 5023 50  0000 C CNN
 F 2 "" H 3875 4850 50  0001 C CNN
 F 3 "" H 3875 4850 50  0001 C CNN
@@ -508,17 +438,17 @@ Wire Wire Line
 Connection ~ 3700 5550
 $Comp
 L Device:Rotary_Encoder_Switch SW?
-U 1 1 63221725
+U 1 1 63223F47
 P 3100 5450
-AR Path="/63221725" Ref="SW?"  Part="1" 
-AR Path="/60D44364/63221725" Ref="SW?"  Part="1" 
-AR Path="/61150193/63221725" Ref="SW?"  Part="1" 
-AR Path="/6123418A/63221725" Ref="SW?"  Part="1" 
-AR Path="/62F5643B/63221725" Ref="SW?"  Part="1" 
-AR Path="/63013830/63221725" Ref="SW?"  Part="1" 
-AR Path="/6301FD9D/63221725" Ref="SW?"  Part="1" 
-AR Path="/63166CC9/63221725" Ref="SW91"  Part="1" 
-F 0 "SW91" H 3100 5817 50  0000 C CNN
+AR Path="/63223F47" Ref="SW?"  Part="1" 
+AR Path="/60D44364/63223F47" Ref="SW?"  Part="1" 
+AR Path="/61150193/63223F47" Ref="SW?"  Part="1" 
+AR Path="/6123418A/63223F47" Ref="SW?"  Part="1" 
+AR Path="/62F5643B/63223F47" Ref="SW?"  Part="1" 
+AR Path="/63013830/63223F47" Ref="SW?"  Part="1" 
+AR Path="/6301FD9D/63223F47" Ref="SW?"  Part="1" 
+AR Path="/63166CC9/63223F47" Ref="SW92"  Part="1" 
+F 0 "SW92" H 3100 5817 50  0000 C CNN
 F 1 "Rotary_Encoder_Switch" H 3100 5726 50  0000 C CNN
 F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 2950 5610 50  0001 C CNN
 F 3 "~" H 3100 5710 50  0001 C CNN
@@ -527,13 +457,13 @@ F 3 "~" H 3100 5710 50  0001 C CNN
 $EndComp
 $Comp
 L power:GND #PWR?
-U 1 1 6322172B
+U 1 1 63223F4D
 P 3450 5700
-AR Path="/62F5643B/6322172B" Ref="#PWR?"  Part="1" 
-AR Path="/63013830/6322172B" Ref="#PWR?"  Part="1" 
-AR Path="/6301FD9D/6322172B" Ref="#PWR?"  Part="1" 
-AR Path="/63166CC9/6322172B" Ref="#PWR0211"  Part="1" 
-F 0 "#PWR0211" H 3450 5450 50  0001 C CNN
+AR Path="/62F5643B/63223F4D" Ref="#PWR?"  Part="1" 
+AR Path="/63013830/63223F4D" Ref="#PWR?"  Part="1" 
+AR Path="/6301FD9D/63223F4D" Ref="#PWR?"  Part="1" 
+AR Path="/63166CC9/63223F4D" Ref="#PWR0212"  Part="1" 
+F 0 "#PWR0212" H 3450 5450 50  0001 C CNN
 F 1 "GND" H 3455 5527 50  0000 C CNN
 F 2 "" H 3450 5700 50  0001 C CNN
 F 3 "" H 3450 5700 50  0001 C CNN
@@ -560,140 +490,6 @@ Wire Wire Line
 	2525 5350 2800 5350
 Wire Wire Line
 	2525 5550 2800 5550
-$Comp
-L Device:R R?
-U 1 1 63223F26
-P 3700 6600
-AR Path="/63223F26" Ref="R?"  Part="1" 
-AR Path="/60D44364/63223F26" Ref="R?"  Part="1" 
-AR Path="/61150193/63223F26" Ref="R?"  Part="1" 
-AR Path="/6123418A/63223F26" Ref="R?"  Part="1" 
-AR Path="/62F5643B/63223F26" Ref="R?"  Part="1" 
-AR Path="/63013830/63223F26" Ref="R?"  Part="1" 
-AR Path="/6301FD9D/63223F26" Ref="R?"  Part="1" 
-AR Path="/63166CC9/63223F26" Ref="R34"  Part="1" 
-F 0 "R34" V 3775 6500 50  0000 L CNN
-F 1 "10K" V 3700 6525 50  0000 L CNN
-F 2 "resistor_smd:R_0603_1608Metric" V 3630 6600 50  0001 C CNN
-F 3 "~" H 3700 6600 50  0001 C CNN
-	1    3700 6600
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 63223F2C
-P 3875 6600
-AR Path="/63223F2C" Ref="R?"  Part="1" 
-AR Path="/60D44364/63223F2C" Ref="R?"  Part="1" 
-AR Path="/61150193/63223F2C" Ref="R?"  Part="1" 
-AR Path="/6123418A/63223F2C" Ref="R?"  Part="1" 
-AR Path="/62F5643B/63223F2C" Ref="R?"  Part="1" 
-AR Path="/63013830/63223F2C" Ref="R?"  Part="1" 
-AR Path="/6301FD9D/63223F2C" Ref="R?"  Part="1" 
-AR Path="/63166CC9/63223F2C" Ref="R37"  Part="1" 
-F 0 "R37" V 3775 6500 50  0000 L CNN
-F 1 "10K" V 3875 6525 50  0000 L CNN
-F 2 "resistor_smd:R_0603_1608Metric" V 3805 6600 50  0001 C CNN
-F 3 "~" H 3875 6600 50  0001 C CNN
-	1    3875 6600
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	4000 6825 3875 6825
-Wire Wire Line
-	4000 7025 3700 7025
-Wire Wire Line
-	3700 7025 3700 6750
-Wire Wire Line
-	3875 6825 3875 6750
-Wire Wire Line
-	3700 6450 3700 6375
-Wire Wire Line
-	3700 6375 3875 6375
-Wire Wire Line
-	3875 6450 3875 6375
-$Comp
-L power:+3.3V #PWR?
-U 1 1 63223F3A
-P 3875 6325
-AR Path="/63223F3A" Ref="#PWR?"  Part="1" 
-AR Path="/60D44364/63223F3A" Ref="#PWR?"  Part="1" 
-AR Path="/61150193/63223F3A" Ref="#PWR?"  Part="1" 
-AR Path="/6123418A/63223F3A" Ref="#PWR?"  Part="1" 
-AR Path="/62F5643B/63223F3A" Ref="#PWR?"  Part="1" 
-AR Path="/63013830/63223F3A" Ref="#PWR?"  Part="1" 
-AR Path="/6301FD9D/63223F3A" Ref="#PWR?"  Part="1" 
-AR Path="/63166CC9/63223F3A" Ref="#PWR0215"  Part="1" 
-F 0 "#PWR0215" H 3875 6175 50  0001 C CNN
-F 1 "+3.3V" H 3890 6498 50  0000 C CNN
-F 2 "" H 3875 6325 50  0001 C CNN
-F 3 "" H 3875 6325 50  0001 C CNN
-	1    3875 6325
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	3875 6325 3875 6375
-Connection ~ 3875 6375
-Wire Wire Line
-	3400 6825 3875 6825
-Connection ~ 3875 6825
-Wire Wire Line
-	3400 7025 3700 7025
-Connection ~ 3700 7025
-$Comp
-L Device:Rotary_Encoder_Switch SW?
-U 1 1 63223F47
-P 3100 6925
-AR Path="/63223F47" Ref="SW?"  Part="1" 
-AR Path="/60D44364/63223F47" Ref="SW?"  Part="1" 
-AR Path="/61150193/63223F47" Ref="SW?"  Part="1" 
-AR Path="/6123418A/63223F47" Ref="SW?"  Part="1" 
-AR Path="/62F5643B/63223F47" Ref="SW?"  Part="1" 
-AR Path="/63013830/63223F47" Ref="SW?"  Part="1" 
-AR Path="/6301FD9D/63223F47" Ref="SW?"  Part="1" 
-AR Path="/63166CC9/63223F47" Ref="SW92"  Part="1" 
-F 0 "SW92" H 3100 7292 50  0000 C CNN
-F 1 "Rotary_Encoder_Switch" H 3100 7201 50  0000 C CNN
-F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 2950 7085 50  0001 C CNN
-F 3 "~" H 3100 7185 50  0001 C CNN
-	1    3100 6925
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 63223F4D
-P 3450 7175
-AR Path="/62F5643B/63223F4D" Ref="#PWR?"  Part="1" 
-AR Path="/63013830/63223F4D" Ref="#PWR?"  Part="1" 
-AR Path="/6301FD9D/63223F4D" Ref="#PWR?"  Part="1" 
-AR Path="/63166CC9/63223F4D" Ref="#PWR0212"  Part="1" 
-F 0 "#PWR0212" H 3450 6925 50  0001 C CNN
-F 1 "GND" H 3455 7002 50  0000 C CNN
-F 2 "" H 3450 7175 50  0001 C CNN
-F 3 "" H 3450 7175 50  0001 C CNN
-	1    3450 7175
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3450 7175 3450 6925
-Wire Wire Line
-	3450 6925 3400 6925
-Text Notes 1800 6150 0    50   ~ 0
-Rotary encoder
-Wire Notes Line
-	1750 6025 4525 6025
-Wire Notes Line
-	4525 6025 4525 7475
-Wire Notes Line
-	4525 7475 1750 7475
-Wire Notes Line
-	1750 7475 1750 6025
-Text GLabel 2525 7025 0    50   Output ~ 0
-ENC_COL[2]
-Wire Wire Line
-	2525 6825 2800 6825
-Wire Wire Line
-	2525 7025 2800 7025
 Text HLabel 4000 3875 2    50   Output ~ 0
 ENC_A[0]
 Text HLabel 4000 4075 2    50   Output ~ 0
@@ -702,10 +498,6 @@ Text HLabel 4000 5350 2    50   Output ~ 0
 ENC_A[1]
 Text HLabel 4000 5550 2    50   Output ~ 0
 ENC_B[1]
-Text HLabel 4000 6825 2    50   Output ~ 0
-ENC_A[2]
-Text HLabel 4000 7025 2    50   Output ~ 0
-ENC_B[2]
 Text Notes 750  1000 0    315  ~ 0
 Misc
 Wire Notes Line
@@ -746,23 +538,6 @@ F 3 "~" H 3950 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
-U 1 1 61481A72
-P 3950 2125
-AR Path="/62F5643B/61481A72" Ref="#PWR?"  Part="1" 
-AR Path="/63013830/61481A72" Ref="#PWR?"  Part="1" 
-AR Path="/6301FD9D/61481A72" Ref="#PWR?"  Part="1" 
-AR Path="/63166CC9/61481A72" Ref="#PWR0506"  Part="1" 
-F 0 "#PWR0506" H 3950 1875 50  0001 C CNN
-F 1 "GND" H 3955 1952 50  0000 C CNN
-F 2 "" H 3950 2125 50  0001 C CNN
-F 3 "" H 3950 2125 50  0001 C CNN
-	1    3950 2125
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3950 2125 3950 2050
-$Comp
 L Mechanical:MountingHole_Pad H?
 U 1 1 61481A79
 P 4975 1950
@@ -777,23 +552,6 @@ F 3 "~" H 4975 1950 50  0001 C CNN
 	1    4975 1950
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 61481A7F
-P 4975 2125
-AR Path="/62F5643B/61481A7F" Ref="#PWR?"  Part="1" 
-AR Path="/63013830/61481A7F" Ref="#PWR?"  Part="1" 
-AR Path="/6301FD9D/61481A7F" Ref="#PWR?"  Part="1" 
-AR Path="/63166CC9/61481A7F" Ref="#PWR0507"  Part="1" 
-F 0 "#PWR0507" H 4975 1875 50  0001 C CNN
-F 1 "GND" H 4980 1952 50  0000 C CNN
-F 2 "" H 4975 2125 50  0001 C CNN
-F 3 "" H 4975 2125 50  0001 C CNN
-	1    4975 2125
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4975 2125 4975 2050
 $Comp
 L Mechanical:MountingHole_Pad H?
 U 1 1 61481A86
@@ -810,23 +568,6 @@ F 3 "~" H 3950 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
-U 1 1 61481A8C
-P 3950 2775
-AR Path="/62F5643B/61481A8C" Ref="#PWR?"  Part="1" 
-AR Path="/63013830/61481A8C" Ref="#PWR?"  Part="1" 
-AR Path="/6301FD9D/61481A8C" Ref="#PWR?"  Part="1" 
-AR Path="/63166CC9/61481A8C" Ref="#PWR0508"  Part="1" 
-F 0 "#PWR0508" H 3950 2525 50  0001 C CNN
-F 1 "GND" H 3955 2602 50  0000 C CNN
-F 2 "" H 3950 2775 50  0001 C CNN
-F 3 "" H 3950 2775 50  0001 C CNN
-	1    3950 2775
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3950 2775 3950 2700
-$Comp
 L Mechanical:MountingHole_Pad H?
 U 1 1 61481A93
 P 4975 2600
@@ -841,23 +582,6 @@ F 3 "~" H 4975 2600 50  0001 C CNN
 	1    4975 2600
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 61481A99
-P 4975 2775
-AR Path="/62F5643B/61481A99" Ref="#PWR?"  Part="1" 
-AR Path="/63013830/61481A99" Ref="#PWR?"  Part="1" 
-AR Path="/6301FD9D/61481A99" Ref="#PWR?"  Part="1" 
-AR Path="/63166CC9/61481A99" Ref="#PWR0509"  Part="1" 
-F 0 "#PWR0509" H 4975 2525 50  0001 C CNN
-F 1 "GND" H 4980 2602 50  0000 C CNN
-F 2 "" H 4975 2775 50  0001 C CNN
-F 3 "" H 4975 2775 50  0001 C CNN
-	1    4975 2775
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4975 2775 4975 2700
 $Comp
 L Mechanical:MountingHole_Pad H?
 U 1 1 614853A0
@@ -874,23 +598,6 @@ F 3 "~" H 6050 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
-U 1 1 614853A6
-P 6050 2125
-AR Path="/62F5643B/614853A6" Ref="#PWR?"  Part="1" 
-AR Path="/63013830/614853A6" Ref="#PWR?"  Part="1" 
-AR Path="/6301FD9D/614853A6" Ref="#PWR?"  Part="1" 
-AR Path="/63166CC9/614853A6" Ref="#PWR0510"  Part="1" 
-F 0 "#PWR0510" H 6050 1875 50  0001 C CNN
-F 1 "GND" H 6055 1952 50  0000 C CNN
-F 2 "" H 6050 2125 50  0001 C CNN
-F 3 "" H 6050 2125 50  0001 C CNN
-	1    6050 2125
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6050 2125 6050 2050
-$Comp
 L Mechanical:MountingHole_Pad H?
 U 1 1 614853AD
 P 7075 1950
@@ -905,23 +612,6 @@ F 3 "~" H 7075 1950 50  0001 C CNN
 	1    7075 1950
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 614853B3
-P 7075 2125
-AR Path="/62F5643B/614853B3" Ref="#PWR?"  Part="1" 
-AR Path="/63013830/614853B3" Ref="#PWR?"  Part="1" 
-AR Path="/6301FD9D/614853B3" Ref="#PWR?"  Part="1" 
-AR Path="/63166CC9/614853B3" Ref="#PWR0511"  Part="1" 
-F 0 "#PWR0511" H 7075 1875 50  0001 C CNN
-F 1 "GND" H 7080 1952 50  0000 C CNN
-F 2 "" H 7075 2125 50  0001 C CNN
-F 3 "" H 7075 2125 50  0001 C CNN
-	1    7075 2125
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7075 2125 7075 2050
 $Comp
 L Mechanical:MountingHole_Pad H?
 U 1 1 614853BA
@@ -938,23 +628,6 @@ F 3 "~" H 6050 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
-U 1 1 614853C0
-P 6050 2775
-AR Path="/62F5643B/614853C0" Ref="#PWR?"  Part="1" 
-AR Path="/63013830/614853C0" Ref="#PWR?"  Part="1" 
-AR Path="/6301FD9D/614853C0" Ref="#PWR?"  Part="1" 
-AR Path="/63166CC9/614853C0" Ref="#PWR0512"  Part="1" 
-F 0 "#PWR0512" H 6050 2525 50  0001 C CNN
-F 1 "GND" H 6055 2602 50  0000 C CNN
-F 2 "" H 6050 2775 50  0001 C CNN
-F 3 "" H 6050 2775 50  0001 C CNN
-	1    6050 2775
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6050 2775 6050 2700
-$Comp
 L Mechanical:MountingHole_Pad H?
 U 1 1 614853C7
 P 7075 2600
@@ -969,23 +642,6 @@ F 3 "~" H 7075 2600 50  0001 C CNN
 	1    7075 2600
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 614853CD
-P 7075 2775
-AR Path="/62F5643B/614853CD" Ref="#PWR?"  Part="1" 
-AR Path="/63013830/614853CD" Ref="#PWR?"  Part="1" 
-AR Path="/6301FD9D/614853CD" Ref="#PWR?"  Part="1" 
-AR Path="/63166CC9/614853CD" Ref="#PWR0513"  Part="1" 
-F 0 "#PWR0513" H 7075 2525 50  0001 C CNN
-F 1 "GND" H 7080 2602 50  0000 C CNN
-F 2 "" H 7075 2775 50  0001 C CNN
-F 3 "" H 7075 2775 50  0001 C CNN
-	1    7075 2775
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7075 2775 7075 2700
 Wire Notes Line
 	1750 1500 1750 3050
 $Comp
@@ -1004,23 +660,6 @@ F 3 "~" H 8200 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
-U 1 1 6142248E
-P 8200 2125
-AR Path="/62F5643B/6142248E" Ref="#PWR?"  Part="1" 
-AR Path="/63013830/6142248E" Ref="#PWR?"  Part="1" 
-AR Path="/6301FD9D/6142248E" Ref="#PWR?"  Part="1" 
-AR Path="/63166CC9/6142248E" Ref="#PWR0529"  Part="1" 
-F 0 "#PWR0529" H 8200 1875 50  0001 C CNN
-F 1 "GND" H 8205 1952 50  0000 C CNN
-F 2 "" H 8200 2125 50  0001 C CNN
-F 3 "" H 8200 2125 50  0001 C CNN
-	1    8200 2125
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8200 2125 8200 2050
-$Comp
 L Mechanical:MountingHole_Pad H?
 U 1 1 61422495
 P 8200 2600
@@ -1035,31 +674,28 @@ F 3 "~" H 8200 2600 50  0001 C CNN
 	1    8200 2600
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 6142249B
-P 8200 2775
-AR Path="/62F5643B/6142249B" Ref="#PWR?"  Part="1" 
-AR Path="/63013830/6142249B" Ref="#PWR?"  Part="1" 
-AR Path="/6301FD9D/6142249B" Ref="#PWR?"  Part="1" 
-AR Path="/63166CC9/6142249B" Ref="#PWR0530"  Part="1" 
-F 0 "#PWR0530" H 8200 2525 50  0001 C CNN
-F 1 "GND" H 8205 2602 50  0000 C CNN
-F 2 "" H 8200 2775 50  0001 C CNN
-F 3 "" H 8200 2775 50  0001 C CNN
-	1    8200 2775
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8200 2775 8200 2700
 Wire Notes Line
 	9025 3050 9025 1500
 Wire Notes Line
 	1750 3050 9025 3050
 Wire Notes Line
 	1750 1500 9025 1500
+Text GLabel 2525 3875 0    50   Input ~ 0
+ENC_ROW
 Text GLabel 2525 5350 0    50   Input ~ 0
 ENC_ROW
-Text GLabel 2525 6825 0    50   Input ~ 0
-ENC_ROW
+NoConn ~ 1900 2050
+NoConn ~ 2925 2050
+NoConn ~ 3950 2050
+NoConn ~ 1900 2700
+NoConn ~ 2925 2700
+NoConn ~ 3950 2700
+NoConn ~ 4975 2050
+NoConn ~ 6050 2050
+NoConn ~ 7075 2050
+NoConn ~ 8200 2050
+NoConn ~ 4975 2700
+NoConn ~ 6050 2700
+NoConn ~ 7075 2700
+NoConn ~ 8200 2700
 $EndSCHEMATC

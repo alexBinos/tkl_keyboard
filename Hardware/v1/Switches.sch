@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 5 12
+Sheet 4 12
 Title "TKL Keyboard"
 Date ""
 Rev "0"
@@ -2375,20 +2375,12 @@ F 3 "" H 4250 8800 50  0001 C CNN
 	1    4250 8775
 	1    0    0    -1  
 $EndComp
-Text GLabel 16975 4775 1    50   Output ~ 0
-ENC_ROW
-Text GLabel 17475 4775 1    50   Input ~ 0
-ENC_COL[0]
-Wire Wire Line
-	16975 4775 16975 5025
-Wire Wire Line
-	17475 4775 17475 5025
 Text GLabel 18475 4775 1    50   Input ~ 0
-ENC_COL[1]
+ENC_COL[0]
 Wire Wire Line
 	18475 4775 18475 5025
 Text GLabel 19475 4775 1    50   Input ~ 0
-ENC_COL[2]
+ENC_COL[1]
 Wire Wire Line
 	18975 4775 18975 5025
 Wire Wire Line
@@ -2459,11 +2451,6 @@ Wire Wire Line
 	16050 5025 15975 5025
 Wire Wire Line
 	16825 5025 16875 5025
-Wire Wire Line
-	17450 5025 17475 5025
-Connection ~ 17475 5025
-Wire Wire Line
-	17475 5025 17525 5025
 Wire Wire Line
 	16975 5025 17050 5025
 Wire Wire Line
@@ -3918,7 +3905,6 @@ Wire Wire Line
 	15975 5175 15975 5025
 Connection ~ 14975 5175
 Connection ~ 6975 5175
-Connection ~ 16975 5025
 Wire Wire Line
 	7975 5025 8050 5025
 Wire Wire Line
@@ -4167,4 +4153,6 @@ Text GLabel 17975 4775 1    50   Output ~ 0
 ENC_ROW
 Text GLabel 18975 4775 1    50   Output ~ 0
 ENC_ROW
+Wire Wire Line
+	17450 5025 17525 5025
 $EndSCHEMATC
