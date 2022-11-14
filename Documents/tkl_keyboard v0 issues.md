@@ -13,3 +13,15 @@ The I2C lines are not connected to the dedicated I2C hardware pins PD1 and PD0 o
 In order for the matrix scanning algorithm to work correctly, each line decoder output needs to be disabled (set to 0xFF) while the other side of the matrix is being scanned.
 
 *Fixes:* This can be achieved by driving pin 6, E3 low. Pins from rotary encoder 2 were repurposed to make this connection on the v0 board. The V1 board features just 2 rotary encoders as a result.
+
+<p align="center" width="100%">
+    <img width="60%" src="tkl_encoder_fix_whole.jpg">
+</p>
+
+<p align="center" width="100%">
+    <img width="60%" src="tkl_encoder_fix_right.jpg">
+</p>
+
+<p align="center" width="100%">
+    <img width="60%" src="tkl_encoder_fix_left.jpg">
+</p>
